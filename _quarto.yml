@@ -16,6 +16,7 @@ website:
     pinned: true
     left:
       - index.qmd
+      - motivation.qmd
     tools:
       - icon: github
         href: "https://github.com/dp-next/wp1-ros"
