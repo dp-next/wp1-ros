@@ -1,0 +1,41 @@
+---
+title: "Better research in less time and fewer resources"
+---
+
+::: column-page
+## Visions
+
+-   Better research done in less time and with fewer resources
+
+-   Reproducibility and openness in research
+
+-   Researchers with modern technical engineering-based and project
+    management skills embedded in more research groups
+
+-   Modern data engineering practices and research operational
+    approaches established as a standard of practice when conducting
+    research
+
+## Strategies
+
+-   Create management groups to manage and coordinate centers and work
+    packages in completing their deliverables.
+
+-   Develop and implement cross-Steno *Research Operations* and modern
+    collaborative workflows and practices that support the successful
+    completion of each work package as well as improving research
+    practices across Steno centers.
+
+-   Optimise and reduce the time and effort spent between designing the
+    work package studies and the final dissemination of high-quality
+    research results.
+
+-   Incorporate reproducible and open science practices into the
+    research workflow to both improve the quality of research and reduce
+    the time spent on data processing, analysis, and dissemination.
+
+-   Build up inter- and intra-Steno knowledge and skill capacity
+    ("upskill") in non-traditional technical skills and knowledge such
+    as software development, data engineering, operational management
+    (including "DataOps"), and iterative project management practices.
+:::
