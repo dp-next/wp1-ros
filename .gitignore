@@ -1,3 +1,9 @@
+# This file contains information that Git uses to stop specific files from
+# being tracked by Git and being uploaded to GitHub. For example, MacOS users
+# always have this hidden file called `.DS_Store` in each of their folders.
+# We don't need that file kept on GitHub and shared with everyone. So in this
+# file, we tell Git to not track/watch that file.
+
 # Development files and folders
 _ignore
 bin/
@@ -6,9 +12,6 @@ dev/
 # Temporary files
 *.tmp
 
-# Any IDE specific folders
-.idea
-
 # MacOS
 .DS_Store
 
@@ -16,6 +19,7 @@ dev/
 /.quarto/
 
 # Website generation
+*_files
 _site
 _book
 public
