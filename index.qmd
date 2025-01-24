@@ -6,9 +6,8 @@ toc: false
 ::: column-page
 ## Visions
 
--   Better research done in less time and with fewer resources
-
--   Reproducibility and openness in research
+-   Better, reproducible, and open research done in less time and
+    with fewer resources
 
 -   Researchers with modern technical engineering-based and project
     management skills embedded in more research groups
