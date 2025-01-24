@@ -87,37 +87,3 @@ systems that often don’t work well together or are suboptimally designed
 for cross-institution collaboration. This is one reason we’ve decided to
 establish a research ops group, so that we can minimise the impact these
 issues have on completing the project deliverables.
-
-## People and groups
-
-![Groups and people working on DP-Next.](images/organization.svg)
-
-### Management group
-
-The project will be led by the PI, with support from the co-applicants /
-Work Package leaders, who together form the management group. Aside from
-individual groups for each WP, there will also be a group dedicated to
-overseeing the research operations. This group will, at a minimum, be
-composed of at least one person from each WP (and preferably in each
-center) who acts as a “tech lead” for that WP group. The tech lead
-should be someone with above average literacy in
-programming/computing/IT.
-
-### Research operations
-
-The aim of research operations is to optimise day-to-day work in order
-to minimise time and effort spent per unit of output. The research ops
-group will act as a unit that works to reduce tech barriers, develop
-software and data engineering processes and tools, and advise on how to
-best design the outputs of WPs that are the inputs of other WPs. Some of
-the initial tasks revolve around establishing: a communications channel
-for everyone (as well as sub-channels for individual WPs and groups)
-that make it easy to keep everyone updated and to view all
-communications done (not emails); a project management platform visible
-and usable by everyone; an effective project management approach that
-groups can use to track tasks and deliverables (e.g. a suitable approach
-might be using Kanban principles); and a document sharing platform,
-ensuring that all of these also follow the guiding principles. Later
-tasks include developing the deliverables of the WPs in a way that makes
-sharing and interoperability easier, both internal to the project groups
-and WPs as well as to external stakeholders.
