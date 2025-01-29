@@ -17,6 +17,7 @@ website:
     left:
       - index.qmd
       - motivation.qmd
+      - strategy.qmd
       - groups.qmd
     tools:
       - icon: github
