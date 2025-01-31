@@ -22,7 +22,7 @@ information than what can be put on the charts.
 
 ## Milestones
 
--   Setup project website to host details and documents relevant to this
+-   Setup project websites to host details and documents relevant to this
     project and it's WPs
 
 -   Setup website to document and describe research operational
@@ -58,7 +58,7 @@ information than what can be put on the charts.
 
 -   Each center has resources and workflows for conducting reproducible
     and modern register-based research using the Danish registers
--   DP-Next data resource
+-   DP-Next data resource built from Seedcase software
 -   DP-Next project website, with all (internal and external) knowledge
     generated, including all code and documentation
 :::
