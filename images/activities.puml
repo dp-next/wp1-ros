@@ -1,4 +1,4 @@
-@startuml actions
+@startuml activities
 
 state "Central knowledge repository" as ckr { 
   ckr : As GitHub repository and websites 
