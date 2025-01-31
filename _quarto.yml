@@ -15,7 +15,8 @@ website:
   navbar:
     pinned: true
     left:
-      - index.qmd
+      - href: index.qmd
+        text: Home
       - motivation.qmd
       - strategy.qmd
       - groups.qmd
