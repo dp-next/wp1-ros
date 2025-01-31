@@ -1,4 +1,4 @@
-@startuml organization
+@startuml groups
 
 state "External academic\nreview board" as external
 

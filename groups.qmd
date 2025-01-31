@@ -3,7 +3,7 @@ title: "Groups"
 toc: false
 ---
 
-![Groups and people working on DP-Next.](images/organization.svg)
+![Groups and people working on DP-Next.](images/groups.svg)
 
 ### Management group
 
