@@ -1,0 +1,31 @@
+---
+title: "Risks"
+description: Potential risks, barriers, and challenges in Work Package 1.
+---
+
+Being aware of the risks when planning and managing DP-Next will help us
+in mitigating them.
+
+Aside from the standard project management tasks, implementing modern
+research operations and collaborative practices that support conducting
+open and reproducible science across all Steno Centers will be a major
+challenge. From both the technical and cultural sides, these work tasks
+often lack support at the institutional level and lack of awareness and
+training at the personnel level. So usually work is done from the
+ground-up, which often results in unexpected issues.
+
+Given that there are few personnel in research environments with the
+necessary technical knowledge and skills and they often move out of
+academia into industry positions, a substantial amount of time and
+effort will be spent in training and upskilling existing personnel. The
+reason we’ve structured the groups to include at least one "tech lead"
+who is also part of the technical working group is to help minimise this
+challenge. We aim to provide training to these tech leads by embedding
+them in some of the work we are doing at Steno Aarhus, where we have
+been implementing many of these practices.
+
+Another major challenge will be coordinating tasks and work between IT
+systems that often don’t work well together or are suboptimally designed
+for cross-institution collaboration. This is one reason we've decided to
+establish the technical working group, so that we can minimise the
+impact these issues have on completing the project deliverables.
