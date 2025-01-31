@@ -1,0 +1,89 @@
+---
+title: "Better research in less time and fewer resources"
+toc: false
+---
+
+::: column-page
+## Visions
+
+-   Better, reproducible, and open research done in less time and
+    with fewer resources
+
+-   Researchers with modern technical engineering-based and project
+    management skills embedded in more research groups
+
+-   Modern data engineering practices and research operational
+    approaches established as a standard of practice when conducting
+    research
+
+## Strategies
+
+-   Create management groups to manage and coordinate centers and work
+    packages in completing their deliverables.
+
+-   Develop and implement cross-Steno *Research Operations* and modern
+    collaborative workflows and practices that support the successful
+    completion of each work package as well as improving research
+    practices across Steno centers.
+
+-   Optimise and reduce the time and effort spent between designing the
+    work package studies and the final dissemination of high-quality
+    research results.
+
+-   Incorporate reproducible and open science practices into the
+    research workflow to both improve the quality of research and reduce
+    the time spent on data processing, analysis, and dissemination.
+
+-   Build up inter- and intra-Steno knowledge and skill capacity
+    ("upskill") in non-traditional technical skills and knowledge such
+    as software development, data engineering, operational management
+    (including "DataOps"), and iterative project management practices.
+:::
+
+## Sciences lags behind in many practical and technical aspects
+
+Science, while generating cutting-edge knowledge, lags behind most
+industry settings when it comes to practical, operational aspects. For
+example, while much of research done now relies heavily on software and
+computational work, funding agencies rarely fund software and data
+engineering projects, nor do many research groups hire these highly
+skilled technical personnel.
+
+We hope, through Work Package 1, to establish these skills and needs as
+a core component of the DP-Next project and to help do "better research
+in less time".
+
+## A core strategy is to establish a "technical" working group
+
+By having a dedicated working group that works to fulfil the aims of
+this work package, we hope to emphasize the importance of these
+practices and to ensure they are implemented across all work packages.
+All groups will include a "tech lead" who has technical knowledge and
+skills and who will be a part of this technical working group, to help
+coordinate work package groups with these practices.
+
+We aim to onboard and train the tech leads in these practices by
+embedding them in some work done at SDCA, where these practices have
+been developing and refining over the last several years.
+
+## Plenty of risks and challenges
+
+The two biggest challenges we face with Work Package 1 are:
+
+1.  The need for highly technical personnel who have sufficient
+    fundamental expertise to understand and apply these practices, which
+    we hope to minimise through the training and onboarding of the tech
+    leads.
+2.  The IT systems across centers that often don’t work well together,
+    which we hope to reduce the impact of by having a dedicated research
+    operations group.
+
+## We aren't just support, we are a core component of research
+
+While Work Package 1 forms the foundation to all work packages of
+DP-Next, and in many ways aims to support their success, our activities
+are an increasingly needed aspect of research throughout the world.
+
+So, aside from completing the responsibilities and tasks we have for
+DP-Next, we also aim to produce tangible and usable deliverables that
+are independent and valuable on their own.

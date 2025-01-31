@@ -8,14 +8,17 @@ website:
   page-navigation: true
   body-header: |
     ::: {.callout-warning appearance="default" icon="true"}
-    🚧 Sprout is still in active development and evolving quickly, so the
-    documentation and functionality may not work as described
-    and could undergo substantial changes 🚧
+    🚧 This website and documentation is still in very active development and
+    evolving quickly, so content could undergo substantial changes at any time
+    🚧
     :::
   navbar:
     pinned: true
     left:
       - index.qmd
+      - motivation.qmd
+      - strategy.qmd
+      - groups.qmd
     tools:
       - icon: github
         href: "https://github.com/dp-next/wp1-ros"
@@ -23,19 +26,8 @@ website:
       - icon: house
         href: https://dp-next.github.io
         aria-label: "House icon: DP-Next home page"
-  sidebar:
-      - id: wp1
-        style: "floating"
-        collapse-level: 2
-        contents:
-          - wp1/index.qmd
-          - wp1/introduction.qmd
-          - wp1/strategy.qmd
-          - wp1/roadmap.qmd
-          - wp1/application.qmd
 
-format:
-  html
+format: html
 
 bibliography: references.bib
 csl: vancouver.csl

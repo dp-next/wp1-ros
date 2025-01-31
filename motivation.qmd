@@ -1,0 +1,43 @@
+---
+title: "Motivation"
+description: Background and motivation for Work Package 1.
+toc: false
+---
+
+## Academia lags far behind industry in many practical ways
+
+Science, while pursuing cutting edge knowledge, lags far behind industry
+in standard operational, organisational, and technological practices,
+tools, and methods. For example, there are nearly no research software
+or data engineers within research groups or institutions, even though
+software and data are foundational components to conducting research in
+the modern era.
+
+Traditional management of larger scale research projects often involves
+setting up steering committees who check on progress through status
+updates and discuss solutions to issues that arise. However, there are
+many modern tools and methods used within industry that research
+environments and projects could benefit from, such as data engineering,
+software development, and operations management.
+
+Likewise, basic modern communication and project management tools are
+rarely, if ever, used within research environments, even though they are
+standard practice in many corporate settings. If these things are used
+by some groups, they are not shared nor advertised through traditional
+scientific publications, so if they exist, others can't reuse and learn
+from each other to improve how we do research.
+
+## Science needs more team-based, collaborative approaches
+
+Science is also increasingly moving into more team-based, multi-centered
+enterprises, as well as having a greater requirement for openness and
+reproducibility. These require using modern practices designed for these
+conditions, rarely seen in academia but common within many industry
+settings.
+
+Ultimately, academia needs to recognize and incorporate these practices
+in order to stay relevant and competitive in the modern research
+landscape. But we need more funds, support, awareness, and training to
+make this happen.
+
+This is what Work Package 1 aims to help address.

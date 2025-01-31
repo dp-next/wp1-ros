@@ -1,0 +1,25 @@
+---
+title: "Groups"
+toc: false
+---
+
+![Groups and people working on DP-Next.](images/organization.svg)
+
+### Management group
+
+The project will be led by the principal investigator, with support from
+the co-applicants / Work Package leaders, who together form the
+management group. This group will be responsible for the overall
+coordination of the project and ensuring it's successful completion.
+
+### Technical working group
+
+The technical working group will be responsible for the more technical
+and practical aspects of the project, primarily being responsible for
+fulfilling the aims of Work Package 1. This group will, at a minimum, be
+composed of at least one person from each work package (and preferably
+in each Steno center to support our upskilling aims) who acts as a "tech
+lead" for that work package. This group will keep track of some
+day-to-day operations ("research operations"), identify ways to reduce
+technical barriers, improve on and support effective collaborative
+practices, as well as ensuring the research is reproducible and open.
