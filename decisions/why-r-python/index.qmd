@@ -1,0 +1,232 @@
+---
+title: "Why R and Python"
+description: "An effective and powerful tool is critical to doing the data analysis and this post describes why we choose R and Python for different purposes."
+date: "2025-02-13"
+author: Luke W. Johnston
+categories:
+- "software"
+- "programming"
+- "data analysis"
+---
+
+## Context and problem statement
+
+Doing data analysis is part of the lifecycle of a research project. To
+achieve our reproducibility aim, we need to use tools that are
+code-based and not GUI-based since GUI-based tools are inherently
+difficult to make reproducible. Using an open source tool greatly
+simplifies the process of sharing and reproducing results. But for this
+decision post, we will compare closed sources tools as well. So we need
+to decide on the software we will use for data analysis. The question
+is:
+
+*What is the best software we can use for data analysis for our
+purposes, principles, and aims?*
+
+## Decision drivers
+
+The main things driving this decision are:
+
+-   Comparatively easy way to reproduce results we obtain.
+-   A tool we can all standardize on and use to help support each other
+    and more effectively collaborate.
+-   A tool that is widely available and is installed or can easily be
+    installed on our computers or servers (or already installed).
+-   Still needs to follow our core principles and aims.
+-   Is not a GUI-based tool.
+-   Should be relatively familiar to most of us or easy to learn.
+
+## Considered options
+
+Based on our context, question, and drivers, we will consider the
+following options:
+
+-   [R](https://www.r-project.org/)
+-   [Python](https://www.python.org/)
+-   [SAS](https://www.sas.com/)
+-   [Stata](https://www.stata.com/)
+
+Common GUI-based tools that are excluded from consideration are:
+
+-   [JMP](https://www.jmp.com/en_us/home.html)
+-   [GraphPad Prism](https://www.graphpad.com/)
+-   [Excel](https://www.microsoft.com/en-us/microsoft-365/excel)
+-   [SPSS](https://www.ibm.com/products/spss-statistics)
+-   [Tableau](https://www.tableau.com/)
+-   [Google Sheets](https://www.google.com/sheets/about/)
+
+### R
+
+[R](https://r-project.org) is an open-source programming language and
+software environment for statistical computing and graphics supported by
+the R Foundation for Statistical Computing. The R language is widely
+used among statisticians and data analysts for developing statistical
+methods and doing data analysis.
+
+::::: columns
+::: column
+#### Benefits
+
+-   Widely used in the research community
+-   Massive, friendly, and supportive community
+-   Large number of packages, that can do nearly any task
+-   Has all the latest statistical methods that can be installed as
+    packages
+-   Has a large number of resources and learning material to use
+    (including the [DDEA's](https://ddeacademy.dk/) [R
+    courses](https://r-cubed.rostools.org) that run every year)
+-   Beginner friendly data analysis tools via the
+    [tidyverse](https://www.tidyverse.org/)
+-   Open source, free to use, easy to install
+-   Because it is open source, it has more support with AI helper tools
+    like ChatGPT or GitHub Copilot
+-   Has a lot of templating tools available to simplify many aspects of
+    data analysis work through packages like
+    [usethis](https://usethis.r-lib.org/)
+:::
+
+::: column
+#### Drawbacks
+
+-   Can be difficult to learn, so has a steeper learning curve
+-   Still not as widely used in the research environment, at least the
+    Danish context, as Stata, so doesn't have as much institutional
+    support
+:::
+:::::
+
+### Python
+
+[Python](https://www.python.org/) is an interpreted, high-level,
+general-purpose programming language. Python's design philosophy
+emphasizes code readability with its notable use of significant
+whitespace. Its language uses an object-oriented approach aim to help
+programmers write clear, logical code for small and large-scale
+projects. Because it is a general-purpose language, there are packages
+available for doing data analysis tasks.
+
+::::: columns
+::: column
+#### Benefits
+
+-   Massive community
+-   Is a general-purpose programming language, so can be used for more
+    than just data analysis
+-   Has a large number of packages for many different programming tasks
+-   Is more commonly used in the data science and machine learning
+    community
+-   Has all necessary machine learning models available as packages
+-   Because it is open source, it has more support with AI helper tools
+    like ChatGPT or GitHub Copilot
+-   Open source, free to use, and easy to install
+:::
+
+::: column
+#### Drawbacks
+
+-   Because it is a more formal and general-purpose programming
+    language, it can be more difficult to learn for non-software
+    engineers/developers
+-   Not as many statistical packages as R
+-   Not as easy to get started and setup when first making a project
+    (need to create virtual environments)
+-   Community, and thus the packages available, take a more "set it up
+    yourself" approach to common tasks, which can be a major barrier to
+    entry for beginners
+-   There are less beginner-friendly or -focused resources and learning
+    material available
+-   Still not as widely used in the research environment, at least the
+    Danish context, as Stata, so doesn't have as much institutional
+    support
+-   There are few in-person courses that teach Python for data analysis,
+    at least within the Danish context
+:::
+:::::
+
+### SAS
+
+[SAS](https://www.sas.com/) is a software suite developed by SAS
+Institute for advanced analytics, multivariate analysis, business
+intelligence, data management, and predictive analytics. It is used for
+data management, business intelligence, predictive analysis, and more.
+
+::::: columns
+::: column
+#### Benefits
+
+-   Widely used in certain industries, such as the pharmaceutical
+    industry, as well as some Danish research institutions like Denmark
+    Statistics
+-   Is a very old language and so has many of the established
+    statistical methods built-in
+-   As it is a paid software, there is more personal support available
+:::
+
+::: column
+#### Drawbacks
+
+-   Is closed source, so you need a license to install and use it, which
+    makes it difficult to share and reproduce results
+-   Was designed in a different time period when software development
+    practices were less advanced, so it's language is less modern and
+    more difficult to use
+-   Nearly no new PhD student is familiar with SAS
+-   Very few courses teach SAS now
+-   Because it is closed source, there is much less online and free
+    resources for learning and using it
+-   Because it is closed source, it has less support with AI helper
+    tools like ChatGPT or GitHub Copilot
+-   The whole ecosystem is closed, which means learning all the features
+    only available through SAS
+-   Because it is closed source, it is more difficult to integrate with
+    other tools and software
+:::
+:::::
+
+### Stata
+
+[Stata](https://www.stata.com/) is a general-purpose statistical
+software package created by StataCorp. It is used by many researchers in
+the social sciences, public health, and economics.
+
+::::: columns
+::: column
+#### Benefits
+
+-   Has strong institutional support within Danish universities
+-   Is widely used in the research community, especially in the Danish
+    context
+-   Many established researchers (in Denmark) are familiar with Stata
+-   Has many of the established statistical methods built-in
+-   Within the Danish context, there are many courses at the university
+    level that teach Stata
+:::
+
+::: column
+#### Drawbacks
+
+-   Has all of the same drawbacks as SAS
+-   In Denmark, fewer courses are teaching Stata compared to previous
+    years
+:::
+:::::
+
+## Decision outcome
+
+We decided on using R for most of our data analysis tasks because of the
+benefits we listed above. It is also the tool most new PhD students are
+familiar with or learn to use during their studies. However, because of
+tools that make it very easy to mix R and Python code together, for
+instance with [Quarto](https://quarto.org/), we also decide to use
+Python for some tasks where it is more appropriate, such as with machine
+learning analyses.
+
+### Consequences
+
+-   Stata has been used, supported, taught, and recommended at
+    institutional levels in Danish universities for many years, many
+    established researchers will be more familiar with Stata. Because of
+    this, we may initially need to do more onboarding and training for
+    those working on DP-Next
+-   Few people may be familiar with mixing Python and R, so may need to
+    do more onboarding and training on this
