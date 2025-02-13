@@ -1,0 +1,33 @@
+---
+title: "Decisions"
+description: "Reasons and explanations for the different choices we've made for the tools, methods, and practices we use."
+listing:
+    categories: true
+    contents: why-*
+    type: grid
+    sort: "date"
+    max-items: 50
+---
+
+This document lists "decisions records", which are documents describing
+and justifying why we've made the decisions we have. We make heavy use
+of many of the same decisions as have been made in the [Seedcase
+Project](https://decisions.seedcase-project.org):
+
+-   [Why Quarto](https://decisions.seedcase-project.org/why-quarto)
+-   [Why Discord](https://decisions.seedcase-project.org/why-discord)
+-   [Why GitHub](https://decisions.seedcase-project.org/why-github)
+-   [Why GitHub Project
+    Boards](https://decisions.seedcase-project.org/why-github-projects)
+-   [Why Markdown]() (in progress)
+-   [Why Teamup]() (in progress)
+-   [Why FAIR]() (in progress)
+
+Below is a list of the DP-Next specific decisions.
+
+-   [Why R]() (in progress)
+-   [Why Python]() (in progress)
+-   [Why Seedcase software]() (in progress)
+-   [Why Open Science]() (in progress)
+-   [Why Reproducibility]() (in progress)
+-   [Why Zenodo]() (in progress)

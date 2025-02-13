@@ -29,6 +29,13 @@ website:
       - icon: house
         href: https://dp-next.github.io
         aria-label: "House icon: DP-Next home page"
+  sidebar:
+    - id: design
+      title: Design
+      collapse-level: 2
+      contents:
+        - design.qmd
+        - decisions/index.qmd
 
 format: html
 
