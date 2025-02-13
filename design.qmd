@@ -1,0 +1,84 @@
+---
+title: "Design"
+description: "Expanded explanations and descriptions of the principles, practices, tools, methods, and decisions we have for work across DP-Next."
+---
+
+## Principles
+
+Part of the aim for DP-Next, and the purpose of Work Package 1, is to
+produce scientific results that follow open scientific and reproducible
+practices. In addition to this aim, Work Package 1 also aims to help
+produce better research in less time and resources. Aligning with these
+overall aims and expanding on the [guiding
+principles](strategy.qmd#guiding-principles) in the Strategy page, we
+want to eventually follow these principles:
+
+-   Incorporate explicit feedback loops in how we collaborate
+-   Actively and continually seek out and identify ways we can improve
+    how we work
+-   Start with what we can do now and improve iteratively and
+    incrementally
+-   Make work visible (at least to the group), including tasks to do,
+    project management
+-   Incorporate regular upskilling activities, such as "pair-working"
+-   Prefer written communication over verbal communication to ensure
+    more people can participate
+-   Use open source software as much as possible and is reasonable
+-   Have meetings sparingly and only when extensive, concurrent
+    discussions and brainstorming are needed
+
+## Practices, tools, and methods
+
+And to achieve these principles, we also eventually (not all at once)
+want to work towards a point where we:
+
+-   Use GitHub or just Git to manage and track all files
+-   Use R or Python for doing data analysis
+-   Use Quarto Markdown for writing documentation
+-   Use Quarto with R or Python code to write reproducible scientific
+    output
+-   Use Quarto to create websites of our work
+-   Use FAIR principles when managing data
+-   Use Seedcase software to structure and manage data
+-   Use Zenodo to upload protocols (before submitting to other outlets),
+    analysis code, and preprints
+-   Use GitHub Project boards to follow a
+    [Kanban](https://en.wikipedia.org/wiki/Kanban_board)-style approach
+    to project management
+-   Use Discord for informal communication or for coordinating across
+    groups
+-   Use Discord for video meetings, including for upskilling activities
+-   Use Teamup, a calendar tool, for scheduling meetings and events
+    relevant to all groups
+-   Use GitHub Projects and Issues to create, discuss, and manage tasks
+    and issues
+
+## Decisions
+
+To be explicit about the reasons for our choices of tools, methods, and
+approaches that apply to the DP-Next project, we have documented them in
+the [Decisions](decisions/index.qmd) section. This website will not
+document choices for things that are specific to a single work package,
+for instance, the type of machine to measure a specific biological
+marker. Instead, we will focus on the decisions that are relevant to the
+entire project or to multiple work packages.
+
+## Design patterns
+
+To help simplify how we work, it's useful to follow commonly used
+patterns in project development and collaboration. In our case, the
+design patterns we will use are:
+
+### One Git or GitHub repository per scientific output
+
+The pattern of "one repo, one product" is a widely used pattern in many
+types of projects. There are many tools, templates, and workflows that
+are built around this pattern. For instance, it is easier to ensure a
+scientific document is reproducible if it follows this pattern. So
+administratively and collaboratively, it is easier to use a pattern like
+this, since it is a standardized way of structuring work. For DP-Next,
+this pattern includes the protocols as well as the scientific results.
+
+Some servers don't allow internet or easy access to outside resources
+like GitHub. But all servers have Git installed. In those cases, each
+scientific output is one Git repository.
