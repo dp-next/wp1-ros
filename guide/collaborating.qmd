@@ -1,0 +1,50 @@
+---
+title: "Collaborating guide"
+description: "A guide on how we collaborate together as a group on the DP-Next project. Mainly focused on the meetings related to Work Package 1 but can be used by all work packages."
+---
+
+## Meetings
+
+### Collaboration assessments
+
+Every month we have a "collaboration-assessment" meeting. At the least,
+the tech leads and/or representatives from each work package need to
+attend, but it is open to anyone working on DP-Next. We follow the style
+of a meeting type called a
+["retrospective"](https://miro.com/agile/guide-to-retrospectives/) that
+is also used in the [Seedcase
+Project](https://team.seedcase-project.org/how-we-work/iteration#end-of-iteration).
+
+During these meetings we discuss ways we can improve collaboration
+within and between work packages. The focus is mainly on collaboration
+practices, tools, and methods that could benefit the project as a whole
+or multiple work packages. We discuss what went well, what didn't go
+well, and what we can improve. Then we create action items to address
+the issues we identified.
+
+### Update meetings
+
+Every week we have a very short "update" meeting. We follow the style
+used in the [Seedcase
+Project](https://team.seedcase-project.org/how-we-work/update-meetings).
+Briefly, during the meeting, we screenshare the project board and go
+over the tasks on the board that are at the "in-progress" state or later
+(e.g. "in review"). Each person gives an a very brief update on their
+tasks they've been working on since the last update meeting. Specific
+attention is given to tasks that have blocks or barriers to completion.
+
+## Project management and task tracking
+
+Every task that each person is working on is created on, tracked, and
+visible on the GitHub Project board. The board is divided into columns
+that represent the state of the task (e.g. "to do", "in progress", "in
+review", "done"). The board is used to track the progress of the project
+and to identify bottlenecks or issues that need to be addressed,
+reviewed, or discussed. We also assign tasks to people on the board,
+which is shown on on the board itself to make it clear who is working on
+what.
+
+All discussions happen on the GitHub issues, which are linked to the
+tasks on the board. These discussions are comments to the Issue, that
+way we keep all the information about a task in one place and so that
+others can participate in the discussion as well.
