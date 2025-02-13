@@ -4,5 +4,11 @@
     "items": [
       "/decisions/why-r-python/index.html"
     ]
+  },
+  {
+    "listing": "/guide/index.html",
+    "items": [
+      "/guide/collaborating.html"
+    ]
   }
 ]
