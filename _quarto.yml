@@ -17,9 +17,8 @@ website:
     left:
       - href: index.qmd
         text: Home
-      - motivation.qmd
-      - strategy.qmd
-      - risks.qmd
+      - text: Overview
+        href: motivation.qmd
       - groups.qmd
       - design.qmd
     tools:
@@ -30,6 +29,13 @@ website:
         href: https://dp-next.github.io
         aria-label: "House icon: DP-Next home page"
   sidebar:
+    - id: overview
+      title: Overview
+      collapse-level: 2
+      contents:
+        - motivation.qmd
+        - strategy.qmd
+        - risks.qmd
     - id: design
       title: Design
       collapse-level: 2
