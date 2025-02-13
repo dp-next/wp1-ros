@@ -6,9 +6,11 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="description" content="Reasons and explanations for the different choices we’ve made for the tools, methods, and practices we use.">
+<meta name="author" content="Luke W. Johnston">
+<meta name="dcterms.date" content="2025-02-13">
+<meta name="description" content="An effective and powerful tool is critical to doing the data analysis and this post describes why we choose R and Python for different purposes.">
 
-<title>Decisions – DP-Next: WP1</title>
+<title>Why R and Python – DP-Next: WP1</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -24,24 +26,21 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="../site_libs/clipboard/clipboard.min.js"></script>
-<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="../site_libs/quarto-search/fuse.min.js"></script>
-<script src="../site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="../">
-<link href="../design.html" rel="prev">
-<script src="../site_libs/quarto-listing/list.min.js"></script>
-<script src="../site_libs/quarto-listing/quarto-listing.js"></script>
-<script src="../site_libs/quarto-html/quarto.js"></script>
-<script src="../site_libs/quarto-html/popper.min.js"></script>
-<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="../site_libs/quarto-html/anchor.min.js"></script>
-<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-549806ee2085284f45b00abea8c6df48.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-bd89562929948232a0cfc2a2280e30cc.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<script src="../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-549806ee2085284f45b00abea8c6df48.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap-bd89562929948232a0cfc2a2280e30cc.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -69,76 +68,18 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
-<script>
 
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-listing .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
-
-    const options = {
-      valueNames: ['listing-title','listing-description','listing-date','listing-author',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      
-      searchColumns: ["listing-title","listing-author","listing-date","listing-image","listing-description","listing-categories"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  </script>
-
-  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
-
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN") {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
 
 </head>
 
-<body class="nav-sidebar floating nav-fixed">
+<body class="nav-fixed">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a class="navbar-brand" href="../index.html">
+    <a class="navbar-brand" href="../../index.html">
     <span class="navbar-title">DP-Next: WP1</span>
     </a>
   </div>
@@ -149,19 +90,19 @@ window.Quarto = {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="../index.html"> 
+    <a class="nav-link" href="../../index.html"> 
 <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../motivation.html"> 
+    <a class="nav-link" href="../../motivation.html"> 
 <span class="menu-text">Overview</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../groups.html"> 
+    <a class="nav-link" href="../../groups.html"> 
 <span class="menu-text">Groups</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="../design.html" aria-current="page"> 
+    <a class="nav-link" href="../../design.html"> 
 <span class="menu-text">Design</span></a>
   </li>  
 </ul>
@@ -172,67 +113,67 @@ window.Quarto = {
 </div>
       </div> <!-- /container-fluid -->
     </nav>
-  <nav class="quarto-secondary-nav">
-    <div class="container-fluid d-flex">
-      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
-        <i class="bi bi-layout-text-sidebar-reverse"></i>
-      </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../decisions/index.html">Decisions</a></li></ol></nav>
-        <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
-        </a>
-    </div>
-  </nav>
 </header>
 <!-- content -->
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
-  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
-    <div class="sidebar-menu-container"> 
-    <ul class="list-unstyled mt-1">
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../design.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Design</span></a>
-  </div>
-</li>
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../decisions/index.html" class="sidebar-item-text sidebar-link active">
- <span class="menu-text">Decisions</span></a>
-  </div>
-</li>
-    </ul>
-    </div>
-</nav>
-<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         <nav id="TOC" role="doc-toc" class="toc-active">
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#dp-next-specific-decisions" id="toc-dp-next-specific-decisions" class="nav-link active" data-scroll-target="#dp-next-specific-decisions">DP-Next specific decisions</a></li>
+  <li><a href="#context-and-problem-statement" id="toc-context-and-problem-statement" class="nav-link active" data-scroll-target="#context-and-problem-statement">Context and problem statement</a></li>
+  <li><a href="#decision-drivers" id="toc-decision-drivers" class="nav-link" data-scroll-target="#decision-drivers">Decision drivers</a></li>
+  <li><a href="#considered-options" id="toc-considered-options" class="nav-link" data-scroll-target="#considered-options">Considered options</a>
+  <ul class="collapse">
+  <li><a href="#r" id="toc-r" class="nav-link" data-scroll-target="#r">R</a></li>
+  <li><a href="#python" id="toc-python" class="nav-link" data-scroll-target="#python">Python</a></li>
+  <li><a href="#sas" id="toc-sas" class="nav-link" data-scroll-target="#sas">SAS</a></li>
+  <li><a href="#stata" id="toc-stata" class="nav-link" data-scroll-target="#stata">Stata</a></li>
+  </ul></li>
+  <li><a href="#decision-outcome" id="toc-decision-outcome" class="nav-link" data-scroll-target="#decision-outcome">Decision outcome</a>
+  <ul class="collapse">
+  <li><a href="#consequences" id="toc-consequences" class="nav-link" data-scroll-target="#consequences">Consequences</a></li>
+  </ul></li>
   </ul>
 </nav>
-    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(1)</span></div><div class="category" data-category="ZGF0YSUyMGFuYWx5c2lz">data analysis <span class="quarto-category-count">(1)</span></div><div class="category" data-category="cHJvZ3JhbW1pbmc=">programming <span class="quarto-category-count">(1)</span></div><div class="category" data-category="c29mdHdhcmU=">software <span class="quarto-category-count">(1)</span></div></div></div>
+    </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Decisions</h1>
-</div>
+<h1 class="title">Why R and Python</h1>
+  <div class="quarto-categories">
+    <div class="quarto-category">software</div>
+    <div class="quarto-category">programming</div>
+    <div class="quarto-category">data analysis</div>
+  </div>
+  </div>
 
 <div>
   <div class="description">
-    Reasons and explanations for the different choices we’ve made for the tools, methods, and practices we use.
+    An effective and powerful tool is critical to doing the data analysis and this post describes why we choose R and Python for different purposes.
   </div>
 </div>
 
 
 <div class="quarto-title-meta">
 
+    <div>
+    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-contents">
+             <p>Luke W. Johnston </p>
+          </div>
+  </div>
     
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">February 13, 2025</p>
+    </div>
+  </div>
   
     
   </div>
@@ -254,72 +195,176 @@ Warning
 <p>🚧 This website and documentation is still in very active development and evolving quickly, so content could undergo substantial changes at any time 🚧</p>
 </div>
 </div>
-<p>This document lists “decisions records”, which are documents describing and justifying why we’ve made the decisions we have. We make heavy use of many of the same decisions as have been made in the <a href="https://decisions.seedcase-project.org">Seedcase Project</a>:</p>
+<section id="context-and-problem-statement" class="level2">
+<h2 class="anchored" data-anchor-id="context-and-problem-statement">Context and problem statement</h2>
+<p>Doing data analysis is part of the lifecycle of a research project. To achieve our reproducibility aim, we need to use tools that are code-based and not GUI-based since GUI-based tools are inherently difficult to make reproducible. Using an open source tool greatly simplifies the process of sharing and reproducing results. But for this decision post, we will compare closed sources tools as well. So we need to decide on the software we will use for data analysis. The question is:</p>
+<p><em>What is the best software we can use for data analysis for our purposes, principles, and aims?</em></p>
+</section>
+<section id="decision-drivers" class="level2">
+<h2 class="anchored" data-anchor-id="decision-drivers">Decision drivers</h2>
+<p>The main things driving this decision are:</p>
 <ul>
-<li><a href="https://decisions.seedcase-project.org/why-quarto">Why Quarto</a></li>
-<li><a href="https://decisions.seedcase-project.org/why-discord">Why Discord</a></li>
-<li><a href="https://decisions.seedcase-project.org/why-github">Why GitHub</a></li>
-<li><a href="https://decisions.seedcase-project.org/why-github-projects">Why GitHub Project Boards</a></li>
-<li><a href="">Why Markdown</a> (in progress)</li>
-<li><a href="">Why Teamup</a> (in progress)</li>
-<li><a href="">Why FAIR</a> (in progress)</li>
+<li>Comparatively easy way to reproduce results we obtain.</li>
+<li>A tool we can all standardize on and use to help support each other and more effectively collaborate.</li>
+<li>A tool that is widely available and is installed or can easily be installed on our computers or servers (or already installed).</li>
+<li>Still needs to follow our core principles and aims.</li>
+<li>Is not a GUI-based tool.</li>
+<li>Should be relatively familiar to most of us or easy to learn.</li>
 </ul>
-<section id="dp-next-specific-decisions" class="level2">
-<h2 class="anchored" data-anchor-id="dp-next-specific-decisions">DP-Next specific decisions</h2>
-<div class="callout callout-style-default callout-note callout-titled">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-Note
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<p>These are decisions are being written.</p>
+</section>
+<section id="considered-options" class="level2">
+<h2 class="anchored" data-anchor-id="considered-options">Considered options</h2>
+<p>Based on our context, question, and drivers, we will consider the following options:</p>
 <ul>
-<li><a href="">Why Seedcase software</a> (in progress)</li>
-<li><a href="">Why Open Science</a> (in progress)</li>
-<li><a href="">Why Reproducibility</a> (in progress)</li>
-<li><a href="">Why Zenodo</a> (in progress)</li>
-<li><a href="">Why Git</a> (in progress)</li>
+<li><a href="https://www.r-project.org/">R</a></li>
+<li><a href="https://www.python.org/">Python</a></li>
+<li><a href="https://www.sas.com/">SAS</a></li>
+<li><a href="https://www.stata.com/">Stata</a></li>
 </ul>
+<p>Common GUI-based tools that are excluded from consideration are:</p>
+<ul>
+<li><a href="https://www.jmp.com/en_us/home.html">JMP</a></li>
+<li><a href="https://www.graphpad.com/">GraphPad Prism</a></li>
+<li><a href="https://www.microsoft.com/en-us/microsoft-365/excel">Excel</a></li>
+<li><a href="https://www.ibm.com/products/spss-statistics">SPSS</a></li>
+<li><a href="https://www.tableau.com/">Tableau</a></li>
+<li><a href="https://www.google.com/sheets/about/">Google Sheets</a></li>
+</ul>
+<section id="r" class="level3">
+<h3 class="anchored" data-anchor-id="r">R</h3>
+<p><a href="https://r-project.org">R</a> is an open-source programming language and software environment for statistical computing and graphics supported by the R Foundation for Statistical Computing. The R language is widely used among statisticians and data analysts for developing statistical methods and doing data analysis.</p>
+<div class="columns">
+<div class="column">
+<section id="benefits" class="level4">
+<h4 class="anchored" data-anchor-id="benefits">Benefits</h4>
+<ul>
+<li>Widely used in the research community</li>
+<li>Massive, friendly, and supportive community</li>
+<li>Large number of packages, that can do nearly any task</li>
+<li>Has all the latest statistical methods that can be installed as packages</li>
+<li>Has a large number of resources and learning material to use (including the <a href="https://ddeacademy.dk/">DDEA’s</a> <a href="https://r-cubed.rostools.org">R courses</a> that run every year)</li>
+<li>Beginner friendly data analysis tools via the <a href="https://www.tidyverse.org/">tidyverse</a></li>
+<li>Open source, free to use, easy to install</li>
+<li>Because it is open source, it has more support with AI helper tools like ChatGPT or GitHub Copilot</li>
+<li>Has a lot of templating tools available to simplify many aspects of data analysis work through packages like <a href="https://usethis.r-lib.org/">usethis</a></li>
+</ul>
+</section>
+</div><div class="column">
+<section id="drawbacks" class="level4">
+<h4 class="anchored" data-anchor-id="drawbacks">Drawbacks</h4>
+<ul>
+<li>Can be difficult to learn, so has a steeper learning curve</li>
+<li>Still not as widely used in the research environment, at least the Danish context, as Stata, so doesn’t have as much institutional support</li>
+</ul>
+</section>
 </div>
 </div>
-
+</section>
+<section id="python" class="level3">
+<h3 class="anchored" data-anchor-id="python">Python</h3>
+<p><a href="https://www.python.org/">Python</a> is an interpreted, high-level, general-purpose programming language. Python’s design philosophy emphasizes code readability with its notable use of significant whitespace. Its language uses an object-oriented approach aim to help programmers write clear, logical code for small and large-scale projects. Because it is a general-purpose language, there are packages available for doing data analysis tasks.</p>
+<div class="columns">
+<div class="column">
+<section id="benefits-1" class="level4">
+<h4 class="anchored" data-anchor-id="benefits-1">Benefits</h4>
+<ul>
+<li>Massive community</li>
+<li>Is a general-purpose programming language, so can be used for more than just data analysis</li>
+<li>Has a large number of packages for many different programming tasks</li>
+<li>Is more commonly used in the data science and machine learning community</li>
+<li>Has all necessary machine learning models available as packages</li>
+<li>Because it is open source, it has more support with AI helper tools like ChatGPT or GitHub Copilot</li>
+<li>Open source, free to use, and easy to install</li>
+</ul>
+</section>
+</div><div class="column">
+<section id="drawbacks-1" class="level4">
+<h4 class="anchored" data-anchor-id="drawbacks-1">Drawbacks</h4>
+<ul>
+<li>Because it is a more formal and general-purpose programming language, it can be more difficult to learn for non-software engineers/developers</li>
+<li>Not as many statistical packages as R</li>
+<li>Not as easy to get started and setup when first making a project (need to create virtual environments)</li>
+<li>Community, and thus the packages available, take a more “set it up yourself” approach to common tasks, which can be a major barrier to entry for beginners</li>
+<li>There are less beginner-friendly or -focused resources and learning material available</li>
+<li>Still not as widely used in the research environment, at least the Danish context, as Stata, so doesn’t have as much institutional support</li>
+<li>There are few in-person courses that teach Python for data analysis, at least within the Danish context</li>
+</ul>
+</section>
+</div>
+</div>
+</section>
+<section id="sas" class="level3">
+<h3 class="anchored" data-anchor-id="sas">SAS</h3>
+<p><a href="https://www.sas.com/">SAS</a> is a software suite developed by SAS Institute for advanced analytics, multivariate analysis, business intelligence, data management, and predictive analytics. It is used for data management, business intelligence, predictive analysis, and more.</p>
+<div class="columns">
+<div class="column">
+<section id="benefits-2" class="level4">
+<h4 class="anchored" data-anchor-id="benefits-2">Benefits</h4>
+<ul>
+<li>Widely used in certain industries, such as the pharmaceutical industry, as well as some Danish research institutions like Denmark Statistics</li>
+<li>Is a very old language and so has many of the established statistical methods built-in</li>
+<li>As it is a paid software, there is more personal support available</li>
+</ul>
+</section>
+</div><div class="column">
+<section id="drawbacks-2" class="level4">
+<h4 class="anchored" data-anchor-id="drawbacks-2">Drawbacks</h4>
+<ul>
+<li>Is closed source, so you need a license to install and use it, which makes it difficult to share and reproduce results</li>
+<li>Was designed in a different time period when software development practices were less advanced, so it’s language is less modern and more difficult to use</li>
+<li>Nearly no new PhD student is familiar with SAS</li>
+<li>Very few courses teach SAS now</li>
+<li>Because it is closed source, there is much less online and free resources for learning and using it</li>
+<li>Because it is closed source, it has less support with AI helper tools like ChatGPT or GitHub Copilot</li>
+<li>The whole ecosystem is closed, which means learning all the features only available through SAS</li>
+<li>Because it is closed source, it is more difficult to integrate with other tools and software</li>
+</ul>
+</section>
+</div>
+</div>
+</section>
+<section id="stata" class="level3">
+<h3 class="anchored" data-anchor-id="stata">Stata</h3>
+<p><a href="https://www.stata.com/">Stata</a> is a general-purpose statistical software package created by StataCorp. It is used by many researchers in the social sciences, public health, and economics.</p>
+<div class="columns">
+<div class="column">
+<section id="benefits-3" class="level4">
+<h4 class="anchored" data-anchor-id="benefits-3">Benefits</h4>
+<ul>
+<li>Has strong institutional support within Danish universities</li>
+<li>Is widely used in the research community, especially in the Danish context</li>
+<li>Many established researchers (in Denmark) are familiar with Stata</li>
+<li>Has many of the established statistical methods built-in</li>
+<li>Within the Danish context, there are many courses at the university level that teach Stata</li>
+</ul>
+</section>
+</div><div class="column">
+<section id="drawbacks-3" class="level4">
+<h4 class="anchored" data-anchor-id="drawbacks-3">Drawbacks</h4>
+<ul>
+<li>Has all of the same drawbacks as SAS</li>
+<li>In Denmark, fewer courses are teaching Stata compared to previous years</li>
+</ul>
+</section>
+</div>
+</div>
+</section>
+</section>
+<section id="decision-outcome" class="level2">
+<h2 class="anchored" data-anchor-id="decision-outcome">Decision outcome</h2>
+<p>We decided on using R for most of our data analysis tasks because of the benefits we listed above. It is also the tool most new PhD students are familiar with or learn to use during their studies. However, because of tools that make it very easy to mix R and Python code together, for instance with <a href="https://quarto.org/">Quarto</a>, we also decide to use Python for some tasks where it is more appropriate, such as with machine learning analyses.</p>
+<section id="consequences" class="level3">
+<h3 class="anchored" data-anchor-id="consequences">Consequences</h3>
+<ul>
+<li>Stata has been used, supported, taught, and recommended at institutional levels in Danish universities for many years, many established researchers will be more familiar with Stata. Because of this, we may initially need to do more onboarding and training for those working on DP-Next</li>
+<li>Few people may be familiar with mixing Python and R, so may need to do more onboarding and training on this</li>
+</ul>
 
 
 </section>
+</section>
 
-<div class="quarto-listing quarto-listing-container-grid" id="listing-listing">
-<div class="list grid quarto-listing-cols-2">
-<div class="g-col-1" data-index="0" data-categories="c29mdHdhcmUlMkNwcm9ncmFtbWluZyUyQ2RhdGElMjBhbmFseXNpcw==" data-listing-date-sort="1739404800000" data-listing-file-modified-sort="1739462007317" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="7" data-listing-word-count-sort="1331">
-<a href="../decisions/why-r-python/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Why R and Python
-</h5>
-<div class="card-text listing-description">
-An effective and powerful tool is critical to doing the data analysis and this post describes why we choose R and Python for different purposes.
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-Luke W. Johnston
-</div>
-<div class="listing-date">
-Feb 13, 2025
-</div>
-</div>
-</div>
-</div>
-</a>
-</div>
-</div>
-<div class="listing-no-matching d-none">
-No matching items
-</div>
-</div></main> <!-- /main -->
+</main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
@@ -737,15 +782,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   }
 });
 </script>
-<nav class="page-navigation">
-  <div class="nav-page nav-page-previous">
-      <a href="../design.html" class="pagination-link" aria-label="Design">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Design</span>
-      </a>          
-  </div>
-  <div class="nav-page nav-page-next">
-  </div>
-</nav>
 </div> <!-- /content -->
 
 
