@@ -21,6 +21,7 @@ website:
       - strategy.qmd
       - risks.qmd
       - groups.qmd
+      - design.qmd
     tools:
       - icon: github
         href: "https://github.com/dp-next/wp1-ros"
