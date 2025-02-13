@@ -21,6 +21,7 @@ website:
         href: motivation.qmd
       - groups.qmd
       - design.qmd
+      - guide/index.qmd
     tools:
       - icon: github
         href: "https://github.com/dp-next/wp1-ros"
@@ -42,6 +43,12 @@ website:
       contents:
         - design.qmd
         - decisions/index.qmd
+    - id: guide
+      title: Guide
+      collapse-level: 2
+      contents:
+        - guide/index.qmd
+        - guide/collaborating.qmd
 
 format:
   html:
