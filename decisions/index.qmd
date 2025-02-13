@@ -3,10 +3,16 @@ title: "Decisions"
 description: "Reasons and explanations for the different choices we've made for the tools, methods, and practices we use."
 listing:
     categories: true
-    contents: why-*
+    contents: why-*/*.qmd
     type: grid
+    grid-columns: 2
     sort: "date"
     max-items: 50
+    fields:
+      - title
+      - description
+      - date
+      - author
 ---
 
 This document lists "decisions records", which are documents describing
@@ -23,11 +29,15 @@ Project](https://decisions.seedcase-project.org):
 -   [Why Teamup]() (in progress)
 -   [Why FAIR]() (in progress)
 
-Below is a list of the DP-Next specific decisions.
+## DP-Next specific decisions
 
--   [Why R]() (in progress)
--   [Why Python]() (in progress)
+::: callout-note
+
+These are decisions are being written.
+
 -   [Why Seedcase software]() (in progress)
 -   [Why Open Science]() (in progress)
 -   [Why Reproducibility]() (in progress)
 -   [Why Zenodo]() (in progress)
+-   [Why Git]() (in progress)
+:::
