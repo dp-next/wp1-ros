@@ -43,7 +43,9 @@ website:
         - design.qmd
         - decisions/index.qmd
 
-format: html
+format:
+  html:
+    toc: true
 
 bibliography: references.bib
 csl: vancouver.csl
