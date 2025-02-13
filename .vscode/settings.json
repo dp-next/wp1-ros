@@ -1,6 +1,6 @@
 {
     "files.autoSave": "onFocusChange",
-    "editor.wordWrap": "off",
+    "editor.wordWrap": "on",
     "editor.formatOnSave": true,
     "git.autofetch": false,
     "quarto.visualEditor.markdownWrap": "column",
