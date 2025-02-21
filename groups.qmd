@@ -3,8 +3,6 @@ title: "Groups"
 toc: false
 ---
 
-![Groups and people working on DP-Next.](images/groups.svg)
-
 ### Management group
 
 The project will be led by the principal investigator, with support from
