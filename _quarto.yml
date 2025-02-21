@@ -49,6 +49,7 @@ website:
       contents:
         - guide/index.qmd
         - guide/collaborating.qmd
+        - guide/contributing.qmd
 
 format:
   html:
