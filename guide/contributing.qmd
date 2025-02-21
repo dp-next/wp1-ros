@@ -1,0 +1,39 @@
+---
+title: "Contributing"
+description: "A guide on how we agree to contribute content to the project."
+---
+
+## File naming conventions
+
+-   Prefer using lower case letters for the name, e.g.
+    `contributing.qmd`.
+-   Use either hyphens or underscores to separate words, e.g.
+    `contributing.qmd` or `contributing_record.qmd`, but *not* spaces.
+    -   Spaces can make things difficult to work with for some systems
+        and programs. For instance, if we want to generate our files
+        into a website, including spaces in the names can make it
+        difficult to generate the URLs for the pages.
+-   Prefer simpler, shorter words than longer ones, e.g.
+    `contributing.qmd` instead of
+    `how-to-contribute-to-the-project.qmd`.
+-   Avoid using special characters, including Danish characters like
+    `æ`, `ø`, and `å`. These can also make things difficult to work with
+    for some systems.
+-   Avoid repeating the same word in the file name and the folder name,
+    e.g. `contributing/contributing-next-steps.qmd`. Instead, use
+    `contributing/next-steps.qmd`.
+
+## Writing
+
+-   Write content using
+    [Markdown](https://quarto.org/docs/authoring/markdown-basics.html)
+    and in files with either a `.qmd` (Quarto Markdown) or `.md`
+    (Markdown) extension.
+
+## Adding content
+
+-   Put everything on GitHub, either as an Issue, a comment in an Issue,
+    or as files in the GitHub repositories.
+-   If text documents that aren't Markdown-based are added, we'll (maybe
+    automatically?) convert them to Markdown file and then delete the
+    original file.
