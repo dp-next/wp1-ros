@@ -9,9 +9,9 @@ deliverables provide more detailed information than what can be put on
 the charts.
 
 ```{mermaid}
-%%| file: images/gantt-wp1.mmd
-%%| label: fig-gantt-wp1
-%%| fig-cap: "Gantt chart showing some basic tasks, milestones, and deliverables for Work Package 1"
+%%| file: images/gantt.mmd
+%%| label: fig-gantt
+%%| fig-cap: "Gantt chart showing some basic tasks, milestones, and deliverables for Work Package 1."
 ```
 
 ## Milestones
