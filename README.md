@@ -12,3 +12,12 @@ project.
 
 We integrate and make heavy use of the work done in the [Seedcase
 Project](https://seedcase-project.org).
+
+The [website](https://dp-next.github.io/wp1-ros/) for this work package
+has more details and information.
+
+## Code of Conduct
+
+Please note that this project is released with a [Contributor Code of
+Conduct](https://github.com/dp-next/.github/blob/main/CODE_OF_CONDUCT.md).
+By participating in this project you agree to abide by its terms.
