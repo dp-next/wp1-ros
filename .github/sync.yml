@@ -1,38 +1,49 @@
 group:
-    # All repos
-    - files:
-          # Misc
-          - source: .gitignore
-            dest: .gitignore
-      repos: |
-          dp-next/dp-next.github.io
-          dp-next/.github
-          dp-next/WP1-Communication
-          dp-next/WP1-Management
-          dp-next/WP2-Risk-Prediction
-          dp-next/WP3-Heterogeneity
-          dp-next/WP4-Intervention-Development
+  # All repos
+  - files:
+      # Misc
+      - source: .gitignore
+        dest: .gitignore
+    repos: |
+      dp-next/dp-next.github.io
+      dp-next/.github
+      dp-next/WP1-Communication
+      dp-next/WP1-Management
+      dp-next/WP2-Risk-Prediction
+      dp-next/WP3-Heterogeneity
+      dp-next/WP4-Intervention-Development
 
-    # Specific repos
-    - files:
-          # Workflows
-          - source: .github/workflows/add-to-board.yml
-            dest: .github/workflows/add-to-board.yml
+  # Specific repos
+  - files:
+      # Workflows
+      - source: .github/workflows/add-to-board.yml
+        dest: .github/workflows/add-to-board.yml
 
-          # VS Code settings
-          - source: .vscode/
-            dest: .vscode/
-            deleteOrphaned: true
+      # VS Code settings
+      - source: .vscode/
+        dest: .vscode/
+        deleteOrphaned: true
 
-      repos: |
-          dp-next/dp-next.github.io
-          dp-next/.github
+    repos: |
+      dp-next/dp-next.github.io
+      dp-next/.github
 
-    # Website repos
-    - files:
-          # Workflows
-          - source: .github/workflows/build-website.yml
-            dest: .github/workflows/build-website.yml
+  # Website repos
+  - files:
+      # Workflows
+      - source: .github/workflows/build-website.yml
+        dest: .github/workflows/build-website.yml
 
-      repos: |
-          dp-next/dp-next.github.io
+    repos: |
+      dp-next/dp-next.github.io
+
+  # Luke's managed repos
+  - files:
+      - source: .editorconfig
+        dest: .editorconfig
+      - source: justfile
+        dest: justfile
+
+    repos: |
+      dp-next/dp-next.github.io
+      dp-next/.github
