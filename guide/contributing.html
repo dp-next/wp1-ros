@@ -6,9 +6,9 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="description" content="A guidebook for how we work together on the DP-Next project.">
+<meta name="description" content="A guide on how we agree to contribute content to the project.">
 
-<title>Guide – DP-Next: WP1</title>
+<title>Contributing – DP-Next: WP1</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -30,9 +30,7 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-search/fuse.min.js"></script>
 <script src="../site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="../">
-<link href="../guide/collaborating.html" rel="next">
-<script src="../site_libs/quarto-listing/list.min.js"></script>
-<script src="../site_libs/quarto-listing/quarto-listing.js"></script>
+<link href="../guide/collaborating.html" rel="prev">
 <script src="../site_libs/quarto-html/quarto.js"></script>
 <script src="../site_libs/quarto-html/popper.min.js"></script>
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -69,65 +67,7 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
-<script>
 
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-listing .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
-
-    const options = {
-      valueNames: ['listing-title','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      
-      searchColumns: ["listing-title","listing-author","listing-image","listing-description"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  </script>
-
-  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
-
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN") {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
 
 </head>
 
@@ -181,7 +121,7 @@ window.Quarto = {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../guide/index.html">Guide</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../guide/contributing.html">Contributing</a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
     </div>
@@ -195,7 +135,7 @@ window.Quarto = {
     <ul class="list-unstyled mt-1">
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../guide/index.html" class="sidebar-item-text sidebar-link active">
+  <a href="../guide/index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Guide</span></a>
   </div>
 </li>
@@ -207,7 +147,7 @@ window.Quarto = {
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../guide/contributing.html" class="sidebar-item-text sidebar-link">
+  <a href="../guide/contributing.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text">Contributing</span></a>
   </div>
 </li>
@@ -216,20 +156,28 @@ window.Quarto = {
 </nav>
 <div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#file-naming-conventions" id="toc-file-naming-conventions" class="nav-link active" data-scroll-target="#file-naming-conventions">File naming conventions</a></li>
+  <li><a href="#writing" id="toc-writing" class="nav-link" data-scroll-target="#writing">Writing</a></li>
+  <li><a href="#adding-content" id="toc-adding-content" class="nav-link" data-scroll-target="#adding-content">Adding content</a></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Guide</h1>
+<h1 class="title">Contributing</h1>
 </div>
 
 <div>
   <div class="description">
-    A guidebook for how we work together on the DP-Next project.
+    A guide on how we agree to contribute content to the project.
   </div>
 </div>
 
@@ -245,7 +193,6 @@ window.Quarto = {
 
 </header>
 
-
 <div class="callout callout-style-default callout-warning callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
@@ -258,46 +205,37 @@ Warning
 <div class="callout-body-container callout-body">
 <p>🚧 This website and documentation is still in very active development and evolving quickly, so content could undergo substantial changes at any time 🚧</p>
 </div>
-</div><p>This lists the different documents we have in this guide on working together.</p>
+</div>
+<section id="file-naming-conventions" class="level2">
+<h2 class="anchored" data-anchor-id="file-naming-conventions">File naming conventions</h2>
+<ul>
+<li>Prefer using lower case letters for the name, e.g. <code>contributing.qmd</code>.</li>
+<li>Use either hyphens or underscores to separate words, e.g. <code>contributing.qmd</code> or <code>contributing_record.qmd</code>, but <em>not</em> spaces.
+<ul>
+<li>Spaces can make things difficult to work with for some systems and programs. For instance, if we want to generate our files into a website, including spaces in the names can make it difficult to generate the URLs for the pages.</li>
+</ul></li>
+<li>Prefer simpler, shorter words than longer ones, e.g. <code>contributing.qmd</code> instead of <code>how-to-contribute-to-the-project.qmd</code>.</li>
+<li>Avoid using special characters, including Danish characters like <code>æ</code>, <code>ø</code>, and <code>å</code>. These can also make things difficult to work with for some systems.</li>
+<li>Avoid repeating the same word in the file name and the folder name, e.g.&nbsp;<code>contributing/contributing-next-steps.qmd</code>. Instead, use <code>contributing/next-steps.qmd</code>.</li>
+</ul>
+</section>
+<section id="writing" class="level2">
+<h2 class="anchored" data-anchor-id="writing">Writing</h2>
+<ul>
+<li>Write content using <a href="https://quarto.org/docs/authoring/markdown-basics.html">Markdown</a> and in files with either a <code>.qmd</code> (Quarto Markdown) or <code>.md</code> (Markdown) extension.</li>
+</ul>
+</section>
+<section id="adding-content" class="level2">
+<h2 class="anchored" data-anchor-id="adding-content">Adding content</h2>
+<ul>
+<li>Put everything on GitHub, either as an Issue, a comment in an Issue, or as files in the GitHub repositories.</li>
+<li>If text documents that aren’t Markdown-based are added, we’ll (maybe automatically?) convert them to Markdown file and then delete the original file.</li>
+</ul>
 
 
+</section>
 
-
-<div class="quarto-listing quarto-listing-container-grid" id="listing-listing">
-<div class="list grid quarto-listing-cols-2">
-<div class="g-col-1" data-index="0" data-listing-file-modified-sort="1740127401111" data-listing-reading-time-sort="2" data-listing-word-count-sort="306">
-<a href="../guide/collaborating.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Collaborating guide
-</h5>
-<div class="card-text listing-description">
-A guide on how we collaborate together as a group on the DP-Next project. Mainly focused on the meetings related to Work Package 1 but can be used by all work packages.
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="1" data-listing-file-modified-sort="1740127401111" data-listing-reading-time-sort="2" data-listing-word-count-sort="268">
-<a href="../guide/contributing.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Contributing
-</h5>
-<div class="card-text listing-description">
-A guide on how we agree to contribute content to the project.
-</div>
-</div>
-</div>
-</a>
-</div>
-</div>
-<div class="listing-no-matching d-none">
-No matching items
-</div>
-</div></main> <!-- /main -->
+</main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
@@ -717,11 +655,11 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
+      <a href="../guide/collaborating.html" class="pagination-link" aria-label="Collaborating guide">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Collaborating guide</span>
+      </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="../guide/collaborating.html" class="pagination-link" aria-label="Collaborating guide">
-        <span class="nav-page-text">Collaborating guide</span> <i class="bi bi-arrow-right-short"></i>
-      </a>
   </div>
 </nav>
 </div> <!-- /content -->
