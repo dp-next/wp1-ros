@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.6.40">
+<meta name="generator" content="quarto-1.6.42">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -56,10 +56,10 @@ div.csl-indent {
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-549806ee2085284f45b00abea8c6df48.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-2f5df379a58b258e96c21c0638c20c03.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-bd89562929948232a0cfc2a2280e30cc.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-831a6e13d34e89ab8943621a9b1bffba.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -189,6 +189,7 @@ div.csl-indent {
   <li><a href="#research-operations" id="toc-research-operations" class="nav-link" data-scroll-target="#research-operations">Research operations</a></li>
   <li><a href="#software-development" id="toc-software-development" class="nav-link" data-scroll-target="#software-development">Software development</a></li>
   <li><a href="#data-engineering" id="toc-data-engineering" class="nav-link" data-scroll-target="#data-engineering">Data engineering</a></li>
+  <li><a href="#knowledge-management" id="toc-knowledge-management" class="nav-link" data-scroll-target="#knowledge-management">Knowledge management</a></li>
   <li><a href="#technical-working-group" id="toc-technical-working-group" class="nav-link" data-scroll-target="#technical-working-group">Technical working group</a></li>
   <li><a href="#training" id="toc-training" class="nav-link" data-scroll-target="#training">Training</a></li>
   </ul></li>
@@ -249,17 +250,7 @@ Warning
 </section>
 <section id="specifics-of-the-strategy" class="level2">
 <h2 class="anchored" data-anchor-id="specifics-of-the-strategy">Specifics of the strategy</h2>
-<p>Expanding on the strategies listed on the <a href="./index.html">landing page</a>, the below describes more of the details about the specific strategies from a technical or digital perspective. Specific activities and tasks are shown below in <a href="#fig-activities" class="quarto-xref">Figure&nbsp;1</a>. Many of these activities and strategies will get support and contributions from the <a href="https://seedcase-project.org/">Seedcase Project</a> team at Steno Aarhus, who regularly use and refine many of these practices in their work.</p>
-<div id="fig-activities" class="quarto-float quarto-figure quarto-figure-center anchored">
-<figure class="quarto-float quarto-float-fig figure">
-<div aria-describedby="fig-activities-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<img src="images/activities.svg" class="img-fluid figure-img">
-</div>
-<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-activities-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Figure&nbsp;1: Activities and tasks for Work Package 1.
-</figcaption>
-</figure>
-</div>
+<p>Expanding on the strategies listed on the <a href="./index.html">landing page</a>, the below describes more of the details about the specific strategies from a technical or digital perspective. Many of these activities and strategies will get support and contributions from the <a href="https://seedcase-project.org/">Seedcase Project</a> team at Steno Aarhus, who regularly use and refine many of these practices in their work.</p>
 <section id="project-management" class="level3">
 <h3 class="anchored" data-anchor-id="project-management">Project management</h3>
 <p>While general project management and coordination will be done by the management <a href="./groups.html">group</a>, the technical strategy for the project management will involve applying iterative and incremental methods often used in software development, such as Agile-inspired methods. Practically, this involves:</p>
@@ -291,11 +282,29 @@ Figure&nbsp;1: Activities and tasks for Work Package 1.
 <p>Research output includes more than just papers and presentations. It also includes analytic methods implemented as software packages. When work packages, such as Work Package 2, build or work on an analytic method, we will ensure that work with them to develop the software in a robust, well-designed, reliable, and maintainable way. Concretely, some activities may include:</p>
 <ul>
 <li>Developing a template for building the software package that includes best practices for software development.</li>
+<li>Contributing to data science activities by building reproducible analytic pipelines for faster dissemination of results.</li>
 </ul>
 </section>
 <section id="data-engineering" class="level3">
 <h3 class="anchored" data-anchor-id="data-engineering">Data engineering</h3>
-<p>Data engineering is the practice of designing, structuring, and building data infrastructures and pipelines that support the collection and storage of high-quality data. Part of the aim of the Seedcase Project is in building software tools to help with creating and managing data and metadata in a way that applies FAIR principles and that simplifies the tasks that researchers have with requesting and working with the data. So the Seedcase team will be heavily involved in these tasks.</p>
+<p>Data engineering is the practice of designing, structuring, and building data infrastructures and pipelines that support the collection and storage of high-quality data. Part of the aim of the Seedcase Project is in building software tools to help with creating and managing data and metadata in a way that applies FAIR principles and that simplifies the tasks that researchers have with requesting and working with the data. So the Seedcase team will be heavily involved in these tasks. Concretely, some activities may include:</p>
+<ul>
+<li>Developing a template for building data pipelines that includes best practices for data engineering.</li>
+<li>Automating or streamlining data flows, from collected into stored, for rapid internal sharing of data outputs.</li>
+<li>Structuring and designing register data format conversion pipelines into more powerful and modern formats.</li>
+<li>Designing and building data generated into a functioning and FAIR “data package”.</li>
+</ul>
+</section>
+<section id="knowledge-management" class="level3">
+<h3 class="anchored" data-anchor-id="knowledge-management">Knowledge management</h3>
+<p>Knowledge management is the practice of capturing, storing, and sharing knowledge across an organisation or group. In the context of this project, we will focus on capturing and sharing knowledge about the project, the knowledge we produce, as well as any research output that we have. We “capture” knowledge largely by using GitHub to write, share, and discuss things, either as issues, comments, or files. Knowledge includes:</p>
+<ul>
+<li>Information about the project, the research, and the tools and practices that we use.</li>
+<li>Study protocols that are the description of the research question, the methods used to answer the question, and the data that will be collected.</li>
+<li>Data management plans, which are the description of how data will be collected, stored, and shared.</li>
+<li>Statistical analysis plans, which are the description of how the data will be analysed.</li>
+<li>Operational documents, like decisions made, procedures, collaboration agreements, and workflows for collaboration and work.</li>
+</ul>
 </section>
 <section id="technical-working-group" class="level3">
 <h3 class="anchored" data-anchor-id="technical-working-group">Technical working group</h3>
