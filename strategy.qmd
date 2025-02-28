@@ -44,14 +44,10 @@ the basis for all other principles.
 
 Expanding on the strategies listed on the [landing page](index.qmd), the
 below describes more of the details about the specific strategies from a
-technical or digital perspective. Specific activities and tasks are
-shown below in @fig-activities. Many of these activities and strategies
+technical or digital perspective. Many of these activities and strategies
 will get support and contributions from the [Seedcase
 Project](https://seedcase-project.org/) team at Steno Aarhus, who
 regularly use and refine many of these practices in their work.
-
-![Activities and tasks for Work Package
-1.](images/activities.svg){#fig-activities}
 
 ### Project management
 
@@ -112,6 +108,8 @@ activities may include:
 
 -   Developing a template for building the software package that
     includes best practices for software development.
+-   Contributing to data science activities by building reproducible
+    analytic pipelines for faster dissemination of results.
 
 ### Data engineering
 
@@ -122,6 +120,38 @@ in building software tools to help with creating and managing data and
 metadata in a way that applies FAIR principles and that simplifies the
 tasks that researchers have with requesting and working with the data.
 So the Seedcase team will be heavily involved in these tasks.
+Concretely, some activities may include:
+
+-   Developing a template for building data pipelines that includes best
+    practices for data engineering.
+-   Automating or streamlining data flows, from collected into stored,
+    for rapid internal sharing of data outputs.
+-   Structuring and designing register data format conversion pipelines
+    into more powerful and modern formats.
+-   Designing and building data generated into a functioning and FAIR
+    "data package".
+
+### Knowledge management
+
+Knowledge management is the practice of capturing, storing, and sharing
+knowledge across an organisation or group. In the context of this
+project, we will focus on capturing and sharing knowledge about the
+project, the knowledge we produce, as well as any research output that
+we have. We "capture" knowledge largely by using GitHub to write, share,
+and discuss things, either as issues, comments, or files. Knowledge
+includes:
+
+-   Information about the project, the research, and the tools and
+    practices that we use.
+-   Study protocols that are the description of the research question,
+    the methods used to answer the question, and the data that will be
+    collected.
+-   Data management plans, which are the description of how data will be
+    collected, stored, and shared.
+-   Statistical analysis plans, which are the description of how the
+    data will be analysed.
+-   Operational documents, like decisions made, procedures,
+    collaboration agreements, and workflows for collaboration and work.
 
 ### Technical working group
 
