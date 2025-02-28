@@ -44,8 +44,7 @@ the basis for all other principles.
 
 Expanding on the strategies listed on the [landing page](index.qmd), the
 below describes more of the details about the specific strategies from a
-technical or digital perspective. Specific activities and tasks are
-shown below in @fig-activities. Many of these activities and strategies
+technical or digital perspective. Many of these activities and strategies
 will get support and contributions from the [Seedcase
 Project](https://seedcase-project.org/) team at Steno Aarhus, who
 regularly use and refine many of these practices in their work.
