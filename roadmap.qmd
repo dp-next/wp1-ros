@@ -14,24 +14,6 @@ the charts.
 %%| fig-cap: "Gantt chart showing some basic tasks, milestones, and deliverables for Work Package 1."
 ```
 
-## Milestones
-
--   Setup project websites to host details and documents relevant to
-    this project and it's WPs
-
--   Setup website to document and describe research operational
-    practices used across Centers for easier sharing and onboarding
-
--   Open-source template Data Management Plan to use for WP3
-
--   Setup research data infrastructure that supports adhering to open
-    FAIR practices for ease of internal and external sharing of data for
-    WP3 (using software built from NNF-funded project from SDCA called
-    Seedcase: https://seedcase-project.org/)
-
--   Open-source templates for building software package/app for risk
-    prediction engine from WP2
-
 ## Deliverables
 
 ::: {layout-ncol="2"}
@@ -56,3 +38,22 @@ the charts.
 -   DP-Next project website, with all (internal and external) knowledge
     generated, including all code and documentation
 :::
+
+## Milestones
+
+-   Setup project websites to host details and documents relevant to
+    this project and it's WPs
+
+-   Setup website to document and describe research operational
+    practices used across Centers for easier sharing and onboarding
+
+-   Open-source template Data Management Plan to use for WP3
+
+-   Setup research data infrastructure that supports adhering to open
+    FAIR practices for ease of internal and external sharing of data for
+    WP3 (using software built from NNF-funded project from SDCA called
+    Seedcase: https://seedcase-project.org/)
+
+-   Open-source templates for building software package/app for risk
+    prediction engine from WP2
+
