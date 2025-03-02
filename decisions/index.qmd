@@ -22,22 +22,21 @@ Project](https://decisions.seedcase-project.org):
 
 -   [Why Quarto](https://decisions.seedcase-project.org/why-quarto)
 -   [Why Discord](https://decisions.seedcase-project.org/why-discord)
--   [Why GitHub](https://decisions.seedcase-project.org/why-github)
 -   [Why GitHub Project
     Boards](https://decisions.seedcase-project.org/why-github-projects)
--   [Why Markdown]() (in progress)
+-   [Why Markdown](https://decisions.seedcase-project.org/why-markdown)
+-   [Why Git]() (in progress)
+-   [Why GitHub]() (in progress)
 -   [Why Teamup]() (in progress)
 -   [Why FAIR]() (in progress)
 
 ## DP-Next specific decisions
 
 ::: callout-note
-
 These are decisions are being written.
 
 -   [Why Seedcase software]() (in progress)
--   [Why Open Science]() (in progress)
--   [Why Reproducibility]() (in progress)
+-   [Why open science]() (in progress)
+-   [Why reproducibility]() (in progress)
 -   [Why Zenodo]() (in progress)
--   [Why Git]() (in progress)
 :::
