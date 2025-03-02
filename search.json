@@ -7,18 +7,18 @@
     "text": "Warning\n\n\n\n🚧 This website and documentation is still in very active development and evolving quickly, so content could undergo substantial changes at any time 🚧\nThis document covers the plan for Work Package 1. While the Gantt charts display an overview of the project, the sections below on milestones and deliverables provide more detailed information than what can be put on the charts.\n%%{init: {\n  'gantt': {\n    'barHeight': 25,\n    'leftPadding': 100\n  }\n}}%%\ngantt\n  title Tasks (T), Milestones (M), and Deliverables (D) for WP1\n  dateFormat  YYYY-MM-DD\n  axisFormat %Y\n  tickInterval 1year\n  todayMarker off\n  %% (`excludes` accepts specific dates in YYYY-MM-DD format, days of the week (\"sunday\") or \"weekends\", but not the word \"weekdays\".)\n\n  section Ongoing&lt;br&gt;activities\n  T4. Iterate and refine collaboration: imp_collab, 2025-09-01, 5y\n  T5. Develop project website: imp_proj_web, after collab_agree, 2030-01-01\n  T9. Develop research ops website: imp_reops_web, after consensus, 2030-01-01\n  T10. Maintain data infrastructure: imp_seedcase, after seedcase, 2030-01-01\n\n  section General&lt;br&gt;setup\n  T1. Establish working groups: wg, 2025-09-01, 2M\n  T2.  Decide on collaboration approaches: collab_agree, after wg, 10M\n  T3. Identify collaboration barriers: barriers, after wg, 10M\n  M1. Setup project website: milestone, web_proj, after barriers, 1M\n  D1. Collaboration workflow consensus report: milestone, consensus, after web_proj, 1M\n  M3. Webpage for research ops: milestone, web_reops, after web_proj, 1M\n\n  section WP2-linked&lt;br&gt;activities\n  T6. Setup collaboration workflow: collab_wp2, after web_proj, 6M\n  D1. R package infrastructure template: milestone, template_rpkg, 2026-06-01, 1M\n\n  section WP3-linked&lt;br&gt;activities\n  T7. Setup data engineering pipeline: de_wp3, after web_proj, 6M\n  D2. Data engineering pipeline report: milestone, der_wp3, after de_wp3, 1M\n  D3. Data Management Plan template: milestone, template_dmp, 2027-01-01, 1M\n  M4. Setup data infrastructure: milestone, seedcase, 2027-01-01, 1M\n\n  section WP4-linked&lt;br&gt;activities\n  M2. Setup knowledge repo: milestone, kr_wp4, after collab_agree, 1M\n  T8. Build knowledge dissemination pipeline: kmp_wp4, after kr_wp4, 6M\n\n\n\n\n\n\n\n\nFigure 1: Gantt chart showing some basic tasks, milestones, and deliverables for Work Package 1."
   },
   {
-    "objectID": "roadmap.html#milestones",
-    "href": "roadmap.html#milestones",
-    "title": "Roadmap",
-    "section": "Milestones",
-    "text": "Milestones\n\nSetup project websites to host details and documents relevant to this project and it’s WPs\nSetup website to document and describe research operational practices used across Centers for easier sharing and onboarding\nOpen-source template Data Management Plan to use for WP3\nSetup research data infrastructure that supports adhering to open FAIR practices for ease of internal and external sharing of data for WP3 (using software built from NNF-funded project from SDCA called Seedcase: https://seedcase-project.org/)\nOpen-source templates for building software package/app for risk prediction engine from WP2"
-  },
-  {
     "objectID": "roadmap.html#deliverables",
     "href": "roadmap.html#deliverables",
     "title": "Roadmap",
     "section": "Deliverables",
     "text": "Deliverables\n\n\n\n\n\n\nReports\n\nConsensus document on agreed upon processes and workflows between WPs\nResearch operational management practices and processes employed in a large-scale multi-centered project: Future uses of using modern approaches to team-based research\nDP-Next as an open-access and secure Data Resource for broader re-use of collected data for researchers (using SDCA-developed, NNF-funded Seedcase software)\nChallenges and lessons learned in applying modern research ops and data engineering to a large-scale, multi-center project\n\n\n\nResources\n\nEach center has resources and workflows for conducting reproducible and modern register-based research using the Danish registers\nDP-Next data resource built from Seedcase software\nDP-Next project website, with all (internal and external) knowledge generated, including all code and documentation"
+  },
+  {
+    "objectID": "roadmap.html#milestones",
+    "href": "roadmap.html#milestones",
+    "title": "Roadmap",
+    "section": "Milestones",
+    "text": "Milestones\n\nSetup project websites to host details and documents relevant to this project and it’s WPs\nSetup website to document and describe research operational practices used across Centers for easier sharing and onboarding\nOpen-source template Data Management Plan to use for WP3\nSetup research data infrastructure that supports adhering to open FAIR practices for ease of internal and external sharing of data for WP3 (using software built from NNF-funded project from SDCA called Seedcase: https://seedcase-project.org/)\nOpen-source templates for building software package/app for risk prediction engine from WP2"
   },
   {
     "objectID": "decisions/index.html",
@@ -36,7 +36,7 @@
     "href": "decisions/index.html#dp-next-specific-decisions",
     "title": "Decisions",
     "section": "DP-Next specific decisions",
-    "text": "DP-Next specific decisions\n\n\n\n\n\n\nNote\n\n\n\nThese are decisions are being written.\n\nWhy Seedcase software (in progress)\nWhy Open Science (in progress)\nWhy Reproducibility (in progress)\nWhy Zenodo (in progress)\nWhy Git (in progress)",
+    "text": "DP-Next specific decisions\n\n\n\n\n\n\nNote\n\n\n\nThese are decisions are being written.\n\nWhy Seedcase software (in progress)\nWhy open science (in progress)\nWhy reproducibility (in progress)\nWhy Zenodo (in progress)",
     "crumbs": [
       "Design",
       "Decisions"
