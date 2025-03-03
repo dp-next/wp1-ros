@@ -29,6 +29,7 @@ Project](https://decisions.seedcase-project.org):
 -   [Why GitHub]() (in progress)
 -   [Why Teamup]() (in progress)
 -   [Why FAIR]() (in progress)
+-   [Why iterative and incremental project management]() (in progress)
 
 ## DP-Next specific decisions
 
