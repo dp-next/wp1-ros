@@ -57,3 +57,26 @@ the charts.
 -   Open-source templates for building software package/app for risk
     prediction engine from WP2
 
+## Sequence of outcomes
+
+Nothing can be achieved immediately and everything takes time. If we
+follow from the principle of "start with what we do now" and "do the
+easiest next thing to improve", the below is a potential sequence of
+outcomes to get to where we'd like to be. These are in order of what
+we'd like to achieve first to last, focusing on achieving one outcome at
+a time.
+
+::: panel-tabset
+### Collaboration
+
+1.  Only use GitHub Issues for tasks, discussions, and general
+    communication, so that all work is visible and tracked in one place.
+2.  Always refer to the GitHub Project board for the current status of
+    the project or individual work packages, so everyone is aware of the
+    current state of things.
+3.  Only use Discord for communication
+
+### Contribution
+
+1.
+:::
