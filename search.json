@@ -21,6 +21,13 @@
     "text": "Milestones\n\nSetup project websites to host details and documents relevant to this project and it’s WPs\nSetup website to document and describe research operational practices used across Centers for easier sharing and onboarding\nOpen-source template Data Management Plan to use for WP3\nSetup research data infrastructure that supports adhering to open FAIR practices for ease of internal and external sharing of data for WP3 (using software built from NNF-funded project from SDCA called Seedcase: https://seedcase-project.org/)\nOpen-source templates for building software package/app for risk prediction engine from WP2"
   },
   {
+    "objectID": "roadmap.html#sequence-of-outcomes",
+    "href": "roadmap.html#sequence-of-outcomes",
+    "title": "Roadmap",
+    "section": "Sequence of outcomes",
+    "text": "Sequence of outcomes\nNothing can be achieved immediately and everything takes time. If we follow from the principle of “start with what we do now” and “do the easiest next thing to improve”, the below is a potential sequence of outcomes to get to where we’d like to be. These are in order of what we’d like to achieve first to last, focusing on achieving one outcome at a time.\n\nCollaborationContribution\n\n\n\nOnly use GitHub Issues for tasks, discussions, and general communication, so that all work is visible and tracked in one place.\nAlways refer to the GitHub Project board for the current status of the project or individual work packages, so everyone is aware of the current state of things.\nOnly use Discord for communication"
+  },
+  {
     "objectID": "decisions/index.html",
     "href": "decisions/index.html",
     "title": "Decisions",
