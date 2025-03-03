@@ -59,12 +59,13 @@ the charts.
 
 ## Sequence of outcomes
 
-Nothing can be achieved immediately and everything takes time. If we
-follow from the principle of "start with what we do now" and "do the
-easiest next thing to improve", the below is a potential sequence of
-outcomes to get to where we'd like to be. These are in order of what
-we'd like to achieve first to last, focusing on achieving one outcome at
-a time.
+Nothing can be achieved immediately and everything takes time. By
+following [our principles](design.qmd) of "start with what we do now"
+and "make incremental and iterative improvements", the below is a
+potential sequence of outcomes to get to where we'd like to be. These
+are in order of what we'd like to achieve first to last, focusing on
+achieving one outcome at a time. We'll add to this as we go along, and
+update it as we've achieved each item.
 
 ::: panel-tabset
 ### Collaboration
@@ -74,9 +75,22 @@ a time.
 2.  Always refer to the GitHub Project board for the current status of
     the project or individual work packages, so everyone is aware of the
     current state of things.
-3.  Only use Discord for communication
+3.  Put all work package specific or DP-Next wide events or meetings
+    into the shared calendar (via Teamup).
+4.  Only use Discord and specific channels for work packages for
+    communication and coordination.
 
 ### Contribution
 
-1.
+1.  Put all content related to the project onto GitHub, at first at
+    least as comments on GitHub Issues.
+2.  Write files in only Markdown (if text).
+3.  Write all code in R or Python.
+4.  Have anything that isn't private/secret/admin as a public (open)
+    GitHub repository.
+5.  Include R or Python code into Markdown files (via Quarto).
+6.  Write R or Python code within a reproducible pipeline framework
+    (e.g. [targets](https://books.ropensci.org/targets/) for R).
+7.  Generate anything that isn't private/secret/admin into websites.
 :::
+
