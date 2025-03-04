@@ -1,5 +1,5 @@
 ---
-title: "Collaborating guide"
+title: "Collaborating"
 description: "A guide on how we collaborate together as a group on the DP-Next project. Mainly focused on the meetings related to Work Package 1 but can be used by all work packages."
 ---
 
