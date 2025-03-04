@@ -6,7 +6,8 @@ description: "A guide on how we agree to contribute content to the project."
 ## File naming conventions
 
 -   Prefer using lower case letters for the name, e.g.
-    `contributing.qmd`.
+    `contributing.qmd`. But, some files follow a widely-used standard 
+    of being all upper case, e.g. `README.md`.
 -   Use either hyphens or underscores to separate words, e.g.
     `contributing.qmd` or `contributing_record.qmd`, but *not* spaces.
     -   Spaces can make things difficult to work with for some systems
