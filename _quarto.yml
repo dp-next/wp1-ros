@@ -19,7 +19,6 @@ website:
         text: Home
       - text: Overview
         href: motivation.qmd
-      - groups.qmd
       - design.qmd
       - guide/index.qmd
     tools:
@@ -37,6 +36,8 @@ website:
         - motivation.qmd
         - strategy.qmd
         - risks.qmd
+        - groups.qmd
+        - roadmap.qmd
     - id: design
       title: Design
       collapse-level: 2
