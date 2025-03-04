@@ -51,6 +51,9 @@ website:
         - guide/index.qmd
         - guide/collaborating.qmd
         - guide/contributing.qmd
+  page-footer:
+    center:
+      - text: "CC-BY 4.0"
 
 format:
   html:
