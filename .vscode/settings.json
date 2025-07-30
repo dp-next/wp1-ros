@@ -1,7 +1,7 @@
 {
   "files.autoSave": "onFocusChange",
   "editor.wordWrap": "off",
-  "editor.formatOnSave": false,
+  "editor.formatOnSave": true,
   "git.autofetch": false,
   "quarto.visualEditor.markdownWrap": "column",
   "quarto.visualEditor.markdownWrapColumn": 72,
@@ -20,4 +20,7 @@
   ],
   "conventional-branch.format": "{Type}/{Branch}",
   "files.insertFinalNewline": true,
+  "[quarto,markdown]": {
+    "editor.formatOnSave": false,
+  },
 }
