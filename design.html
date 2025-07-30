@@ -8,7 +8,7 @@
 
 <meta name="description" content="Expanded explanations and descriptions of the principles, practices, tools, methods, and decisions we have for work across DP-Next.">
 
-<title>Design – DP-Next: WP1</title>
+<title>7&nbsp; Design – Better research in less time</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -31,6 +31,7 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
 <link href="./decisions/index.html" rel="next">
+<link href="./roadmap.html" rel="prev">
 <script src="site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
@@ -40,20 +41,19 @@ ul.task-list li input[type="checkbox"] {
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-37eea08aefeeee20ff55810ff984fec1.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-123bf1f8be61e52d793a06c138bba625.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-87efc9f0321ca4df940afa6b8506b50b.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
   "collapse-after": 3,
   "panel-placement": "end",
-  "type": "overlay",
+  "type": "textbox",
   "limit": 50,
   "keyboard-shortcut": [
     "f",
     "/",
     "s"
   ],
-  "show-item-context": false,
   "language": {
     "search-no-results-text": "No results",
     "search-matching-documents-text": "matching documents",
@@ -80,37 +80,13 @@ ul.task-list li input[type="checkbox"] {
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
     <a class="navbar-brand" href="./index.html">
-    <span class="navbar-title">DP-Next: WP1</span>
+    <span class="navbar-title">Better research in less time</span>
     </a>
   </div>
-            <div id="quarto-search" class="" title="Search"></div>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
-  <span class="navbar-toggler-icon"></span>
-</button>
-          <div class="collapse navbar-collapse" id="navbarCollapse">
-            <ul class="navbar-nav navbar-nav-scroll me-auto">
-  <li class="nav-item">
-    <a class="nav-link" href="./index.html"> 
-<span class="menu-text">Home</span></a>
-  </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="./motivation.html"> 
-<span class="menu-text">Overview</span></a>
-  </li>  
-  <li class="nav-item">
-    <a class="nav-link active" href="./design.html" aria-current="page"> 
-<span class="menu-text">Design</span></a>
-  </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="./guide/index.html"> 
-<span class="menu-text">Guide</span></a>
-  </li>  
-</ul>
-          </div> <!-- /navcollapse -->
-            <div class="quarto-navbar-tools">
-    <a href="https://github.com/dp-next/wp1-ros" title="" class="quarto-navigation-tool px-1" aria-label="GitHub icon: Source code"><i class="bi bi-github"></i></a>
-    <a href="https://dp-next.github.io" title="" class="quarto-navigation-tool px-1" aria-label="House icon: DP-Next home page"><i class="bi bi-house"></i></a>
+        <div class="quarto-navbar-tools tools-end">
+    <a href="https://github.com/dp-next/wp1-ros" title="Source Code" class="quarto-navigation-tool px-1" aria-label="Source Code"><i class="bi bi-github"></i></a>
 </div>
+          <div id="quarto-search" class="" title="Search"></div>
       </div> <!-- /container-fluid -->
     </nav>
   <nav class="quarto-secondary-nav">
@@ -118,7 +94,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./design.html">Design</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./design.html">Design</a></li><li class="breadcrumb-item"><a href="./design.html"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Design</span></a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
     </div>
@@ -132,16 +108,137 @@ ul.task-list li input[type="checkbox"] {
     <ul class="list-unstyled mt-1">
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./design.html" class="sidebar-item-text sidebar-link active">
- <span class="menu-text">Design</span></a>
+  <a href="./index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Welcome</span></span></a>
   </div>
 </li>
-        <li class="sidebar-item">
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true">
+ <span class="menu-text">Overview</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./motivation.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Motivation</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./strategy.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Strategy</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./risks.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Risks</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./groups.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Groups</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./roadmap.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Roadmap</span></span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="true">
+ <span class="menu-text">Design</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./design.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Design</span></span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" role="navigation" aria-expanded="true">
+ <span class="menu-text">Decisions</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" role="navigation" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-3" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./decisions/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Decisions</span></a>
+ <span class="menu-text"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">Decisions</span></span></a>
   </div>
 </li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./decisions/why-r-python.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">9</span>&nbsp; <span class="chapter-title">Why R and Python</span></span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" role="navigation" aria-expanded="true">
+ <span class="menu-text">Guide</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" role="navigation" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-4" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./guide/collaborating.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">10</span>&nbsp; <span class="chapter-title">Collaborating</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./guide/contributing.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">11</span>&nbsp; <span class="chapter-title">Contributing</span></span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-5" role="navigation" aria-expanded="true">
+ <span class="menu-text">Appendices</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-5" role="navigation" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-5" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./CONTRIBUTING.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">A</span>&nbsp; <span class="chapter-title">Contributing</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./LICENSE.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">B</span>&nbsp; <span class="chapter-title">License</span></span></a>
+  </div>
+</li>
+      </ul>
+  </li>
     </ul>
     </div>
 </nav>
@@ -149,32 +246,27 @@ ul.task-list li input[type="checkbox"] {
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">On this page</h2>
+    <h2 id="toc-title">Table of contents</h2>
    
   <ul>
-  <li><a href="#principles" id="toc-principles" class="nav-link active" data-scroll-target="#principles">Principles</a></li>
-  <li><a href="#practices-tools-and-methods" id="toc-practices-tools-and-methods" class="nav-link" data-scroll-target="#practices-tools-and-methods">Practices, tools, and methods</a></li>
-  <li><a href="#decisions" id="toc-decisions" class="nav-link" data-scroll-target="#decisions">Decisions</a></li>
-  <li><a href="#design-patterns" id="toc-design-patterns" class="nav-link" data-scroll-target="#design-patterns">Design patterns</a>
+  <li><a href="#principles" id="toc-principles" class="nav-link active" data-scroll-target="#principles"><span class="header-section-number">7.1</span> Principles</a></li>
+  <li><a href="#practices-tools-and-methods" id="toc-practices-tools-and-methods" class="nav-link" data-scroll-target="#practices-tools-and-methods"><span class="header-section-number">7.2</span> Practices, tools, and methods</a></li>
+  <li><a href="#decisions" id="toc-decisions" class="nav-link" data-scroll-target="#decisions"><span class="header-section-number">7.3</span> Decisions</a></li>
+  <li><a href="#design-patterns" id="toc-design-patterns" class="nav-link" data-scroll-target="#design-patterns"><span class="header-section-number">7.4</span> Design patterns</a>
   <ul class="collapse">
-  <li><a href="#one-git-or-github-repository-per-scientific-output" id="toc-one-git-or-github-repository-per-scientific-output" class="nav-link" data-scroll-target="#one-git-or-github-repository-per-scientific-output">One Git or GitHub repository per scientific output</a></li>
+  <li><a href="#one-git-or-github-repository-per-scientific-output" id="toc-one-git-or-github-repository-per-scientific-output" class="nav-link" data-scroll-target="#one-git-or-github-repository-per-scientific-output"><span class="header-section-number">7.4.1</span> One Git or GitHub repository per scientific output</a></li>
   </ul></li>
   </ul>
-</nav>
+<div class="toc-actions"><ul><li><a href="https://github.com/dp-next/wp1-ros/edit/main/design.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/dp-next/wp1-ros/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li><li><a href="https://github.com/dp-next/wp1-ros/blob/main/design.qmd" class="toc-action"><i class="bi empty"></i>View source</a></li></ul></div></nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default">
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./design.html">Design</a></li><li class="breadcrumb-item"><a href="./design.html"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Design</span></a></li></ol></nav>
 <div class="quarto-title">
-<h1 class="title">Design</h1>
+<h1 class="title"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Design</span></h1>
 </div>
 
-<div>
-  <div class="description">
-    Expanded explanations and descriptions of the principles, practices, tools, methods, and decisions we have for work across DP-Next.
-  </div>
-</div>
 
 
 <div class="quarto-title-meta">
@@ -201,8 +293,8 @@ Warning
 <p>🚧 This website and documentation is still in very active development and evolving quickly, so content could undergo substantial changes at any time 🚧</p>
 </div>
 </div>
-<section id="principles" class="level2">
-<h2 class="anchored" data-anchor-id="principles">Principles</h2>
+<section id="principles" class="level2" data-number="7.1">
+<h2 data-number="7.1" class="anchored" data-anchor-id="principles"><span class="header-section-number">7.1</span> Principles</h2>
 <p>Part of the aim for DP-Next, and the purpose of Work Package 1, is to produce scientific results that follow open scientific and reproducible practices. In addition to this aim, Work Package 1 also aims to help produce better research in less time and resources. Aligning with these overall aims and expanding on the <a href="./strategy.html#guiding-principles">guiding principles</a> in the Strategy page, we want to eventually follow these principles:</p>
 <ul>
 <li>Incorporate explicit feedback loops in how we collaborate</li>
@@ -215,8 +307,8 @@ Warning
 <li>Have meetings sparingly and only when extensive, concurrent discussions and brainstorming are needed</li>
 </ul>
 </section>
-<section id="practices-tools-and-methods" class="level2">
-<h2 class="anchored" data-anchor-id="practices-tools-and-methods">Practices, tools, and methods</h2>
+<section id="practices-tools-and-methods" class="level2" data-number="7.2">
+<h2 data-number="7.2" class="anchored" data-anchor-id="practices-tools-and-methods"><span class="header-section-number">7.2</span> Practices, tools, and methods</h2>
 <p>And to achieve these principles, we also eventually (not all at once) want to work towards a point where we:</p>
 <ul>
 <li>Use GitHub or just Git to manage and track all files</li>
@@ -234,15 +326,15 @@ Warning
 <li>Use GitHub Projects and Issues to create, discuss, and manage tasks and issues</li>
 </ul>
 </section>
-<section id="decisions" class="level2">
-<h2 class="anchored" data-anchor-id="decisions">Decisions</h2>
+<section id="decisions" class="level2" data-number="7.3">
+<h2 data-number="7.3" class="anchored" data-anchor-id="decisions"><span class="header-section-number">7.3</span> Decisions</h2>
 <p>To be explicit about the reasons for our choices of tools, methods, and approaches that apply to the DP-Next project, we have documented them in the <a href="./decisions/index.html">Decisions</a> section. This website will not document choices for things that are specific to a single work package, for instance, the type of machine to measure a specific biological marker. Instead, we will focus on the decisions that are relevant to the entire project or to multiple work packages.</p>
 </section>
-<section id="design-patterns" class="level2">
-<h2 class="anchored" data-anchor-id="design-patterns">Design patterns</h2>
+<section id="design-patterns" class="level2" data-number="7.4">
+<h2 data-number="7.4" class="anchored" data-anchor-id="design-patterns"><span class="header-section-number">7.4</span> Design patterns</h2>
 <p>To help simplify how we work, it’s useful to follow commonly used patterns in project development and collaboration. In our case, the design patterns we will use are:</p>
-<section id="one-git-or-github-repository-per-scientific-output" class="level3">
-<h3 class="anchored" data-anchor-id="one-git-or-github-repository-per-scientific-output">One Git or GitHub repository per scientific output</h3>
+<section id="one-git-or-github-repository-per-scientific-output" class="level3" data-number="7.4.1">
+<h3 data-number="7.4.1" class="anchored" data-anchor-id="one-git-or-github-repository-per-scientific-output"><span class="header-section-number">7.4.1</span> One Git or GitHub repository per scientific output</h3>
 <p>The pattern of “one repo, one product” is a widely used pattern in many types of projects. There are many tools, templates, and workflows that are built around this pattern. For instance, it is easier to ensure a scientific document is reproducible if it follows this pattern. So administratively and collaboratively, it is easier to use a pattern like this, since it is a standardized way of structuring work. For DP-Next, this pattern includes the protocols as well as the scientific results.</p>
 <p>Some servers don’t allow internet or easy access to outside resources like GitHub. But all servers have Git installed. In those cases, each scientific output is one Git repository.</p>
 
@@ -652,10 +744,13 @@ Warning
   </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
+      <a href="./roadmap.html" class="pagination-link" aria-label="Roadmap">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Roadmap</span></span>
+      </a>          
   </div>
   <div class="nav-page nav-page-next">
       <a href="./decisions/index.html" class="pagination-link" aria-label="Decisions">
-        <span class="nav-page-text">Decisions</span> <i class="bi bi-arrow-right-short"></i>
+        <span class="nav-page-text"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">Decisions</span></span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>
@@ -668,10 +763,12 @@ Warning
     <div class="nav-footer-center">
       <ul class="footer-items list-unstyled">
     <li class="nav-item">
- CC-BY 4.0
+    <a class="nav-link active" href="./LICENSE.html" aria-current="page">
+<p>CC-BY 4.0</p>
+</a>
   </li>  
 </ul>
-    </div>
+    <div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/dp-next/wp1-ros/edit/main/design.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/dp-next/wp1-ros/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li><li><a href="https://github.com/dp-next/wp1-ros/blob/main/design.qmd" class="toc-action"><i class="bi empty"></i>View source</a></li></ul></div></div>
     <div class="nav-footer-right">
       &nbsp;
     </div>

@@ -8,7 +8,7 @@
 
 <meta name="description" content="A guide on how we collaborate together as a group on the DP-Next project. Mainly focused on the meetings related to Work Package 1 but can be used by all work packages.">
 
-<title>Collaborating – DP-Next: WP1</title>
+<title>10&nbsp; Collaborating – Better research in less time</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -31,7 +31,7 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="../">
 <link href="../guide/contributing.html" rel="next">
-<link href="../guide/index.html" rel="prev">
+<link href="../decisions/why-r-python.html" rel="prev">
 <script src="../site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
 <script src="../site_libs/quarto-html/popper.min.js"></script>
@@ -41,20 +41,19 @@ ul.task-list li input[type="checkbox"] {
 <link href="../site_libs/quarto-html/quarto-syntax-highlighting-37eea08aefeeee20ff55810ff984fec1.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-123bf1f8be61e52d793a06c138bba625.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-87efc9f0321ca4df940afa6b8506b50b.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
   "collapse-after": 3,
   "panel-placement": "end",
-  "type": "overlay",
+  "type": "textbox",
   "limit": 50,
   "keyboard-shortcut": [
     "f",
     "/",
     "s"
   ],
-  "show-item-context": false,
   "language": {
     "search-no-results-text": "No results",
     "search-matching-documents-text": "matching documents",
@@ -81,37 +80,13 @@ ul.task-list li input[type="checkbox"] {
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
     <a class="navbar-brand" href="../index.html">
-    <span class="navbar-title">DP-Next: WP1</span>
+    <span class="navbar-title">Better research in less time</span>
     </a>
   </div>
-            <div id="quarto-search" class="" title="Search"></div>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
-  <span class="navbar-toggler-icon"></span>
-</button>
-          <div class="collapse navbar-collapse" id="navbarCollapse">
-            <ul class="navbar-nav navbar-nav-scroll me-auto">
-  <li class="nav-item">
-    <a class="nav-link" href="../index.html"> 
-<span class="menu-text">Home</span></a>
-  </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="../motivation.html"> 
-<span class="menu-text">Overview</span></a>
-  </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="../design.html"> 
-<span class="menu-text">Design</span></a>
-  </li>  
-  <li class="nav-item">
-    <a class="nav-link active" href="../guide/index.html" aria-current="page"> 
-<span class="menu-text">Guide</span></a>
-  </li>  
-</ul>
-          </div> <!-- /navcollapse -->
-            <div class="quarto-navbar-tools">
-    <a href="https://github.com/dp-next/wp1-ros" title="" class="quarto-navigation-tool px-1" aria-label="GitHub icon: Source code"><i class="bi bi-github"></i></a>
-    <a href="https://dp-next.github.io" title="" class="quarto-navigation-tool px-1" aria-label="House icon: DP-Next home page"><i class="bi bi-house"></i></a>
+        <div class="quarto-navbar-tools tools-end">
+    <a href="https://github.com/dp-next/wp1-ros" title="Source Code" class="quarto-navigation-tool px-1" aria-label="Source Code"><i class="bi bi-github"></i></a>
 </div>
+          <div id="quarto-search" class="" title="Search"></div>
       </div> <!-- /container-fluid -->
     </nav>
   <nav class="quarto-secondary-nav">
@@ -119,7 +94,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../guide/collaborating.html">Collaborating</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../guide/collaborating.html">Guide</a></li><li class="breadcrumb-item"><a href="../guide/collaborating.html"><span class="chapter-number">10</span>&nbsp; <span class="chapter-title">Collaborating</span></a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
     </div>
@@ -133,22 +108,137 @@ ul.task-list li input[type="checkbox"] {
     <ul class="list-unstyled mt-1">
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../guide/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Guide</span></a>
+  <a href="../index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Welcome</span></span></a>
   </div>
 </li>
-        <li class="sidebar-item">
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true">
+ <span class="menu-text">Overview</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../motivation.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Motivation</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../strategy.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Strategy</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../risks.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Risks</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../groups.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Groups</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../roadmap.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Roadmap</span></span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="true">
+ <span class="menu-text">Design</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../design.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Design</span></span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" role="navigation" aria-expanded="true">
+ <span class="menu-text">Decisions</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" role="navigation" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-3" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../decisions/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">Decisions</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../decisions/why-r-python.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">9</span>&nbsp; <span class="chapter-title">Why R and Python</span></span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" role="navigation" aria-expanded="true">
+ <span class="menu-text">Guide</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" role="navigation" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-4" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../guide/collaborating.html" class="sidebar-item-text sidebar-link active">
- <span class="menu-text">Collaborating</span></a>
+ <span class="menu-text"><span class="chapter-number">10</span>&nbsp; <span class="chapter-title">Collaborating</span></span></a>
   </div>
 </li>
-        <li class="sidebar-item">
+          <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../guide/contributing.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Contributing</span></a>
+ <span class="menu-text"><span class="chapter-number">11</span>&nbsp; <span class="chapter-title">Contributing</span></span></a>
   </div>
 </li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-5" role="navigation" aria-expanded="true">
+ <span class="menu-text">Appendices</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-5" role="navigation" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-5" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../CONTRIBUTING.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">A</span>&nbsp; <span class="chapter-title">Contributing</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../LICENSE.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">B</span>&nbsp; <span class="chapter-title">License</span></span></a>
+  </div>
+</li>
+      </ul>
+  </li>
     </ul>
     </div>
 </nav>
@@ -156,31 +246,26 @@ ul.task-list li input[type="checkbox"] {
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">On this page</h2>
+    <h2 id="toc-title">Table of contents</h2>
    
   <ul>
-  <li><a href="#meetings" id="toc-meetings" class="nav-link active" data-scroll-target="#meetings">Meetings</a>
+  <li><a href="#meetings" id="toc-meetings" class="nav-link active" data-scroll-target="#meetings"><span class="header-section-number">10.1</span> Meetings</a>
   <ul class="collapse">
-  <li><a href="#collaboration-assessments" id="toc-collaboration-assessments" class="nav-link" data-scroll-target="#collaboration-assessments">Collaboration assessments</a></li>
-  <li><a href="#update-meetings" id="toc-update-meetings" class="nav-link" data-scroll-target="#update-meetings">Update meetings</a></li>
+  <li><a href="#collaboration-assessments" id="toc-collaboration-assessments" class="nav-link" data-scroll-target="#collaboration-assessments"><span class="header-section-number">10.1.1</span> Collaboration assessments</a></li>
+  <li><a href="#update-meetings" id="toc-update-meetings" class="nav-link" data-scroll-target="#update-meetings"><span class="header-section-number">10.1.2</span> Update meetings</a></li>
   </ul></li>
-  <li><a href="#project-management-and-task-tracking" id="toc-project-management-and-task-tracking" class="nav-link" data-scroll-target="#project-management-and-task-tracking">Project management and task tracking</a></li>
+  <li><a href="#project-management-and-task-tracking" id="toc-project-management-and-task-tracking" class="nav-link" data-scroll-target="#project-management-and-task-tracking"><span class="header-section-number">10.2</span> Project management and task tracking</a></li>
   </ul>
-</nav>
+<div class="toc-actions"><ul><li><a href="https://github.com/dp-next/wp1-ros/edit/main/guide/collaborating.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/dp-next/wp1-ros/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li><li><a href="https://github.com/dp-next/wp1-ros/blob/main/guide/collaborating.qmd" class="toc-action"><i class="bi empty"></i>View source</a></li></ul></div></nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default">
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../guide/collaborating.html">Guide</a></li><li class="breadcrumb-item"><a href="../guide/collaborating.html"><span class="chapter-number">10</span>&nbsp; <span class="chapter-title">Collaborating</span></a></li></ol></nav>
 <div class="quarto-title">
-<h1 class="title">Collaborating</h1>
+<h1 class="title"><span class="chapter-number">10</span>&nbsp; <span class="chapter-title">Collaborating</span></h1>
 </div>
 
-<div>
-  <div class="description">
-    A guide on how we collaborate together as a group on the DP-Next project. Mainly focused on the meetings related to Work Package 1 but can be used by all work packages.
-  </div>
-</div>
 
 
 <div class="quarto-title-meta">
@@ -207,20 +292,20 @@ Warning
 <p>🚧 This website and documentation is still in very active development and evolving quickly, so content could undergo substantial changes at any time 🚧</p>
 </div>
 </div>
-<section id="meetings" class="level2">
-<h2 class="anchored" data-anchor-id="meetings">Meetings</h2>
-<section id="collaboration-assessments" class="level3">
-<h3 class="anchored" data-anchor-id="collaboration-assessments">Collaboration assessments</h3>
+<section id="meetings" class="level2" data-number="10.1">
+<h2 data-number="10.1" class="anchored" data-anchor-id="meetings"><span class="header-section-number">10.1</span> Meetings</h2>
+<section id="collaboration-assessments" class="level3" data-number="10.1.1">
+<h3 data-number="10.1.1" class="anchored" data-anchor-id="collaboration-assessments"><span class="header-section-number">10.1.1</span> Collaboration assessments</h3>
 <p>Every month we have a “collaboration-assessment” meeting. At the least, the tech leads and/or representatives from each work package need to attend, but it is open to anyone working on DP-Next. We follow the style of a meeting type called a <a href="https://miro.com/agile/guide-to-retrospectives/">“retrospective”</a> that is also used in the <a href="https://team.seedcase-project.org/how-we-work/iteration#end-of-iteration">Seedcase Project</a>.</p>
 <p>During these meetings we discuss ways we can improve collaboration within and between work packages. The focus is mainly on collaboration practices, tools, and methods that could benefit the project as a whole or multiple work packages. We discuss what went well, what didn’t go well, and what we can improve. Then we create action items to address the issues we identified.</p>
 </section>
-<section id="update-meetings" class="level3">
-<h3 class="anchored" data-anchor-id="update-meetings">Update meetings</h3>
+<section id="update-meetings" class="level3" data-number="10.1.2">
+<h3 data-number="10.1.2" class="anchored" data-anchor-id="update-meetings"><span class="header-section-number">10.1.2</span> Update meetings</h3>
 <p>Every week we have a very short “update” meeting. We follow the style used in the <a href="https://team.seedcase-project.org/how-we-work/update-meetings">Seedcase Project</a>. Briefly, during the meeting, we screenshare the project board and go over the tasks on the board that are at the “in-progress” state or later (e.g.&nbsp;“in review”). Each person gives an a very brief update on their tasks they’ve been working on since the last update meeting. Specific attention is given to tasks that have blocks or barriers to completion.</p>
 </section>
 </section>
-<section id="project-management-and-task-tracking" class="level2">
-<h2 class="anchored" data-anchor-id="project-management-and-task-tracking">Project management and task tracking</h2>
+<section id="project-management-and-task-tracking" class="level2" data-number="10.2">
+<h2 data-number="10.2" class="anchored" data-anchor-id="project-management-and-task-tracking"><span class="header-section-number">10.2</span> Project management and task tracking</h2>
 <p>Every task that each person is working on is created on, tracked, and visible on the GitHub Project board. The board is divided into columns that represent the state of the task (e.g.&nbsp;“to do”, “in progress”, “in review”, “done”). The board is used to track the progress of the project and to identify bottlenecks or issues that need to be addressed, reviewed, or discussed. We also assign tasks to people on the board, which is shown on on the board itself to make it clear who is working on what.</p>
 <p>All discussions happen on the GitHub issues, which are linked to the tasks on the board. These discussions are comments to the Issue, that way we keep all the information about a task in one place and so that others can participate in the discussion as well.</p>
 
@@ -629,13 +714,13 @@ Warning
   </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
-      <a href="../guide/index.html" class="pagination-link" aria-label="Guide">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Guide</span>
+      <a href="../decisions/why-r-python.html" class="pagination-link" aria-label="Why R and Python">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">9</span>&nbsp; <span class="chapter-title">Why R and Python</span></span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
       <a href="../guide/contributing.html" class="pagination-link" aria-label="Contributing">
-        <span class="nav-page-text">Contributing</span> <i class="bi bi-arrow-right-short"></i>
+        <span class="nav-page-text"><span class="chapter-number">11</span>&nbsp; <span class="chapter-title">Contributing</span></span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>
@@ -648,10 +733,12 @@ Warning
     <div class="nav-footer-center">
       <ul class="footer-items list-unstyled">
     <li class="nav-item">
- CC-BY 4.0
+    <a class="nav-link active" href="../LICENSE.html" aria-current="page">
+<p>CC-BY 4.0</p>
+</a>
   </li>  
 </ul>
-    </div>
+    <div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/dp-next/wp1-ros/edit/main/guide/collaborating.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/dp-next/wp1-ros/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li><li><a href="https://github.com/dp-next/wp1-ros/blob/main/guide/collaborating.qmd" class="toc-action"><i class="bi empty"></i>View source</a></li></ul></div></div>
     <div class="nav-footer-right">
       &nbsp;
     </div>
