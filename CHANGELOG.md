@@ -1,3 +1,9 @@
+## 0.3.0 (2025-07-30)
+
+### Feat
+
+- :sparkles: add CONTRIBUTING document (#64)
+
 ## 0.2.0 (2025-07-30)
 
 ### Feat
