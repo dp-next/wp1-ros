@@ -2,58 +2,62 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://dp-next.github.io/wp1-ros/motivation.html</loc>
-    <lastmod>2025-07-30T14:54:17.944Z</lastmod>
+    <lastmod>2025-07-30T15:00:34.858Z</lastmod>
   </url>
   <url>
     <loc>https://dp-next.github.io/wp1-ros/guide/index.html</loc>
-    <lastmod>2025-07-30T14:54:17.943Z</lastmod>
+    <lastmod>2025-07-30T15:00:34.857Z</lastmod>
   </url>
   <url>
     <loc>https://dp-next.github.io/wp1-ros/risks.html</loc>
-    <lastmod>2025-07-30T14:54:17.944Z</lastmod>
+    <lastmod>2025-07-30T15:00:34.858Z</lastmod>
   </url>
   <url>
-    <loc>https://dp-next.github.io/wp1-ros/LICENSE.html</loc>
-    <lastmod>2025-07-30T14:54:17.941Z</lastmod>
-  </url>
-  <url>
-    <loc>https://dp-next.github.io/wp1-ros/decisions/index.html</loc>
-    <lastmod>2025-07-30T14:54:17.942Z</lastmod>
-  </url>
-  <url>
-    <loc>https://dp-next.github.io/wp1-ros/roadmap.html</loc>
-    <lastmod>2025-07-30T14:54:17.944Z</lastmod>
-  </url>
-  <url>
-    <loc>https://dp-next.github.io/wp1-ros/strategy.html</loc>
-    <lastmod>2025-07-30T14:54:17.944Z</lastmod>
-  </url>
-  <url>
-    <loc>https://dp-next.github.io/wp1-ros/design.html</loc>
-    <lastmod>2025-07-30T14:54:17.942Z</lastmod>
-  </url>
-  <url>
-    <loc>https://dp-next.github.io/wp1-ros/groups.html</loc>
-    <lastmod>2025-07-30T14:54:17.942Z</lastmod>
-  </url>
-  <url>
-    <loc>https://dp-next.github.io/wp1-ros/index.html</loc>
-    <lastmod>2025-07-30T14:54:17.943Z</lastmod>
+    <loc>https://dp-next.github.io/wp1-ros/CONTRIBUTING.html</loc>
+    <lastmod>2025-07-30T15:00:34.855Z</lastmod>
   </url>
   <url>
     <loc>https://dp-next.github.io/wp1-ros/decisions/why-r-python/index.html</loc>
-    <lastmod>2025-07-30T14:54:17.942Z</lastmod>
+    <lastmod>2025-07-30T15:00:34.856Z</lastmod>
+  </url>
+  <url>
+    <loc>https://dp-next.github.io/wp1-ros/index.html</loc>
+    <lastmod>2025-07-30T15:00:34.857Z</lastmod>
+  </url>
+  <url>
+    <loc>https://dp-next.github.io/wp1-ros/groups.html</loc>
+    <lastmod>2025-07-30T15:00:34.856Z</lastmod>
+  </url>
+  <url>
+    <loc>https://dp-next.github.io/wp1-ros/design.html</loc>
+    <lastmod>2025-07-30T15:00:34.856Z</lastmod>
+  </url>
+  <url>
+    <loc>https://dp-next.github.io/wp1-ros/strategy.html</loc>
+    <lastmod>2025-07-30T15:00:34.858Z</lastmod>
+  </url>
+  <url>
+    <loc>https://dp-next.github.io/wp1-ros/roadmap.html</loc>
+    <lastmod>2025-07-30T15:00:34.858Z</lastmod>
+  </url>
+  <url>
+    <loc>https://dp-next.github.io/wp1-ros/decisions/index.html</loc>
+    <lastmod>2025-07-30T15:00:34.856Z</lastmod>
+  </url>
+  <url>
+    <loc>https://dp-next.github.io/wp1-ros/LICENSE.html</loc>
+    <lastmod>2025-07-30T15:00:34.855Z</lastmod>
   </url>
   <url>
     <loc>https://dp-next.github.io/wp1-ros/CHANGELOG.html</loc>
-    <lastmod>2025-07-30T14:54:17.941Z</lastmod>
+    <lastmod>2025-07-30T15:00:34.855Z</lastmod>
   </url>
   <url>
     <loc>https://dp-next.github.io/wp1-ros/guide/contributing.html</loc>
-    <lastmod>2025-07-30T14:54:17.943Z</lastmod>
+    <lastmod>2025-07-30T15:00:34.857Z</lastmod>
   </url>
   <url>
     <loc>https://dp-next.github.io/wp1-ros/guide/collaborating.html</loc>
-    <lastmod>2025-07-30T14:54:17.942Z</lastmod>
+    <lastmod>2025-07-30T15:00:34.857Z</lastmod>
   </url>
 </urlset>
