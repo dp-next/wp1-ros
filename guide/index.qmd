@@ -1,13 +1,6 @@
 ---
 title: "Guide"
 description: "A guidebook for how we work together on the DP-Next project."
-listing:
-    contents: .
-    type: grid
-    grid-columns: 2
-    fields:
-      - title
-      - description
 ---
 
 This lists the different documents we have in this guide on working

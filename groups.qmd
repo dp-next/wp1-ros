@@ -1,6 +1,5 @@
 ---
 title: "Groups"
-toc: false
 ---
 
 ### Management group

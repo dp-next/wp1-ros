@@ -1,18 +1,6 @@
 ---
 title: "Decisions"
 description: "Reasons and explanations for the different choices we've made for the tools, methods, and practices we use."
-listing:
-    categories: true
-    contents: why-*/*.qmd
-    type: grid
-    grid-columns: 2
-    sort: "date"
-    max-items: 50
-    fields:
-      - title
-      - description
-      - date
-      - author
 ---
 
 This document lists "decisions records", which are documents describing

@@ -16,7 +16,6 @@ the charts.
 
 ## Deliverables
 
-::: {layout-ncol="2"}
 ### Reports
 
 -   Consensus document on agreed upon processes and workflows between
@@ -37,7 +36,6 @@ the charts.
 -   DP-Next data resource built from Seedcase software
 -   DP-Next project website, with all (internal and external) knowledge
     generated, including all code and documentation
-:::
 
 ## Milestones
 
@@ -67,7 +65,6 @@ are in order of what we'd like to achieve first to last, focusing on
 achieving one outcome at a time. We'll add to this as we go along, and
 update it as we've achieved each item.
 
-::: panel-tabset
 ### Collaboration
 
 1.  Only use GitHub Issues for tasks, discussions, and general
@@ -92,4 +89,3 @@ update it as we've achieved each item.
 6.  Write R or Python code within a reproducible pipeline framework
     (e.g. [targets](https://books.ropensci.org/targets/) for R).
 7.  Generate anything that isn't private/secret/admin into websites.
-:::

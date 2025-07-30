@@ -1,59 +1,64 @@
 project:
-  type: website
+  type: book
 
-website:
-  title: "DP-Next: WP1"
+book:
+  title: "Better research in less time"
   site-url: "https://dp-next.github.io/wp1-ros"
   repo-url: "https://github.com/dp-next/wp1-ros"
+  repo-actions: [edit, issue, source]
   page-navigation: true
+  author:
+    - name: "Luke W. Johnston"
+      affiliation: "Steno Diabetes Center Aarhus"
+      orcid: "0000-0003-4169-2616"
+  date: last-modified
   body-header: |
     ::: {.callout-warning appearance="default" icon="true"}
     🚧 This website and documentation is still in very active development and
     evolving quickly, so content could undergo substantial changes at any time
     🚧
     :::
+  search:
+    location: "navbar"
+    type: "textbox"
   navbar:
     pinned: true
-    left:
-      - href: index.qmd
-        text: Home
-      - text: Overview
-        href: motivation.qmd
-      - design.qmd
-      - guide/index.qmd
-    tools:
-      - icon: github
-        href: "https://github.com/dp-next/wp1-ros"
-        aria-label: "GitHub icon: Source code"
-      - icon: house
-        href: https://dp-next.github.io
-        aria-label: "House icon: DP-Next home page"
-  sidebar:
-    - id: overview
-      title: Overview
-      collapse-level: 2
-      contents:
+  chapters:
+    - href: index.qmd
+      text: Welcome
+    - part: Overview
+      chapters:
         - motivation.qmd
         - strategy.qmd
         - risks.qmd
         - groups.qmd
         - roadmap.qmd
-    - id: design
-      title: Design
-      collapse-level: 2
-      contents:
+    - part: Design
+      chapters:
         - design.qmd
+    - part: Decisions
+      chapters:
         - decisions/index.qmd
-    - id: guide
-      title: Guide
-      collapse-level: 2
-      contents:
-        - guide/index.qmd
+        - decisions/why-r-python.qmd
+    - part: Guide
+      chapters:
         - guide/collaborating.qmd
         - guide/contributing.qmd
+  appendices:
+    - CONTRIBUTING.md
+    - href: LICENSE.md
+      text: License
+  tools:
+    - icon: github
+      href: "https://github.com/dp-next/wp1-ros"
+      aria-label: "GitHub icon: Source code"
+    - icon: house
+      href: https://dp-next.github.io
+      aria-label: "House icon: DP-Next home page"
   page-footer:
     center:
       - text: "CC-BY 4.0"
+        href: "LICENSE.md"
 
 format:
   html:
