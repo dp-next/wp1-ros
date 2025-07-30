@@ -1,3 +1,9 @@
+## 0.4.0 (2025-07-30)
+
+### Feat
+
+- :sparkles: convert to book format (#67)
+
 ## 0.3.0 (2025-07-30)
 
 ### Feat
