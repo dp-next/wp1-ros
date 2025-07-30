@@ -2,7 +2,7 @@
     just --list --unsorted
 
 # Run all necessary build commands.
-run-all: check-spelling check-commits build-website
+run-all: check-spelling check-commits build-website build-readme
 
 # Install the pre-commit hooks
 install-precommit:
@@ -32,3 +32,7 @@ check-commits:
 # Build the website using Quarto
 build-website:
   quarto render
+
+# Re-build the README file
+build-readme:
+  quarto render README.qmd --to gfm

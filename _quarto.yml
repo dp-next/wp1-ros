@@ -57,6 +57,7 @@ website:
 
 format:
   html:
+    from: markdown+emoji
     toc: true
 
 bibliography: references.bib
@@ -66,3 +67,11 @@ editor:
   markdown:
     wrap: 72
     canonical: true
+
+gh:
+  org: dp-next
+  repo: wp1-ros
+
+titles:
+  short: "Reproducible and open science practices in the DP-Next project"
+  full: "A guide on using reproducible and open scientific practices in the multi-center DP-Next project to do better research in less time and fewer resources."
