@@ -7,11 +7,13 @@ group:
     repos: |
       dp-next/dp-next.github.io
       dp-next/.github
-      dp-next/WP1-Communication
-      dp-next/WP1-Management
-      dp-next/WP2-Risk-Prediction
-      dp-next/WP3-Heterogeneity
-      dp-next/WP4-Intervention-Development
+
+  # Commented out for now.
+  # dp-next/WP1-Communication
+  # dp-next/WP1-Management
+  # dp-next/WP2-Risk-Prediction
+  # dp-next/WP3-Heterogeneity
+  # dp-next/WP4-Intervention-Development
 
   # Specific repos
   - files:
