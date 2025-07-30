@@ -343,12 +343,19 @@
     "objectID": "CHANGELOG.html#section",
     "href": "CHANGELOG.html#section",
     "title": "DP-Next: WP1",
-    "section": "0.2.0 (2025-07-30)",
-    "text": "0.2.0 (2025-07-30)\n\nFeat\n\n✨ expand on README with contributing and badges section (#63)"
+    "section": "0.3.0 (2025-07-30)",
+    "text": "0.3.0 (2025-07-30)\n\nFeat\n\n✨ add CONTRIBUTING document (#64)"
   },
   {
     "objectID": "CHANGELOG.html#section-1",
     "href": "CHANGELOG.html#section-1",
+    "title": "DP-Next: WP1",
+    "section": "0.2.0 (2025-07-30)",
+    "text": "0.2.0 (2025-07-30)\n\nFeat\n\n✨ expand on README with contributing and badges section (#63)"
+  },
+  {
+    "objectID": "CHANGELOG.html#section-2",
+    "href": "CHANGELOG.html#section-2",
     "title": "DP-Next: WP1",
     "section": "0.1.1 (2025-07-30)",
     "text": "0.1.1 (2025-07-30)\n\nRefactor\n\n♻️ move miletstones to below deliverables"
