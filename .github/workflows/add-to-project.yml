@@ -11,12 +11,15 @@ on:
       - reopened
       - opened
 
-permissions:
-  pull-requests: write
+# Improve security by limiting permissions.
+permissions: read-all
 
 jobs:
   add-to-project:
     uses: dp-next/.github/.github/workflows/reusable-add-to-project.yml@main
+    # Set at job level for where it is needed.
+    permissions:
+      pull-requests: write
     with:
       board-number: 9
     secrets:
