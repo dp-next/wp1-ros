@@ -1,82 +1,5 @@
 [
   {
-    "objectID": "roadmap.html",
-    "href": "roadmap.html",
-    "title": "Roadmap",
-    "section": "",
-    "text": "Warning\n\n\n\n🚧 This website and documentation is still in very active development and evolving quickly, so content could undergo substantial changes at any time 🚧\nThis document covers the plan for Work Package 1. While the Gantt charts display an overview of the project, the sections below on milestones and deliverables provide more detailed information than what can be put on the charts.\n%%{init: {\n  'gantt': {\n    'barHeight': 25,\n    'leftPadding': 100\n  }\n}}%%\ngantt\n  title Tasks (T), Milestones (M), and Deliverables (D) for WP1\n  dateFormat  YYYY-MM-DD\n  axisFormat %Y\n  tickInterval 1year\n  todayMarker off\n  %% (`excludes` accepts specific dates in YYYY-MM-DD format, days of the week (\"sunday\") or \"weekends\", but not the word \"weekdays\".)\n\n  section Ongoing&lt;br&gt;activities\n  T4. Iterate and refine collaboration: imp_collab, 2025-09-01, 5y\n  T5. Develop project website: imp_proj_web, after collab_agree, 2030-01-01\n  T9. Develop research ops website: imp_reops_web, after consensus, 2030-01-01\n  T10. Maintain data infrastructure: imp_seedcase, after seedcase, 2030-01-01\n\n  section General&lt;br&gt;setup\n  T1. Establish working groups: wg, 2025-09-01, 2M\n  T2.  Decide on collaboration approaches: collab_agree, after wg, 10M\n  T3. Identify collaboration barriers: barriers, after wg, 10M\n  M1. Setup project website: milestone, web_proj, after barriers, 1M\n  D1. Collaboration workflow consensus report: milestone, consensus, after web_proj, 1M\n  M3. Webpage for research ops: milestone, web_reops, after web_proj, 1M\n\n  section WP2-linked&lt;br&gt;activities\n  T6. Setup collaboration workflow: collab_wp2, after web_proj, 6M\n  D1. R package infrastructure template: milestone, template_rpkg, 2026-06-01, 1M\n\n  section WP3-linked&lt;br&gt;activities\n  T7. Setup data engineering pipeline: de_wp3, after web_proj, 6M\n  D2. Data engineering pipeline report: milestone, der_wp3, after de_wp3, 1M\n  D3. Data Management Plan template: milestone, template_dmp, 2027-01-01, 1M\n  M4. Setup data infrastructure: milestone, seedcase, 2027-01-01, 1M\n\n  section WP4-linked&lt;br&gt;activities\n  M2. Setup knowledge repo: milestone, kr_wp4, after collab_agree, 1M\n  T8. Build knowledge dissemination pipeline: kmp_wp4, after kr_wp4, 6M\n\n\n\n\n\n\n\n\nFigure 1: Gantt chart showing some basic tasks, milestones, and deliverables for Work Package 1.",
-    "crumbs": [
-      "Overview",
-      "Roadmap"
-    ]
-  },
-  {
-    "objectID": "roadmap.html#deliverables",
-    "href": "roadmap.html#deliverables",
-    "title": "Roadmap",
-    "section": "Deliverables",
-    "text": "Deliverables\n\n\n\n\n\n\nReports\n\nConsensus document on agreed upon processes and workflows between WPs\nResearch operational management practices and processes employed in a large-scale multi-centered project: Future uses of using modern approaches to team-based research\nDP-Next as an open-access and secure Data Resource for broader re-use of collected data for researchers (using SDCA-developed, NNF-funded Seedcase software)\nChallenges and lessons learned in applying modern research ops and data engineering to a large-scale, multi-center project\n\n\n\nResources\n\nEach center has resources and workflows for conducting reproducible and modern register-based research using the Danish registers\nDP-Next data resource built from Seedcase software\nDP-Next project website, with all (internal and external) knowledge generated, including all code and documentation",
-    "crumbs": [
-      "Overview",
-      "Roadmap"
-    ]
-  },
-  {
-    "objectID": "roadmap.html#milestones",
-    "href": "roadmap.html#milestones",
-    "title": "Roadmap",
-    "section": "Milestones",
-    "text": "Milestones\n\nSetup project websites to host details and documents relevant to this project and it’s WPs\nSetup website to document and describe research operational practices used across Centers for easier sharing and onboarding\nOpen-source template Data Management Plan to use for WP3\nSetup research data infrastructure that supports adhering to open FAIR practices for ease of internal and external sharing of data for WP3 (using software built from NNF-funded project from SDCA called Seedcase: https://seedcase-project.org/)\nOpen-source templates for building software package/app for risk prediction engine from WP2",
-    "crumbs": [
-      "Overview",
-      "Roadmap"
-    ]
-  },
-  {
-    "objectID": "roadmap.html#sequence-of-outcomes",
-    "href": "roadmap.html#sequence-of-outcomes",
-    "title": "Roadmap",
-    "section": "Sequence of outcomes",
-    "text": "Sequence of outcomes\nNothing can be achieved immediately and everything takes time. By following our principles of “start with what we do now” and “make incremental and iterative improvements”, the below is a potential sequence of outcomes to get to where we’d like to be. These are in order of what we’d like to achieve first to last, focusing on achieving one outcome at a time. We’ll add to this as we go along, and update it as we’ve achieved each item.\n\nCollaborationContribution\n\n\n\nOnly use GitHub Issues for tasks, discussions, and general communication, so that all work is visible and tracked in one place.\nAlways refer to the GitHub Project board for the current status of the project or individual work packages, so everyone is aware of the current state of things.\nPut all work package specific or DP-Next wide events or meetings into the shared calendar (via Teamup).\nOnly use Discord and specific channels for work packages for communication and coordination.\n\n\n\n\nPut all content related to the project onto GitHub, at first at least as comments on GitHub Issues.\nWrite files in only Markdown (if text).\nWrite all code in R or Python.\nHave anything that isn’t private/secret/admin as a public (open) GitHub repository.\nInclude R or Python code into Markdown files (via Quarto).\nWrite R or Python code within a reproducible pipeline framework (e.g. targets for R).\nGenerate anything that isn’t private/secret/admin into websites.",
-    "crumbs": [
-      "Overview",
-      "Roadmap"
-    ]
-  },
-  {
-    "objectID": "decisions/index.html",
-    "href": "decisions/index.html",
-    "title": "Decisions",
-    "section": "",
-    "text": "Warning\n\n\n\n🚧 This website and documentation is still in very active development and evolving quickly, so content could undergo substantial changes at any time 🚧\nThis document lists “decisions records”, which are documents describing and justifying why we’ve made the decisions we have. We make heavy use of many of the same decisions as have been made in the Seedcase Project:",
-    "crumbs": [
-      "Design",
-      "Decisions"
-    ]
-  },
-  {
-    "objectID": "decisions/index.html#dp-next-specific-decisions",
-    "href": "decisions/index.html#dp-next-specific-decisions",
-    "title": "Decisions",
-    "section": "DP-Next specific decisions",
-    "text": "DP-Next specific decisions\n\n\n\n\n\n\nNote\n\n\n\nThese are decisions are being written.\n\nWhy Seedcase software (in progress)\nWhy open science (in progress)\nWhy reproducibility (in progress)\nWhy Zenodo (in progress)",
-    "crumbs": [
-      "Design",
-      "Decisions"
-    ]
-  },
-  {
-    "objectID": "groups.html",
-    "href": "groups.html",
-    "title": "Groups",
-    "section": "",
-    "text": "Warning\n\n\n\n🚧 This website and documentation is still in very active development and evolving quickly, so content could undergo substantial changes at any time 🚧\n\n\nManagement group\nThe project will be led by the principal investigator, with support from the co-applicants / Work Package leaders, who together form the management group. This group will be responsible for the overall coordination of the project and ensuring it’s successful completion.\n\n\nTechnical working group\nThe technical working group will be responsible for the more technical and practical aspects of the project, primarily being responsible for fulfilling the aims of Work Package 1. This group will, at a minimum, be composed of at least one person from each work package (and preferably in each Steno center to support our upskilling aims) who acts as a “tech lead” for that work package. This group will keep track of some day-to-day operations (“research operations”), identify ways to reduce technical barriers, improve on and support effective collaborative practices, as well as ensuring the research is reproducible and open.",
-    "crumbs": [
-      "Overview",
-      "Groups"
-    ]
-  },
-  {
     "objectID": "motivation.html",
     "href": "motivation.html",
     "title": "Motivation",
@@ -110,6 +33,16 @@
     ]
   },
   {
+    "objectID": "guide/index.html",
+    "href": "guide/index.html",
+    "title": "Guide",
+    "section": "",
+    "text": "Warning\n\n\n\n🚧 This website and documentation is still in very active development and evolving quickly, so content could undergo substantial changes at any time 🚧\n\nThis lists the different documents we have in this guide on working together.\n\n\n\n\n\n\n\n\n\n\n\nCollaborating\n\n\nA guide on how we collaborate together as a group on the DP-Next project. Mainly focused on the meetings related to Work Package 1 but can be used by all work packages.\n\n\n\n\n\n\n\n\n\nContributing\n\n\nA guide on how we agree to contribute content to the project.\n\n\n\n\n\nNo matching items",
+    "crumbs": [
+      "Guide"
+    ]
+  },
+  {
     "objectID": "risks.html",
     "href": "risks.html",
     "title": "Risks",
@@ -121,91 +54,39 @@
     ]
   },
   {
-    "objectID": "guide/contributing.html",
-    "href": "guide/contributing.html",
-    "title": "Contributing",
+    "objectID": "decisions/why-r-python/index.html",
+    "href": "decisions/why-r-python/index.html",
+    "title": "Why R and Python",
     "section": "",
-    "text": "Warning\n\n\n\n🚧 This website and documentation is still in very active development and evolving quickly, so content could undergo substantial changes at any time 🚧",
-    "crumbs": [
-      "Guide",
-      "Contributing"
-    ]
+    "text": "Warning\n\n\n\n🚧 This website and documentation is still in very active development and evolving quickly, so content could undergo substantial changes at any time 🚧"
   },
   {
-    "objectID": "guide/contributing.html#file-naming-conventions",
-    "href": "guide/contributing.html#file-naming-conventions",
-    "title": "Contributing",
-    "section": "File naming conventions",
-    "text": "File naming conventions\n\nPrefer using lower case letters for the name, e.g. contributing.qmd. But, some files follow a widely-used standard of being all upper case, e.g. README.md.\nUse either hyphens or underscores to separate words, e.g. contributing.qmd or contributing_record.qmd, but not spaces.\n\nSpaces can make things difficult to work with for some systems and programs. For instance, if we want to generate our files into a website, including spaces in the names can make it difficult to generate the URLs for the pages.\n\nPrefer simpler, shorter words than longer ones, e.g. contributing.qmd instead of how-to-contribute-to-the-project.qmd.\nAvoid using special characters, including Danish characters like æ, ø, and å. These can also make things difficult to work with for some systems.\nAvoid repeating the same word in the file name and the folder name, e.g. contributing/contributing-next-steps.qmd. Instead, use contributing/next-steps.qmd.",
-    "crumbs": [
-      "Guide",
-      "Contributing"
-    ]
+    "objectID": "decisions/why-r-python/index.html#context-and-problem-statement",
+    "href": "decisions/why-r-python/index.html#context-and-problem-statement",
+    "title": "Why R and Python",
+    "section": "Context and problem statement",
+    "text": "Context and problem statement\nDoing data analysis is part of the lifecycle of a research project. To achieve our reproducibility aim, we need to use tools that are code-based and not GUI-based since GUI-based tools are inherently difficult to make reproducible. Using an open source tool greatly simplifies the process of sharing and reproducing results. But for this decision post, we will compare closed sources tools as well. So we need to decide on the software we will use for data analysis. The question is:\nWhat is the best software we can use for data analysis for our purposes, principles, and aims?"
   },
   {
-    "objectID": "guide/contributing.html#writing",
-    "href": "guide/contributing.html#writing",
-    "title": "Contributing",
-    "section": "Writing",
-    "text": "Writing\n\nWrite content using Markdown and in files with either a .qmd (Quarto Markdown) or .md (Markdown) extension.",
-    "crumbs": [
-      "Guide",
-      "Contributing"
-    ]
+    "objectID": "decisions/why-r-python/index.html#decision-drivers",
+    "href": "decisions/why-r-python/index.html#decision-drivers",
+    "title": "Why R and Python",
+    "section": "Decision drivers",
+    "text": "Decision drivers\nThe main things driving this decision are:\n\nComparatively easy way to reproduce results we obtain.\nA tool we can all standardize on and use to help support each other and more effectively collaborate.\nA tool that is widely available and is installed or can easily be installed on our computers or servers (or already installed).\nStill needs to follow our core principles and aims.\nIs not a GUI-based tool.\nShould be relatively familiar to most of us or easy to learn."
   },
   {
-    "objectID": "guide/contributing.html#adding-content",
-    "href": "guide/contributing.html#adding-content",
-    "title": "Contributing",
-    "section": "Adding content",
-    "text": "Adding content\n\nPut everything on GitHub, either as an Issue, a comment in an Issue, or as files in the GitHub repositories.\nIf text documents that aren’t Markdown-based are added, we’ll (maybe automatically?) convert them to Markdown file and then delete the original file.",
-    "crumbs": [
-      "Guide",
-      "Contributing"
-    ]
+    "objectID": "decisions/why-r-python/index.html#considered-options",
+    "href": "decisions/why-r-python/index.html#considered-options",
+    "title": "Why R and Python",
+    "section": "Considered options",
+    "text": "Considered options\nBased on our context, question, and drivers, we will consider the following options:\n\nR\nPython\nSAS\nStata\n\nCommon GUI-based tools that are excluded from consideration are:\n\nJMP\nGraphPad Prism\nExcel\nSPSS\nTableau\nGoogle Sheets\n\n\nR\nR is an open-source programming language and software environment for statistical computing and graphics supported by the R Foundation for Statistical Computing. The R language is widely used among statisticians and data analysts for developing statistical methods and doing data analysis.\n\n\n\nBenefits\n\nWidely used in the research community\nMassive, friendly, and supportive community\nLarge number of packages, that can do nearly any task\nHas all the latest statistical methods that can be installed as packages\nHas a large number of resources and learning material to use (including the DDEA’s R courses that run every year)\nBeginner friendly data analysis tools via the tidyverse\nOpen source, free to use, easy to install\nBecause it is open source, it has more support with AI helper tools like ChatGPT or GitHub Copilot\nHas a lot of templating tools available to simplify many aspects of data analysis work through packages like usethis\n\n\n\n\nDrawbacks\n\nCan be difficult to learn, so has a steeper learning curve\nStill not as widely used in the research environment, at least the Danish context, as Stata, so doesn’t have as much institutional support\n\n\n\n\n\n\nPython\nPython is an interpreted, high-level, general-purpose programming language. Python’s design philosophy emphasizes code readability with its notable use of significant whitespace. Its language uses an object-oriented approach aim to help programmers write clear, logical code for small and large-scale projects. Because it is a general-purpose language, there are packages available for doing data analysis tasks.\n\n\n\nBenefits\n\nMassive community\nIs a general-purpose programming language, so can be used for more than just data analysis\nHas a large number of packages for many different programming tasks\nIs more commonly used in the data science and machine learning community\nHas all necessary machine learning models available as packages\nBecause it is open source, it has more support with AI helper tools like ChatGPT or GitHub Copilot\nOpen source, free to use, and easy to install\n\n\n\n\nDrawbacks\n\nBecause it is a more formal and general-purpose programming language, it can be more difficult to learn for non-software engineers/developers\nNot as many statistical packages as R\nNot as easy to get started and setup when first making a project (need to create virtual environments)\nCommunity, and thus the packages available, take a more “set it up yourself” approach to common tasks, which can be a major barrier to entry for beginners\nThere are less beginner-friendly or -focused resources and learning material available\nStill not as widely used in the research environment, at least the Danish context, as Stata, so doesn’t have as much institutional support\nThere are few in-person courses that teach Python for data analysis, at least within the Danish context\n\n\n\n\n\n\nSAS\nSAS is a software suite developed by SAS Institute for advanced analytics, multivariate analysis, business intelligence, data management, and predictive analytics. It is used for data management, business intelligence, predictive analysis, and more.\n\n\n\nBenefits\n\nWidely used in certain industries, such as the pharmaceutical industry, as well as some Danish research institutions like Denmark Statistics\nIs a very old language and so has many of the established statistical methods built-in\nAs it is a paid software, there is more personal support available\n\n\n\n\nDrawbacks\n\nIs closed source, so you need a license to install and use it, which makes it difficult to share and reproduce results\nWas designed in a different time period when software development practices were less advanced, so it’s language is less modern and more difficult to use\nNearly no new PhD student is familiar with SAS\nVery few courses teach SAS now\nBecause it is closed source, there is much less online and free resources for learning and using it\nBecause it is closed source, it has less support with AI helper tools like ChatGPT or GitHub Copilot\nThe whole ecosystem is closed, which means learning all the features only available through SAS\nBecause it is closed source, it is more difficult to integrate with other tools and software\n\n\n\n\n\n\nStata\nStata is a general-purpose statistical software package created by StataCorp. It is used by many researchers in the social sciences, public health, and economics.\n\n\n\nBenefits\n\nHas strong institutional support within Danish universities\nIs widely used in the research community, especially in the Danish context\nMany established researchers (in Denmark) are familiar with Stata\nHas many of the established statistical methods built-in\nWithin the Danish context, there are many courses at the university level that teach Stata\n\n\n\n\nDrawbacks\n\nHas all of the same drawbacks as SAS\nIn Denmark, fewer courses are teaching Stata compared to previous years"
   },
   {
-    "objectID": "guide/index.html",
-    "href": "guide/index.html",
-    "title": "Guide",
-    "section": "",
-    "text": "Warning\n\n\n\n🚧 This website and documentation is still in very active development and evolving quickly, so content could undergo substantial changes at any time 🚧\n\nThis lists the different documents we have in this guide on working together.\n\n\n\n\n\n\n\n\n\n\n\nCollaborating\n\n\nA guide on how we collaborate together as a group on the DP-Next project. Mainly focused on the meetings related to Work Package 1 but can be used by all work packages.\n\n\n\n\n\n\n\n\n\n\nContributing\n\n\nA guide on how we agree to contribute content to the project.\n\n\n\n\n\n\n\nNo matching items",
-    "crumbs": [
-      "Guide"
-    ]
-  },
-  {
-    "objectID": "guide/collaborating.html",
-    "href": "guide/collaborating.html",
-    "title": "Collaborating",
-    "section": "",
-    "text": "Warning\n\n\n\n🚧 This website and documentation is still in very active development and evolving quickly, so content could undergo substantial changes at any time 🚧",
-    "crumbs": [
-      "Guide",
-      "Collaborating"
-    ]
-  },
-  {
-    "objectID": "guide/collaborating.html#meetings",
-    "href": "guide/collaborating.html#meetings",
-    "title": "Collaborating",
-    "section": "Meetings",
-    "text": "Meetings\n\nCollaboration assessments\nEvery month we have a “collaboration-assessment” meeting. At the least, the tech leads and/or representatives from each work package need to attend, but it is open to anyone working on DP-Next. We follow the style of a meeting type called a “retrospective” that is also used in the Seedcase Project.\nDuring these meetings we discuss ways we can improve collaboration within and between work packages. The focus is mainly on collaboration practices, tools, and methods that could benefit the project as a whole or multiple work packages. We discuss what went well, what didn’t go well, and what we can improve. Then we create action items to address the issues we identified.\n\n\nUpdate meetings\nEvery week we have a very short “update” meeting. We follow the style used in the Seedcase Project. Briefly, during the meeting, we screenshare the project board and go over the tasks on the board that are at the “in-progress” state or later (e.g. “in review”). Each person gives an a very brief update on their tasks they’ve been working on since the last update meeting. Specific attention is given to tasks that have blocks or barriers to completion.",
-    "crumbs": [
-      "Guide",
-      "Collaborating"
-    ]
-  },
-  {
-    "objectID": "guide/collaborating.html#project-management-and-task-tracking",
-    "href": "guide/collaborating.html#project-management-and-task-tracking",
-    "title": "Collaborating",
-    "section": "Project management and task tracking",
-    "text": "Project management and task tracking\nEvery task that each person is working on is created on, tracked, and visible on the GitHub Project board. The board is divided into columns that represent the state of the task (e.g. “to do”, “in progress”, “in review”, “done”). The board is used to track the progress of the project and to identify bottlenecks or issues that need to be addressed, reviewed, or discussed. We also assign tasks to people on the board, which is shown on on the board itself to make it clear who is working on what.\nAll discussions happen on the GitHub issues, which are linked to the tasks on the board. These discussions are comments to the Issue, that way we keep all the information about a task in one place and so that others can participate in the discussion as well.",
-    "crumbs": [
-      "Guide",
-      "Collaborating"
-    ]
+    "objectID": "decisions/why-r-python/index.html#decision-outcome",
+    "href": "decisions/why-r-python/index.html#decision-outcome",
+    "title": "Why R and Python",
+    "section": "Decision outcome",
+    "text": "Decision outcome\nWe decided on using R for most of our data analysis tasks because of the benefits we listed above. It is also the tool most new PhD students are familiar with or learn to use during their studies. However, because of tools that make it very easy to mix R and Python code together, for instance with Quarto, we also decide to use Python for some tasks where it is more appropriate, such as with machine learning analyses.\n\nConsequences\n\nStata has been used, supported, taught, and recommended at institutional levels in Danish universities for many years, many established researchers will be more familiar with Stata. Because of this, we may initially need to do more onboarding and training for those working on DP-Next\nFew people may be familiar with mixing Python and R, so may need to do more onboarding and training on this"
   },
   {
     "objectID": "index.html",
@@ -257,11 +138,15 @@
     "text": "We aren’t just support, we are a core component of research\nWhile Work Package 1 forms the foundation to all work packages of DP-Next, and in many ways aims to support their success, our activities are an increasingly needed aspect of research throughout the world.\nSo, aside from completing the responsibilities and tasks we have for DP-Next, we also aim to produce tangible and usable deliverables that are independent and valuable on their own."
   },
   {
-    "objectID": "LICENSE.html",
-    "href": "LICENSE.html",
-    "title": "DP-Next: WP1",
+    "objectID": "groups.html",
+    "href": "groups.html",
+    "title": "Groups",
     "section": "",
-    "text": "Warning\n\n\n\n🚧 This website and documentation is still in very active development and evolving quickly, so content could undergo substantial changes at any time 🚧\n\nAttribution 4.0 International\n=======================================================================\nCreative Commons Corporation (“Creative Commons”) is not a law firm and does not provide legal services or legal advice. Distribution of Creative Commons public licenses does not create a lawyer-client or other relationship. Creative Commons makes its licenses and related information available on an “as-is” basis. Creative Commons gives no warranties regarding its licenses, any material licensed under their terms and conditions, or any related information. Creative Commons disclaims all liability for damages resulting from their use to the fullest extent possible.\nUsing Creative Commons Public Licenses\nCreative Commons public licenses provide a standard set of terms and conditions that creators and other rights holders may use to share original works of authorship and other material subject to copyright and certain other rights specified in the public license below. The following considerations are for informational purposes only, are not exhaustive, and do not form part of our licenses.\n Considerations for licensors: Our public licenses are\n intended for use by those authorized to give the public\n permission to use material in ways otherwise restricted by\n copyright and certain other rights. Our licenses are\n irrevocable. Licensors should read and understand the terms\n and conditions of the license they choose before applying it.\n Licensors should also secure all rights necessary before\n applying our licenses so that the public can reuse the\n material as expected. Licensors should clearly mark any\n material not subject to the license. This includes other CC-\n licensed material, or material used under an exception or\n limitation to copyright. More considerations for licensors:\n wiki.creativecommons.org/Considerations_for_licensors\n\n Considerations for the public: By using one of our public\n licenses, a licensor grants the public permission to use the\n licensed material under specified terms and conditions. If\n the licensor's permission is not necessary for any reason--for\n example, because of any applicable exception or limitation to\n copyright--then that use is not regulated by the license. Our\n licenses grant only permissions under copyright and certain\n other rights that a licensor has authority to grant. Use of\n the licensed material may still be restricted for other\n reasons, including because others have copyright or other\n rights in the material. A licensor may make special requests,\n such as asking that all changes be marked or described.\n Although not required by our licenses, you are encouraged to\n respect those requests where reasonable. More considerations\n for the public:\n wiki.creativecommons.org/Considerations_for_licensees\n=======================================================================\nCreative Commons Attribution 4.0 International Public License\nBy exercising the Licensed Rights (defined below), You accept and agree to be bound by the terms and conditions of this Creative Commons Attribution 4.0 International Public License (“Public License”). To the extent this Public License may be interpreted as a contract, You are granted the Licensed Rights in consideration of Your acceptance of these terms and conditions, and the Licensor grants You such rights in consideration of benefits the Licensor receives from making the Licensed Material available under these terms and conditions.\nSection 1 – Definitions.\n\nAdapted Material means material subject to Copyright and Similar Rights that is derived from or based upon the Licensed Material and in which the Licensed Material is translated, altered, arranged, transformed, or otherwise modified in a manner requiring permission under the Copyright and Similar Rights held by the Licensor. For purposes of this Public License, where the Licensed Material is a musical work, performance, or sound recording, Adapted Material is always produced where the Licensed Material is synched in timed relation with a moving image.\nAdapter’s License means the license You apply to Your Copyright and Similar Rights in Your contributions to Adapted Material in accordance with the terms and conditions of this Public License.\nCopyright and Similar Rights means copyright and/or similar rights closely related to copyright including, without limitation, performance, broadcast, sound recording, and Sui Generis Database Rights, without regard to how the rights are labeled or categorized. For purposes of this Public License, the rights specified in Section 2(b)(1)-(2) are not Copyright and Similar Rights.\nEffective Technological Measures means those measures that, in the absence of proper authority, may not be circumvented under laws fulfilling obligations under Article 11 of the WIPO Copyright Treaty adopted on December 20, 1996, and/or similar international agreements.\nExceptions and Limitations means fair use, fair dealing, and/or any other exception or limitation to Copyright and Similar Rights that applies to Your use of the Licensed Material.\nLicensed Material means the artistic or literary work, database, or other material to which the Licensor applied this Public License.\nLicensed Rights means the rights granted to You subject to the terms and conditions of this Public License, which are limited to all Copyright and Similar Rights that apply to Your use of the Licensed Material and that the Licensor has authority to license.\nLicensor means the individual(s) or entity(ies) granting rights under this Public License.\nShare means to provide material to the public by any means or process that requires permission under the Licensed Rights, such as reproduction, public display, public performance, distribution, dissemination, communication, or importation, and to make material available to the public including in ways that members of the public may access the material from a place and at a time individually chosen by them.\nSui Generis Database Rights means rights other than copyright resulting from Directive 96/9/EC of the European Parliament and of the Council of 11 March 1996 on the legal protection of databases, as amended and/or succeeded, as well as other essentially equivalent rights anywhere in the world.\nYou means the individual or entity exercising the Licensed Rights under this Public License. Your has a corresponding meaning.\n\nSection 2 – Scope.\n\nLicense grant.\n\nSubject to the terms and conditions of this Public License, the Licensor hereby grants You a worldwide, royalty-free, non-sublicensable, non-exclusive, irrevocable license to exercise the Licensed Rights in the Licensed Material to:\n\nreproduce and Share the Licensed Material, in whole or in part; and\nproduce, reproduce, and Share Adapted Material.\n\nExceptions and Limitations. For the avoidance of doubt, where Exceptions and Limitations apply to Your use, this Public License does not apply, and You do not need to comply with its terms and conditions.\nTerm. The term of this Public License is specified in Section 6(a).\nMedia and formats; technical modifications allowed. The Licensor authorizes You to exercise the Licensed Rights in all media and formats whether now known or hereafter created, and to make technical modifications necessary to do so. The Licensor waives and/or agrees not to assert any right or authority to forbid You from making technical modifications necessary to exercise the Licensed Rights, including technical modifications necessary to circumvent Effective Technological Measures. For purposes of this Public License, simply making modifications authorized by this Section 2(a)\n\nnever produces Adapted Material.\n\nDownstream recipients.\n\nOffer from the Licensor – Licensed Material. Every recipient of the Licensed Material automatically receives an offer from the Licensor to exercise the Licensed Rights under the terms and conditions of this Public License.\nNo downstream restrictions. You may not offer or impose any additional or different terms or conditions on, or apply any Effective Technological Measures to, the Licensed Material if doing so restricts exercise of the Licensed Rights by any recipient of the Licensed Material.\n\nNo endorsement. Nothing in this Public License constitutes or may be construed as permission to assert or imply that You are, or that Your use of the Licensed Material is, connected with, or sponsored, endorsed, or granted official status by, the Licensor or others designated to receive attribution as provided in Section 3(a)(1)(A)(i).\n\nOther rights.\n\nMoral rights, such as the right of integrity, are not licensed under this Public License, nor are publicity, privacy, and/or other similar personality rights; however, to the extent possible, the Licensor waives and/or agrees not to assert any such rights held by the Licensor to the limited extent necessary to allow You to exercise the Licensed Rights, but not otherwise.\nPatent and trademark rights are not licensed under this Public License.\nTo the extent possible, the Licensor waives any right to collect royalties from You for the exercise of the Licensed Rights, whether directly or through a collecting society under any voluntary or waivable statutory or compulsory licensing scheme. In all other cases the Licensor expressly reserves any right to collect such royalties.\n\n\nSection 3 – License Conditions.\nYour exercise of the Licensed Rights is expressly made subject to the following conditions.\n\nAttribution.\n\nIf You Share the Licensed Material (including in modified form), You must:\n\nretain the following if it is supplied by the Licensor with the Licensed Material:\n\nidentification of the creator(s) of the Licensed Material and any others designated to receive attribution, in any reasonable manner requested by the Licensor (including by pseudonym if designated);\na copyright notice;\na notice that refers to this Public License;\na notice that refers to the disclaimer of warranties;\na URI or hyperlink to the Licensed Material to the extent reasonably practicable;\n\nindicate if You modified the Licensed Material and retain an indication of any previous modifications; and\nindicate the Licensed Material is licensed under this Public License, and include the text of, or the URI or hyperlink to, this Public License.\n\nYou may satisfy the conditions in Section 3(a)(1) in any reasonable manner based on the medium, means, and context in which You Share the Licensed Material. For example, it may be reasonable to satisfy the conditions by providing a URI or hyperlink to a resource that includes the required information.\nIf requested by the Licensor, You must remove any of the information required by Section 3(a)(1)(A) to the extent reasonably practicable.\nIf You Share Adapted Material You produce, the Adapter’s License You apply must not prevent recipients of the Adapted Material from complying with this Public License.\n\n\nSection 4 – Sui Generis Database Rights.\nWhere the Licensed Rights include Sui Generis Database Rights that apply to Your use of the Licensed Material:\n\nfor the avoidance of doubt, Section 2(a)(1) grants You the right to extract, reuse, reproduce, and Share all or a substantial portion of the contents of the database;\nif You include all or a substantial portion of the database contents in a database in which You have Sui Generis Database Rights, then the database in which You have Sui Generis Database Rights (but not its individual contents) is Adapted Material; and\nYou must comply with the conditions in Section 3(a) if You Share all or a substantial portion of the contents of the database.\n\nFor the avoidance of doubt, this Section 4 supplements and does not replace Your obligations under this Public License where the Licensed Rights include other Copyright and Similar Rights.\nSection 5 – Disclaimer of Warranties and Limitation of Liability.\n\nUNLESS OTHERWISE SEPARATELY UNDERTAKEN BY THE LICENSOR, TO THE EXTENT POSSIBLE, THE LICENSOR OFFERS THE LICENSED MATERIAL AS-IS AND AS-AVAILABLE, AND MAKES NO REPRESENTATIONS OR WARRANTIES OF ANY KIND CONCERNING THE LICENSED MATERIAL, WHETHER EXPRESS, IMPLIED, STATUTORY, OR OTHER. THIS INCLUDES, WITHOUT LIMITATION, WARRANTIES OF TITLE, MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, NON-INFRINGEMENT, ABSENCE OF LATENT OR OTHER DEFECTS, ACCURACY, OR THE PRESENCE OR ABSENCE OF ERRORS, WHETHER OR NOT KNOWN OR DISCOVERABLE. WHERE DISCLAIMERS OF WARRANTIES ARE NOT ALLOWED IN FULL OR IN PART, THIS DISCLAIMER MAY NOT APPLY TO YOU.\nTO THE EXTENT POSSIBLE, IN NO EVENT WILL THE LICENSOR BE LIABLE TO YOU ON ANY LEGAL THEORY (INCLUDING, WITHOUT LIMITATION, NEGLIGENCE) OR OTHERWISE FOR ANY DIRECT, SPECIAL, INDIRECT, INCIDENTAL, CONSEQUENTIAL, PUNITIVE, EXEMPLARY, OR OTHER LOSSES, COSTS, EXPENSES, OR DAMAGES ARISING OUT OF THIS PUBLIC LICENSE OR USE OF THE LICENSED MATERIAL, EVEN IF THE LICENSOR HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH LOSSES, COSTS, EXPENSES, OR DAMAGES. WHERE A LIMITATION OF LIABILITY IS NOT ALLOWED IN FULL OR IN PART, THIS LIMITATION MAY NOT APPLY TO YOU.\nThe disclaimer of warranties and limitation of liability provided above shall be interpreted in a manner that, to the extent possible, most closely approximates an absolute disclaimer and waiver of all liability.\n\nSection 6 – Term and Termination.\n\nThis Public License applies for the term of the Copyright and Similar Rights licensed here. However, if You fail to comply with this Public License, then Your rights under this Public License terminate automatically.\nWhere Your right to use the Licensed Material has terminated under Section 6(a), it reinstates:\n\nautomatically as of the date the violation is cured, provided it is cured within 30 days of Your discovery of the violation; or\nupon express reinstatement by the Licensor.\n\nFor the avoidance of doubt, this Section 6(b) does not affect any right the Licensor may have to seek remedies for Your violations of this Public License.\nFor the avoidance of doubt, the Licensor may also offer the Licensed Material under separate terms or conditions or stop distributing the Licensed Material at any time; however, doing so will not terminate this Public License.\nSections 1, 5, 6, 7, and 8 survive termination of this Public License.\n\nSection 7 – Other Terms and Conditions.\n\nThe Licensor shall not be bound by any additional or different terms or conditions communicated by You unless expressly agreed.\nAny arrangements, understandings, or agreements regarding the Licensed Material not stated herein are separate from and independent of the terms and conditions of this Public License.\n\nSection 8 – Interpretation.\n\nFor the avoidance of doubt, this Public License does not, and shall not be interpreted to, reduce, limit, restrict, or impose conditions on any use of the Licensed Material that could lawfully be made without permission under this Public License.\nTo the extent possible, if any provision of this Public License is deemed unenforceable, it shall be automatically reformed to the minimum extent necessary to make it enforceable. If the provision cannot be reformed, it shall be severed from this Public License without affecting the enforceability of the remaining terms and conditions.\nNo term or condition of this Public License will be waived and no failure to comply consented to unless expressly agreed to by the Licensor.\nNothing in this Public License constitutes or may be interpreted as a limitation upon, or waiver of, any privileges and immunities that apply to the Licensor or You, including from the legal processes of any jurisdiction or authority.\n\n=======================================================================\nCreative Commons is not a party to its public licenses. Notwithstanding, Creative Commons may elect to apply one of its public licenses to material it publishes and in those instances will be considered the “Licensor.” The text of the Creative Commons public licenses is dedicated to the public domain under the CC0 Public Domain Dedication. Except for the limited purpose of indicating that material is shared under a Creative Commons public license or as otherwise permitted by the Creative Commons policies published at creativecommons.org/policies, Creative Commons does not authorize the use of the trademark “Creative Commons” or any other trademark or logo of Creative Commons without its prior written consent including, without limitation, in connection with any unauthorized modifications to any of its public licenses or any other arrangements, understandings, or agreements concerning use of licensed material. For the avoidance of doubt, this paragraph does not form part of the public licenses.\nCreative Commons may be contacted at creativecommons.org."
+    "text": "Warning\n\n\n\n🚧 This website and documentation is still in very active development and evolving quickly, so content could undergo substantial changes at any time 🚧\n\n\nManagement group\nThe project will be led by the principal investigator, with support from the co-applicants / Work Package leaders, who together form the management group. This group will be responsible for the overall coordination of the project and ensuring it’s successful completion.\n\n\nTechnical working group\nThe technical working group will be responsible for the more technical and practical aspects of the project, primarily being responsible for fulfilling the aims of Work Package 1. This group will, at a minimum, be composed of at least one person from each work package (and preferably in each Steno center to support our upskilling aims) who acts as a “tech lead” for that work package. This group will keep track of some day-to-day operations (“research operations”), identify ways to reduce technical barriers, improve on and support effective collaborative practices, as well as ensuring the research is reproducible and open.",
+    "crumbs": [
+      "Overview",
+      "Groups"
+    ]
   },
   {
     "objectID": "design.html",
@@ -314,41 +199,6 @@
     ]
   },
   {
-    "objectID": "decisions/why-r-python/index.html",
-    "href": "decisions/why-r-python/index.html",
-    "title": "Why R and Python",
-    "section": "",
-    "text": "Warning\n\n\n\n🚧 This website and documentation is still in very active development and evolving quickly, so content could undergo substantial changes at any time 🚧"
-  },
-  {
-    "objectID": "decisions/why-r-python/index.html#context-and-problem-statement",
-    "href": "decisions/why-r-python/index.html#context-and-problem-statement",
-    "title": "Why R and Python",
-    "section": "Context and problem statement",
-    "text": "Context and problem statement\nDoing data analysis is part of the lifecycle of a research project. To achieve our reproducibility aim, we need to use tools that are code-based and not GUI-based since GUI-based tools are inherently difficult to make reproducible. Using an open source tool greatly simplifies the process of sharing and reproducing results. But for this decision post, we will compare closed sources tools as well. So we need to decide on the software we will use for data analysis. The question is:\nWhat is the best software we can use for data analysis for our purposes, principles, and aims?"
-  },
-  {
-    "objectID": "decisions/why-r-python/index.html#decision-drivers",
-    "href": "decisions/why-r-python/index.html#decision-drivers",
-    "title": "Why R and Python",
-    "section": "Decision drivers",
-    "text": "Decision drivers\nThe main things driving this decision are:\n\nComparatively easy way to reproduce results we obtain.\nA tool we can all standardize on and use to help support each other and more effectively collaborate.\nA tool that is widely available and is installed or can easily be installed on our computers or servers (or already installed).\nStill needs to follow our core principles and aims.\nIs not a GUI-based tool.\nShould be relatively familiar to most of us or easy to learn."
-  },
-  {
-    "objectID": "decisions/why-r-python/index.html#considered-options",
-    "href": "decisions/why-r-python/index.html#considered-options",
-    "title": "Why R and Python",
-    "section": "Considered options",
-    "text": "Considered options\nBased on our context, question, and drivers, we will consider the following options:\n\nR\nPython\nSAS\nStata\n\nCommon GUI-based tools that are excluded from consideration are:\n\nJMP\nGraphPad Prism\nExcel\nSPSS\nTableau\nGoogle Sheets\n\n\nR\nR is an open-source programming language and software environment for statistical computing and graphics supported by the R Foundation for Statistical Computing. The R language is widely used among statisticians and data analysts for developing statistical methods and doing data analysis.\n\n\n\nBenefits\n\nWidely used in the research community\nMassive, friendly, and supportive community\nLarge number of packages, that can do nearly any task\nHas all the latest statistical methods that can be installed as packages\nHas a large number of resources and learning material to use (including the DDEA’s R courses that run every year)\nBeginner friendly data analysis tools via the tidyverse\nOpen source, free to use, easy to install\nBecause it is open source, it has more support with AI helper tools like ChatGPT or GitHub Copilot\nHas a lot of templating tools available to simplify many aspects of data analysis work through packages like usethis\n\n\n\n\nDrawbacks\n\nCan be difficult to learn, so has a steeper learning curve\nStill not as widely used in the research environment, at least the Danish context, as Stata, so doesn’t have as much institutional support\n\n\n\n\n\n\nPython\nPython is an interpreted, high-level, general-purpose programming language. Python’s design philosophy emphasizes code readability with its notable use of significant whitespace. Its language uses an object-oriented approach aim to help programmers write clear, logical code for small and large-scale projects. Because it is a general-purpose language, there are packages available for doing data analysis tasks.\n\n\n\nBenefits\n\nMassive community\nIs a general-purpose programming language, so can be used for more than just data analysis\nHas a large number of packages for many different programming tasks\nIs more commonly used in the data science and machine learning community\nHas all necessary machine learning models available as packages\nBecause it is open source, it has more support with AI helper tools like ChatGPT or GitHub Copilot\nOpen source, free to use, and easy to install\n\n\n\n\nDrawbacks\n\nBecause it is a more formal and general-purpose programming language, it can be more difficult to learn for non-software engineers/developers\nNot as many statistical packages as R\nNot as easy to get started and setup when first making a project (need to create virtual environments)\nCommunity, and thus the packages available, take a more “set it up yourself” approach to common tasks, which can be a major barrier to entry for beginners\nThere are less beginner-friendly or -focused resources and learning material available\nStill not as widely used in the research environment, at least the Danish context, as Stata, so doesn’t have as much institutional support\nThere are few in-person courses that teach Python for data analysis, at least within the Danish context\n\n\n\n\n\n\nSAS\nSAS is a software suite developed by SAS Institute for advanced analytics, multivariate analysis, business intelligence, data management, and predictive analytics. It is used for data management, business intelligence, predictive analysis, and more.\n\n\n\nBenefits\n\nWidely used in certain industries, such as the pharmaceutical industry, as well as some Danish research institutions like Denmark Statistics\nIs a very old language and so has many of the established statistical methods built-in\nAs it is a paid software, there is more personal support available\n\n\n\n\nDrawbacks\n\nIs closed source, so you need a license to install and use it, which makes it difficult to share and reproduce results\nWas designed in a different time period when software development practices were less advanced, so it’s language is less modern and more difficult to use\nNearly no new PhD student is familiar with SAS\nVery few courses teach SAS now\nBecause it is closed source, there is much less online and free resources for learning and using it\nBecause it is closed source, it has less support with AI helper tools like ChatGPT or GitHub Copilot\nThe whole ecosystem is closed, which means learning all the features only available through SAS\nBecause it is closed source, it is more difficult to integrate with other tools and software\n\n\n\n\n\n\nStata\nStata is a general-purpose statistical software package created by StataCorp. It is used by many researchers in the social sciences, public health, and economics.\n\n\n\nBenefits\n\nHas strong institutional support within Danish universities\nIs widely used in the research community, especially in the Danish context\nMany established researchers (in Denmark) are familiar with Stata\nHas many of the established statistical methods built-in\nWithin the Danish context, there are many courses at the university level that teach Stata\n\n\n\n\nDrawbacks\n\nHas all of the same drawbacks as SAS\nIn Denmark, fewer courses are teaching Stata compared to previous years"
-  },
-  {
-    "objectID": "decisions/why-r-python/index.html#decision-outcome",
-    "href": "decisions/why-r-python/index.html#decision-outcome",
-    "title": "Why R and Python",
-    "section": "Decision outcome",
-    "text": "Decision outcome\nWe decided on using R for most of our data analysis tasks because of the benefits we listed above. It is also the tool most new PhD students are familiar with or learn to use during their studies. However, because of tools that make it very easy to mix R and Python code together, for instance with Quarto, we also decide to use Python for some tasks where it is more appropriate, such as with machine learning analyses.\n\nConsequences\n\nStata has been used, supported, taught, and recommended at institutional levels in Danish universities for many years, many established researchers will be more familiar with Stata. Because of this, we may initially need to do more onboarding and training for those working on DP-Next\nFew people may be familiar with mixing Python and R, so may need to do more onboarding and training on this"
-  },
-  {
     "objectID": "strategy.html",
     "href": "strategy.html",
     "title": "Strategy",
@@ -379,6 +229,156 @@
     "crumbs": [
       "Overview",
       "Strategy"
+    ]
+  },
+  {
+    "objectID": "roadmap.html",
+    "href": "roadmap.html",
+    "title": "Roadmap",
+    "section": "",
+    "text": "Warning\n\n\n\n🚧 This website and documentation is still in very active development and evolving quickly, so content could undergo substantial changes at any time 🚧\nThis document covers the plan for Work Package 1. While the Gantt charts display an overview of the project, the sections below on milestones and deliverables provide more detailed information than what can be put on the charts.\n%%{init: {\n  'gantt': {\n    'barHeight': 25,\n    'leftPadding': 100\n  }\n}}%%\ngantt\n  title Tasks (T), Milestones (M), and Deliverables (D) for WP1\n  dateFormat  YYYY-MM-DD\n  axisFormat %Y\n  tickInterval 1year\n  todayMarker off\n  %% (`excludes` accepts specific dates in YYYY-MM-DD format, days of the week (\"sunday\") or \"weekends\", but not the word \"weekdays\".)\n\n  section Ongoing&lt;br&gt;activities\n  T4. Iterate and refine collaboration: imp_collab, 2025-09-01, 5y\n  T5. Develop project website: imp_proj_web, after collab_agree, 2030-01-01\n  T9. Develop research ops website: imp_reops_web, after consensus, 2030-01-01\n  T10. Maintain data infrastructure: imp_seedcase, after seedcase, 2030-01-01\n\n  section General&lt;br&gt;setup\n  T1. Establish working groups: wg, 2025-09-01, 2M\n  T2.  Decide on collaboration approaches: collab_agree, after wg, 10M\n  T3. Identify collaboration barriers: barriers, after wg, 10M\n  M1. Setup project website: milestone, web_proj, after barriers, 1M\n  D1. Collaboration workflow consensus report: milestone, consensus, after web_proj, 1M\n  M3. Webpage for research ops: milestone, web_reops, after web_proj, 1M\n\n  section WP2-linked&lt;br&gt;activities\n  T6. Setup collaboration workflow: collab_wp2, after web_proj, 6M\n  D1. R package infrastructure template: milestone, template_rpkg, 2026-06-01, 1M\n\n  section WP3-linked&lt;br&gt;activities\n  T7. Setup data engineering pipeline: de_wp3, after web_proj, 6M\n  D2. Data engineering pipeline report: milestone, der_wp3, after de_wp3, 1M\n  D3. Data Management Plan template: milestone, template_dmp, 2027-01-01, 1M\n  M4. Setup data infrastructure: milestone, seedcase, 2027-01-01, 1M\n\n  section WP4-linked&lt;br&gt;activities\n  M2. Setup knowledge repo: milestone, kr_wp4, after collab_agree, 1M\n  T8. Build knowledge dissemination pipeline: kmp_wp4, after kr_wp4, 6M\n\n\n\n\nFigure 1: Gantt chart showing some basic tasks, milestones, and deliverables for Work Package 1.",
+    "crumbs": [
+      "Overview",
+      "Roadmap"
+    ]
+  },
+  {
+    "objectID": "roadmap.html#deliverables",
+    "href": "roadmap.html#deliverables",
+    "title": "Roadmap",
+    "section": "Deliverables",
+    "text": "Deliverables\n\n\n\nReports\n\nConsensus document on agreed upon processes and workflows between WPs\nResearch operational management practices and processes employed in a large-scale multi-centered project: Future uses of using modern approaches to team-based research\nDP-Next as an open-access and secure Data Resource for broader re-use of collected data for researchers (using SDCA-developed, NNF-funded Seedcase software)\nChallenges and lessons learned in applying modern research ops and data engineering to a large-scale, multi-center project\n\n\n\nResources\n\nEach center has resources and workflows for conducting reproducible and modern register-based research using the Danish registers\nDP-Next data resource built from Seedcase software\nDP-Next project website, with all (internal and external) knowledge generated, including all code and documentation",
+    "crumbs": [
+      "Overview",
+      "Roadmap"
+    ]
+  },
+  {
+    "objectID": "roadmap.html#milestones",
+    "href": "roadmap.html#milestones",
+    "title": "Roadmap",
+    "section": "Milestones",
+    "text": "Milestones\n\nSetup project websites to host details and documents relevant to this project and it’s WPs\nSetup website to document and describe research operational practices used across Centers for easier sharing and onboarding\nOpen-source template Data Management Plan to use for WP3\nSetup research data infrastructure that supports adhering to open FAIR practices for ease of internal and external sharing of data for WP3 (using software built from NNF-funded project from SDCA called Seedcase: https://seedcase-project.org/)\nOpen-source templates for building software package/app for risk prediction engine from WP2",
+    "crumbs": [
+      "Overview",
+      "Roadmap"
+    ]
+  },
+  {
+    "objectID": "roadmap.html#sequence-of-outcomes",
+    "href": "roadmap.html#sequence-of-outcomes",
+    "title": "Roadmap",
+    "section": "Sequence of outcomes",
+    "text": "Sequence of outcomes\nNothing can be achieved immediately and everything takes time. By following our principles of “start with what we do now” and “make incremental and iterative improvements”, the below is a potential sequence of outcomes to get to where we’d like to be. These are in order of what we’d like to achieve first to last, focusing on achieving one outcome at a time. We’ll add to this as we go along, and update it as we’ve achieved each item.\n\nCollaborationContribution\n\n\n\nOnly use GitHub Issues for tasks, discussions, and general communication, so that all work is visible and tracked in one place.\nAlways refer to the GitHub Project board for the current status of the project or individual work packages, so everyone is aware of the current state of things.\nPut all work package specific or DP-Next wide events or meetings into the shared calendar (via Teamup).\nOnly use Discord and specific channels for work packages for communication and coordination.\n\n\n\n\nPut all content related to the project onto GitHub, at first at least as comments on GitHub Issues.\nWrite files in only Markdown (if text).\nWrite all code in R or Python.\nHave anything that isn’t private/secret/admin as a public (open) GitHub repository.\nInclude R or Python code into Markdown files (via Quarto).\nWrite R or Python code within a reproducible pipeline framework (e.g. targets for R).\nGenerate anything that isn’t private/secret/admin into websites.",
+    "crumbs": [
+      "Overview",
+      "Roadmap"
+    ]
+  },
+  {
+    "objectID": "decisions/index.html",
+    "href": "decisions/index.html",
+    "title": "Decisions",
+    "section": "",
+    "text": "Warning\n\n\n\n🚧 This website and documentation is still in very active development and evolving quickly, so content could undergo substantial changes at any time 🚧\nThis document lists “decisions records”, which are documents describing and justifying why we’ve made the decisions we have. We make heavy use of many of the same decisions as have been made in the Seedcase Project:",
+    "crumbs": [
+      "Design",
+      "Decisions"
+    ]
+  },
+  {
+    "objectID": "decisions/index.html#dp-next-specific-decisions",
+    "href": "decisions/index.html#dp-next-specific-decisions",
+    "title": "Decisions",
+    "section": "DP-Next specific decisions",
+    "text": "DP-Next specific decisions\n\n\n\n\n\n\nNote\n\n\n\nThese are decisions are being written.\n\nWhy Seedcase software (in progress)\nWhy open science (in progress)\nWhy reproducibility (in progress)\nWhy Zenodo (in progress)",
+    "crumbs": [
+      "Design",
+      "Decisions"
+    ]
+  },
+  {
+    "objectID": "LICENSE.html",
+    "href": "LICENSE.html",
+    "title": "DP-Next: WP1",
+    "section": "",
+    "text": "Warning\n\n\n\n🚧 This website and documentation is still in very active development and evolving quickly, so content could undergo substantial changes at any time 🚧\n\nAttribution 4.0 International\n=======================================================================\nCreative Commons Corporation (“Creative Commons”) is not a law firm and does not provide legal services or legal advice. Distribution of Creative Commons public licenses does not create a lawyer-client or other relationship. Creative Commons makes its licenses and related information available on an “as-is” basis. Creative Commons gives no warranties regarding its licenses, any material licensed under their terms and conditions, or any related information. Creative Commons disclaims all liability for damages resulting from their use to the fullest extent possible.\nUsing Creative Commons Public Licenses\nCreative Commons public licenses provide a standard set of terms and conditions that creators and other rights holders may use to share original works of authorship and other material subject to copyright and certain other rights specified in the public license below. The following considerations are for informational purposes only, are not exhaustive, and do not form part of our licenses.\n Considerations for licensors: Our public licenses are\n intended for use by those authorized to give the public\n permission to use material in ways otherwise restricted by\n copyright and certain other rights. Our licenses are\n irrevocable. Licensors should read and understand the terms\n and conditions of the license they choose before applying it.\n Licensors should also secure all rights necessary before\n applying our licenses so that the public can reuse the\n material as expected. Licensors should clearly mark any\n material not subject to the license. This includes other CC-\n licensed material, or material used under an exception or\n limitation to copyright. More considerations for licensors:\n wiki.creativecommons.org/Considerations_for_licensors\n\n Considerations for the public: By using one of our public\n licenses, a licensor grants the public permission to use the\n licensed material under specified terms and conditions. If\n the licensor's permission is not necessary for any reason--for\n example, because of any applicable exception or limitation to\n copyright--then that use is not regulated by the license. Our\n licenses grant only permissions under copyright and certain\n other rights that a licensor has authority to grant. Use of\n the licensed material may still be restricted for other\n reasons, including because others have copyright or other\n rights in the material. A licensor may make special requests,\n such as asking that all changes be marked or described.\n Although not required by our licenses, you are encouraged to\n respect those requests where reasonable. More considerations\n for the public:\n wiki.creativecommons.org/Considerations_for_licensees\n=======================================================================\nCreative Commons Attribution 4.0 International Public License\nBy exercising the Licensed Rights (defined below), You accept and agree to be bound by the terms and conditions of this Creative Commons Attribution 4.0 International Public License (“Public License”). To the extent this Public License may be interpreted as a contract, You are granted the Licensed Rights in consideration of Your acceptance of these terms and conditions, and the Licensor grants You such rights in consideration of benefits the Licensor receives from making the Licensed Material available under these terms and conditions.\nSection 1 – Definitions.\n\nAdapted Material means material subject to Copyright and Similar Rights that is derived from or based upon the Licensed Material and in which the Licensed Material is translated, altered, arranged, transformed, or otherwise modified in a manner requiring permission under the Copyright and Similar Rights held by the Licensor. For purposes of this Public License, where the Licensed Material is a musical work, performance, or sound recording, Adapted Material is always produced where the Licensed Material is synched in timed relation with a moving image.\nAdapter’s License means the license You apply to Your Copyright and Similar Rights in Your contributions to Adapted Material in accordance with the terms and conditions of this Public License.\nCopyright and Similar Rights means copyright and/or similar rights closely related to copyright including, without limitation, performance, broadcast, sound recording, and Sui Generis Database Rights, without regard to how the rights are labeled or categorized. For purposes of this Public License, the rights specified in Section 2(b)(1)-(2) are not Copyright and Similar Rights.\nEffective Technological Measures means those measures that, in the absence of proper authority, may not be circumvented under laws fulfilling obligations under Article 11 of the WIPO Copyright Treaty adopted on December 20, 1996, and/or similar international agreements.\nExceptions and Limitations means fair use, fair dealing, and/or any other exception or limitation to Copyright and Similar Rights that applies to Your use of the Licensed Material.\nLicensed Material means the artistic or literary work, database, or other material to which the Licensor applied this Public License.\nLicensed Rights means the rights granted to You subject to the terms and conditions of this Public License, which are limited to all Copyright and Similar Rights that apply to Your use of the Licensed Material and that the Licensor has authority to license.\nLicensor means the individual(s) or entity(ies) granting rights under this Public License.\nShare means to provide material to the public by any means or process that requires permission under the Licensed Rights, such as reproduction, public display, public performance, distribution, dissemination, communication, or importation, and to make material available to the public including in ways that members of the public may access the material from a place and at a time individually chosen by them.\nSui Generis Database Rights means rights other than copyright resulting from Directive 96/9/EC of the European Parliament and of the Council of 11 March 1996 on the legal protection of databases, as amended and/or succeeded, as well as other essentially equivalent rights anywhere in the world.\nYou means the individual or entity exercising the Licensed Rights under this Public License. Your has a corresponding meaning.\n\nSection 2 – Scope.\n\nLicense grant.\n\nSubject to the terms and conditions of this Public License, the Licensor hereby grants You a worldwide, royalty-free, non-sublicensable, non-exclusive, irrevocable license to exercise the Licensed Rights in the Licensed Material to:\n\nreproduce and Share the Licensed Material, in whole or in part; and\nproduce, reproduce, and Share Adapted Material.\n\nExceptions and Limitations. For the avoidance of doubt, where Exceptions and Limitations apply to Your use, this Public License does not apply, and You do not need to comply with its terms and conditions.\nTerm. The term of this Public License is specified in Section 6(a).\nMedia and formats; technical modifications allowed. The Licensor authorizes You to exercise the Licensed Rights in all media and formats whether now known or hereafter created, and to make technical modifications necessary to do so. The Licensor waives and/or agrees not to assert any right or authority to forbid You from making technical modifications necessary to exercise the Licensed Rights, including technical modifications necessary to circumvent Effective Technological Measures. For purposes of this Public License, simply making modifications authorized by this Section 2(a)\n\nnever produces Adapted Material.\n\nDownstream recipients.\n\nOffer from the Licensor – Licensed Material. Every recipient of the Licensed Material automatically receives an offer from the Licensor to exercise the Licensed Rights under the terms and conditions of this Public License.\nNo downstream restrictions. You may not offer or impose any additional or different terms or conditions on, or apply any Effective Technological Measures to, the Licensed Material if doing so restricts exercise of the Licensed Rights by any recipient of the Licensed Material.\n\nNo endorsement. Nothing in this Public License constitutes or may be construed as permission to assert or imply that You are, or that Your use of the Licensed Material is, connected with, or sponsored, endorsed, or granted official status by, the Licensor or others designated to receive attribution as provided in Section 3(a)(1)(A)(i).\n\nOther rights.\n\nMoral rights, such as the right of integrity, are not licensed under this Public License, nor are publicity, privacy, and/or other similar personality rights; however, to the extent possible, the Licensor waives and/or agrees not to assert any such rights held by the Licensor to the limited extent necessary to allow You to exercise the Licensed Rights, but not otherwise.\nPatent and trademark rights are not licensed under this Public License.\nTo the extent possible, the Licensor waives any right to collect royalties from You for the exercise of the Licensed Rights, whether directly or through a collecting society under any voluntary or waivable statutory or compulsory licensing scheme. In all other cases the Licensor expressly reserves any right to collect such royalties.\n\n\nSection 3 – License Conditions.\nYour exercise of the Licensed Rights is expressly made subject to the following conditions.\n\nAttribution.\n\nIf You Share the Licensed Material (including in modified form), You must:\n\nretain the following if it is supplied by the Licensor with the Licensed Material:\n\nidentification of the creator(s) of the Licensed Material and any others designated to receive attribution, in any reasonable manner requested by the Licensor (including by pseudonym if designated);\na copyright notice;\na notice that refers to this Public License;\na notice that refers to the disclaimer of warranties;\na URI or hyperlink to the Licensed Material to the extent reasonably practicable;\n\nindicate if You modified the Licensed Material and retain an indication of any previous modifications; and\nindicate the Licensed Material is licensed under this Public License, and include the text of, or the URI or hyperlink to, this Public License.\n\nYou may satisfy the conditions in Section 3(a)(1) in any reasonable manner based on the medium, means, and context in which You Share the Licensed Material. For example, it may be reasonable to satisfy the conditions by providing a URI or hyperlink to a resource that includes the required information.\nIf requested by the Licensor, You must remove any of the information required by Section 3(a)(1)(A) to the extent reasonably practicable.\nIf You Share Adapted Material You produce, the Adapter’s License You apply must not prevent recipients of the Adapted Material from complying with this Public License.\n\n\nSection 4 – Sui Generis Database Rights.\nWhere the Licensed Rights include Sui Generis Database Rights that apply to Your use of the Licensed Material:\n\nfor the avoidance of doubt, Section 2(a)(1) grants You the right to extract, reuse, reproduce, and Share all or a substantial portion of the contents of the database;\nif You include all or a substantial portion of the database contents in a database in which You have Sui Generis Database Rights, then the database in which You have Sui Generis Database Rights (but not its individual contents) is Adapted Material; and\nYou must comply with the conditions in Section 3(a) if You Share all or a substantial portion of the contents of the database.\n\nFor the avoidance of doubt, this Section 4 supplements and does not replace Your obligations under this Public License where the Licensed Rights include other Copyright and Similar Rights.\nSection 5 – Disclaimer of Warranties and Limitation of Liability.\n\nUNLESS OTHERWISE SEPARATELY UNDERTAKEN BY THE LICENSOR, TO THE EXTENT POSSIBLE, THE LICENSOR OFFERS THE LICENSED MATERIAL AS-IS AND AS-AVAILABLE, AND MAKES NO REPRESENTATIONS OR WARRANTIES OF ANY KIND CONCERNING THE LICENSED MATERIAL, WHETHER EXPRESS, IMPLIED, STATUTORY, OR OTHER. THIS INCLUDES, WITHOUT LIMITATION, WARRANTIES OF TITLE, MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, NON-INFRINGEMENT, ABSENCE OF LATENT OR OTHER DEFECTS, ACCURACY, OR THE PRESENCE OR ABSENCE OF ERRORS, WHETHER OR NOT KNOWN OR DISCOVERABLE. WHERE DISCLAIMERS OF WARRANTIES ARE NOT ALLOWED IN FULL OR IN PART, THIS DISCLAIMER MAY NOT APPLY TO YOU.\nTO THE EXTENT POSSIBLE, IN NO EVENT WILL THE LICENSOR BE LIABLE TO YOU ON ANY LEGAL THEORY (INCLUDING, WITHOUT LIMITATION, NEGLIGENCE) OR OTHERWISE FOR ANY DIRECT, SPECIAL, INDIRECT, INCIDENTAL, CONSEQUENTIAL, PUNITIVE, EXEMPLARY, OR OTHER LOSSES, COSTS, EXPENSES, OR DAMAGES ARISING OUT OF THIS PUBLIC LICENSE OR USE OF THE LICENSED MATERIAL, EVEN IF THE LICENSOR HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH LOSSES, COSTS, EXPENSES, OR DAMAGES. WHERE A LIMITATION OF LIABILITY IS NOT ALLOWED IN FULL OR IN PART, THIS LIMITATION MAY NOT APPLY TO YOU.\nThe disclaimer of warranties and limitation of liability provided above shall be interpreted in a manner that, to the extent possible, most closely approximates an absolute disclaimer and waiver of all liability.\n\nSection 6 – Term and Termination.\n\nThis Public License applies for the term of the Copyright and Similar Rights licensed here. However, if You fail to comply with this Public License, then Your rights under this Public License terminate automatically.\nWhere Your right to use the Licensed Material has terminated under Section 6(a), it reinstates:\n\nautomatically as of the date the violation is cured, provided it is cured within 30 days of Your discovery of the violation; or\nupon express reinstatement by the Licensor.\n\nFor the avoidance of doubt, this Section 6(b) does not affect any right the Licensor may have to seek remedies for Your violations of this Public License.\nFor the avoidance of doubt, the Licensor may also offer the Licensed Material under separate terms or conditions or stop distributing the Licensed Material at any time; however, doing so will not terminate this Public License.\nSections 1, 5, 6, 7, and 8 survive termination of this Public License.\n\nSection 7 – Other Terms and Conditions.\n\nThe Licensor shall not be bound by any additional or different terms or conditions communicated by You unless expressly agreed.\nAny arrangements, understandings, or agreements regarding the Licensed Material not stated herein are separate from and independent of the terms and conditions of this Public License.\n\nSection 8 – Interpretation.\n\nFor the avoidance of doubt, this Public License does not, and shall not be interpreted to, reduce, limit, restrict, or impose conditions on any use of the Licensed Material that could lawfully be made without permission under this Public License.\nTo the extent possible, if any provision of this Public License is deemed unenforceable, it shall be automatically reformed to the minimum extent necessary to make it enforceable. If the provision cannot be reformed, it shall be severed from this Public License without affecting the enforceability of the remaining terms and conditions.\nNo term or condition of this Public License will be waived and no failure to comply consented to unless expressly agreed to by the Licensor.\nNothing in this Public License constitutes or may be interpreted as a limitation upon, or waiver of, any privileges and immunities that apply to the Licensor or You, including from the legal processes of any jurisdiction or authority.\n\n=======================================================================\nCreative Commons is not a party to its public licenses. Notwithstanding, Creative Commons may elect to apply one of its public licenses to material it publishes and in those instances will be considered the “Licensor.” The text of the Creative Commons public licenses is dedicated to the public domain under the CC0 Public Domain Dedication. Except for the limited purpose of indicating that material is shared under a Creative Commons public license or as otherwise permitted by the Creative Commons policies published at creativecommons.org/policies, Creative Commons does not authorize the use of the trademark “Creative Commons” or any other trademark or logo of Creative Commons without its prior written consent including, without limitation, in connection with any unauthorized modifications to any of its public licenses or any other arrangements, understandings, or agreements concerning use of licensed material. For the avoidance of doubt, this paragraph does not form part of the public licenses.\nCreative Commons may be contacted at creativecommons.org."
+  },
+  {
+    "objectID": "guide/contributing.html",
+    "href": "guide/contributing.html",
+    "title": "Contributing",
+    "section": "",
+    "text": "Warning\n\n\n\n🚧 This website and documentation is still in very active development and evolving quickly, so content could undergo substantial changes at any time 🚧",
+    "crumbs": [
+      "Guide",
+      "Contributing"
+    ]
+  },
+  {
+    "objectID": "guide/contributing.html#file-naming-conventions",
+    "href": "guide/contributing.html#file-naming-conventions",
+    "title": "Contributing",
+    "section": "File naming conventions",
+    "text": "File naming conventions\n\nPrefer using lower case letters for the name, e.g. contributing.qmd. But, some files follow a widely-used standard of being all upper case, e.g. README.md.\nUse either hyphens or underscores to separate words, e.g. contributing.qmd or contributing_record.qmd, but not spaces.\n\nSpaces can make things difficult to work with for some systems and programs. For instance, if we want to generate our files into a website, including spaces in the names can make it difficult to generate the URLs for the pages.\n\nPrefer simpler, shorter words than longer ones, e.g. contributing.qmd instead of how-to-contribute-to-the-project.qmd.\nAvoid using special characters, including Danish characters like æ, ø, and å. These can also make things difficult to work with for some systems.\nAvoid repeating the same word in the file name and the folder name, e.g. contributing/contributing-next-steps.qmd. Instead, use contributing/next-steps.qmd.",
+    "crumbs": [
+      "Guide",
+      "Contributing"
+    ]
+  },
+  {
+    "objectID": "guide/contributing.html#writing",
+    "href": "guide/contributing.html#writing",
+    "title": "Contributing",
+    "section": "Writing",
+    "text": "Writing\n\nWrite content using Markdown and in files with either a .qmd (Quarto Markdown) or .md (Markdown) extension.",
+    "crumbs": [
+      "Guide",
+      "Contributing"
+    ]
+  },
+  {
+    "objectID": "guide/contributing.html#adding-content",
+    "href": "guide/contributing.html#adding-content",
+    "title": "Contributing",
+    "section": "Adding content",
+    "text": "Adding content\n\nPut everything on GitHub, either as an Issue, a comment in an Issue, or as files in the GitHub repositories.\nIf text documents that aren’t Markdown-based are added, we’ll (maybe automatically?) convert them to Markdown file and then delete the original file.",
+    "crumbs": [
+      "Guide",
+      "Contributing"
+    ]
+  },
+  {
+    "objectID": "guide/collaborating.html",
+    "href": "guide/collaborating.html",
+    "title": "Collaborating",
+    "section": "",
+    "text": "Warning\n\n\n\n🚧 This website and documentation is still in very active development and evolving quickly, so content could undergo substantial changes at any time 🚧",
+    "crumbs": [
+      "Guide",
+      "Collaborating"
+    ]
+  },
+  {
+    "objectID": "guide/collaborating.html#meetings",
+    "href": "guide/collaborating.html#meetings",
+    "title": "Collaborating",
+    "section": "Meetings",
+    "text": "Meetings\n\nCollaboration assessments\nEvery month we have a “collaboration-assessment” meeting. At the least, the tech leads and/or representatives from each work package need to attend, but it is open to anyone working on DP-Next. We follow the style of a meeting type called a “retrospective” that is also used in the Seedcase Project.\nDuring these meetings we discuss ways we can improve collaboration within and between work packages. The focus is mainly on collaboration practices, tools, and methods that could benefit the project as a whole or multiple work packages. We discuss what went well, what didn’t go well, and what we can improve. Then we create action items to address the issues we identified.\n\n\nUpdate meetings\nEvery week we have a very short “update” meeting. We follow the style used in the Seedcase Project. Briefly, during the meeting, we screenshare the project board and go over the tasks on the board that are at the “in-progress” state or later (e.g. “in review”). Each person gives an a very brief update on their tasks they’ve been working on since the last update meeting. Specific attention is given to tasks that have blocks or barriers to completion.",
+    "crumbs": [
+      "Guide",
+      "Collaborating"
+    ]
+  },
+  {
+    "objectID": "guide/collaborating.html#project-management-and-task-tracking",
+    "href": "guide/collaborating.html#project-management-and-task-tracking",
+    "title": "Collaborating",
+    "section": "Project management and task tracking",
+    "text": "Project management and task tracking\nEvery task that each person is working on is created on, tracked, and visible on the GitHub Project board. The board is divided into columns that represent the state of the task (e.g. “to do”, “in progress”, “in review”, “done”). The board is used to track the progress of the project and to identify bottlenecks or issues that need to be addressed, reviewed, or discussed. We also assign tasks to people on the board, which is shown on on the board itself to make it clear who is working on what.\nAll discussions happen on the GitHub issues, which are linked to the tasks on the board. These discussions are comments to the Issue, that way we keep all the information about a task in one place and so that others can participate in the discussion as well.",
+    "crumbs": [
+      "Guide",
+      "Collaborating"
     ]
   }
 ]

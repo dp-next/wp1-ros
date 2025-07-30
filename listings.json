@@ -1,15 +1,15 @@
 [
   {
-    "listing": "/decisions/index.html",
-    "items": [
-      "/decisions/why-r-python/index.html"
-    ]
-  },
-  {
     "listing": "/guide/index.html",
     "items": [
       "/guide/collaborating.html",
       "/guide/contributing.html"
+    ]
+  },
+  {
+    "listing": "/decisions/index.html",
+    "items": [
+      "/decisions/why-r-python/index.html"
     ]
   }
 ]
