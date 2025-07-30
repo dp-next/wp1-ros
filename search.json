@@ -323,7 +323,7 @@
     "href": "CHANGELOG.html#section",
     "title": "DP-Next: WP1",
     "section": "0.1.1 (2025-07-30)",
-    "text": "0.1.1 (2025-07-30)\n\nRefactor\n\n:recycle: move miletstones to below deliverables"
+    "text": "0.1.1 (2025-07-30)\n\nRefactor\n\n♻️ move miletstones to below deliverables"
   },
   {
     "objectID": "guide/contributing.html",
