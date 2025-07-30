@@ -1,7 +1,6 @@
 ---
 title: "Motivation"
 description: Background and motivation for Work Package 1.
-toc: false
 ---
 
 ## Academia lags far behind industry in many practical ways

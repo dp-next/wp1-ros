@@ -1,9 +1,7 @@
----
-title: "Better research in less time and fewer resources"
-toc: false
----
+# {{< meta titles.short >}}
 
-::: column-page
+{{< meta titles.full >}}
+
 ## Visions
 
 -   Better, reproducible, and open research done in less time and
@@ -38,7 +36,6 @@ toc: false
     ("upskill") in non-traditional technical skills and knowledge such
     as software development, data engineering, operational management
     (including "DataOps"), and iterative project management practices.
-:::
 
 ## Sciences lags behind in many practical and technical aspects
 
