@@ -1,0 +1,38 @@
+{
+  "creators": [
+    {
+      "name": "Johnston, Luke W.",
+      "affiliation": "Steno Diabetes Center Aarhus",
+      "orcid": "0000-0003-4169-2616"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Witte, Daniel",
+      "type": "ProjectLeader",
+      "affiliation": "Steno Diabetes Center Aarhus",
+      "orcid": "0000-0002-0769-2922"
+    }
+  ],
+  "title": "A guide on using reproducible and open scientific practices in the multi-center DP-Next project to do better research in less time and fewer resources",
+  "description": "Science, while generating cutting-edge knowledge, lags behind most industry settings when it comes to practical, operational aspects. For example, while much of research done now relies heavily on software and computational work, funding agencies rarely fund software and data engineering projects, nor do many research groups hire these highly skilled technical personnel. This is a guide on using reproducible and open scientific practices in the multi-center DP-Next project to do better research in less time and fewer resources.",
+  "access_right": "open",
+  "related_identifiers": [
+    {
+      "identifier": "https://github.com/dp-next/wp1-ros",
+      "relation": "isSupplementTo",
+      "resource_type": "other"
+    }
+  ],
+  "keywords": [
+    "research operations",
+    "open science",
+    "reproducibility",
+    "organisational design",
+    "project management"
+  ],
+  "license": "cc-by-4.0",
+  "upload_type": "publication",
+  "publication_type": "book",
+  "language": "eng"
+}
