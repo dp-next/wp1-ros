@@ -2,11 +2,6 @@
 title: "Why R and Python"
 description: "An effective and powerful tool is critical to doing the data analysis and this post describes why we choose R and Python for different purposes."
 date: "2025-02-13"
-author: Luke W. Johnston
-categories:
-- "software"
-- "programming"
-- "data analysis"
 ---
 
 ## Context and problem statement
