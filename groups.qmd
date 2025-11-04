@@ -2,21 +2,88 @@
 title: "Groups"
 ---
 
-### Management group
+## Management group
 
 The project will be led by the principal investigator, with support from
 the co-applicants / Work Package leaders, who together form the
 management group. This group will be responsible for the overall
 coordination of the project and ensuring it's successful completion.
 
-### Technical working group
+## Technical working group
 
 The technical working group will be responsible for the more technical
-and practical aspects of the project, primarily being responsible for
-fulfilling the aims of Work Package 1. This group will, at a minimum, be
-composed of at least one person from each work package (and preferably
-in each Steno center to support our upskilling aims) who acts as a "tech
-lead" for that work package. This group will keep track of some
-day-to-day operations ("research operations"), identify ways to reduce
-technical barriers, improve on and support effective collaborative
-practices, as well as ensuring the research is reproducible and open.
+and practical aspects of the project. In this case, technical refers to
+the digital, computational, and organizational aspects of tasks to
+support the successful completion of the project. Specifically, the
+technical aspects are those required to fulfill the aims of Work Package
+1, which is to ensure that our research is open and reproducible (or as
+best as possible).
+
+There will be one tech lead for each Steno Center, which means there
+will be 7 tech leads plus the work package leader (Luke).
+
+### Responsibilities
+
+The role of the tech lead is to:
+
+-   Communicate and coordinate with the other tech leads and the work
+    package leader about day-to-day operations and activities (rather
+    than higher-level, more academic activities or tasks).
+-   Identify any technical needs and barriers to being open and
+    reproducible within each work package.
+-   Brainstorm and share ideas and solutions to overcome those barriers
+    and fill those needs.
+-   Contribute to shared and common sub-projects that would assist other
+    Steno Centers in doing their work faster, easier, and/or better
+    (e.g. documentation or code).
+-   Act as a point of contact for their Steno Center for support and
+    help in adhering to open and reproducible practices.
+-   Work towards producing as many different types of output as
+    possible, rather than just traditional research papers. This
+    includes making websites for documentation and practices (as well as
+    publishing it to Zenodo) and developing sharable, reusable code
+    (e.g., R packages).
+-   Contribute to improving and supporting effective collaborative
+    practices within and across Steno Centers and DP-Next.
+-   Support in upskilling other members of each tech leads' respective
+    Steno Center in digitally technical skills, either informally via
+    mentoring or formally by acting as teachers for workshops.
+
+### Expectations
+
+Given the above responsibilities, we expect that tech leads will:
+
+-   Use GitHub and Git to create and edit files.
+-   Use GitHub Issues to track tasks, share progress, and discuss
+    problems.
+-   Attend regular virtual meetings to discuss challenges, share
+    knowledge, and update on progress.
+-   Use Discord to communicate with other tech leads and with other
+    members of the project.
+-   Write documentation in Markdown as much as possible.
+-   When doing analyses, write code in R or Python, while also
+    implementing reproducible practices.
+
+### Benefits
+
+While there will be a bit of extra work for each tech lead, there are
+also a lot of benefits to being part of this group that over time can
+help reduce overall work and effort.
+
+-   Support in resolving digital and technical challenges, rather than
+    being alone to figure things out.
+-   Build a bigger network that will expose the tech leads to future
+    opportunities.
+-   More quickly gain new skills and knowledge in a supportive
+    environment with experts and peers, compared to not being part of
+    the group.
+-   An emotional support group to share struggles that are outside of
+    our control.
+-   A direct channel to the group to ask questions and get help more
+    quickly than not being part of the group.
+-   Potentially produce more academic output than would be possible
+    alone or not in this group (e.g. "best practices for open and
+    reproducible research" type papers or protocols).
+-   Visible contributions to improving research practices within
+    DP-Next, and for likely across the Steno Centers and even in
+    Denmark.
