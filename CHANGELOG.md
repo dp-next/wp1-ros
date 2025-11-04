@@ -1,3 +1,9 @@
+## 0.5.0 (2025-11-04)
+
+### Feat
+
+- :sparkles: add responsibilities and expectations of tech leads (#75)
+
 ## 0.4.0 (2025-07-30)
 
 ### Feat
