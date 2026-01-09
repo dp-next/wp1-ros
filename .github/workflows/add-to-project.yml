@@ -11,17 +11,17 @@ on:
       - reopened
       - opened
 
-# Improve security by limiting permissions.
+# Limit token permissions for security
 permissions: read-all
 
 jobs:
   add-to-project:
-    uses: dp-next/.github/.github/workflows/reusable-add-to-project.yml@main
-    # Set at job level for where it is needed.
+    uses: seedcase-project/.github/.github/workflows/reusable-add-to-project.yml@main
     permissions:
       pull-requests: write
     with:
       board-number: 9
+      app-id: ${{ vars.ADD_TO_BOARD_APP_ID }}
     secrets:
       add-to-board-token: ${{ secrets.ADD_TO_BOARD }}
       gh-token: ${{ secrets.GITHUB_TOKEN }}
