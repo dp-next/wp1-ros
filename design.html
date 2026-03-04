@@ -279,6 +279,7 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#design-patterns" id="toc-design-patterns" class="nav-link" data-scroll-target="#design-patterns"><span class="header-section-number">7.4</span> Design patterns</a>
   <ul class="collapse">
   <li><a href="#one-git-or-github-repository-per-scientific-output" id="toc-one-git-or-github-repository-per-scientific-output" class="nav-link" data-scroll-target="#one-git-or-github-repository-per-scientific-output"><span class="header-section-number">7.4.1</span> One Git or GitHub repository per scientific output</a></li>
+  <li><a href="#repository-naming-convention" id="toc-repository-naming-convention" class="nav-link" data-scroll-target="#repository-naming-convention"><span class="header-section-number">7.4.2</span> Repository naming convention</a></li>
   </ul></li>
   </ul>
 <div class="toc-actions"><ul><li><a href="https://github.com/dp-next/wp1-ros/issues/new" class="toc-action"><i class="bi bi-github"></i>Report an issue</a></li><li><a href="https://github.com/dp-next/wp1-ros/edit/main/design.qmd" class="toc-action"><i class="bi empty"></i>Edit this page</a></li><li><a href="https://github.com/dp-next/wp1-ros/blob/main/design.qmd" class="toc-action"><i class="bi empty"></i>View source</a></li></ul></div></nav>
@@ -361,6 +362,30 @@ Warning
 <h3 data-number="7.4.1" class="anchored" data-anchor-id="one-git-or-github-repository-per-scientific-output"><span class="header-section-number">7.4.1</span> One Git or GitHub repository per scientific output</h3>
 <p>The pattern of “one repo, one product” is a widely used pattern in many types of projects. There are many tools, templates, and workflows that are built around this pattern. For instance, it is easier to ensure a scientific document is reproducible if it follows this pattern. So administratively and collaboratively, it is easier to use a pattern like this, since it is a standardized way of structuring work. For DP-Next, this pattern includes the protocols as well as the scientific results.</p>
 <p>Some servers don’t allow internet or easy access to outside resources like GitHub. But all servers have Git installed. In those cases, each scientific output is one Git repository.</p>
+</section>
+<section id="repository-naming-convention" class="level3" data-number="7.4.2">
+<h3 data-number="7.4.2" class="anchored" data-anchor-id="repository-naming-convention"><span class="header-section-number">7.4.2</span> Repository naming convention</h3>
+<p>When creating repositories for DP-Next, we decided on following a naming convention that includes the work package number and the type of output that follows a descriptive pattern of a higher-level category to a lower-level category.</p>
+<p>For Work Package 3, we use this convention, in order:</p>
+<ol type="1">
+<li><code>wp3-</code> to indicate the work package number.</li>
+<li><code>d-</code> and <code>a-</code> to indicate the output is either “data” (<code>d-</code>) or “analysis” (<code>a-</code>).</li>
+<li><code>clin-</code> and <code>quest</code> for the clinical and questionnaire data, respectively. Without any later sub-outputs, this indicates the main output is the “data package” itself.</li>
+<li><code>protocol</code>, <code>dmp</code>, <code>sop</code>, and <code>dap</code> for the protocol, data management plan, standard operating procedure, and data analysis plan, respectively.</li>
+</ol>
+<p>Based on that convention, we have the following repositories for Work Package 3 (at least for the <code>d-</code> outputs):</p>
+<ul>
+<li><code>wp3-d-clin</code></li>
+<li><code>wp3-d-clin-protocol</code></li>
+<li><code>wp3-d-clin-dmp</code></li>
+<li><code>wp3-d-clin-sop</code></li>
+<li><code>wp3-d-clin-dap</code></li>
+<li><code>wp3-d-quest</code></li>
+<li><code>wp3-d-quest-protocol</code></li>
+<li><code>wp3-d-quest-dmp</code></li>
+<li><code>wp3-d-quest-sop</code></li>
+<li><code>wp3-d-quest-dap</code></li>
+</ul>
 
 
 </section>
