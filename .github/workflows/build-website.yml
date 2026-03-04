@@ -5,17 +5,16 @@ on:
     branches:
       - main
 
-# To force read only on all permissions at workflow level.
+# Limit token permissions for security
 permissions: read-all
 
 jobs:
   build-website:
     uses: seedcase-project/.github/.github/workflows/reusable-build-docs.yml@main
-    # Only need these for this job.
+    with:
+      hosting-provider: gh-pages
     permissions:
       contents: write
       pages: write
-    with:
-      hosting-provider: gh-pages
     secrets:
       github-token: ${{ secrets.GITHUB_TOKEN }}

@@ -20,7 +20,7 @@
   "related_identifiers": [
     {
       "identifier": "https://github.com/dp-next/wp1-ros",
-      "relation": "isSupplementTo",
+      "relation": "isSourceOf",
       "resource_type": "other"
     }
   ],
@@ -29,10 +29,18 @@
     "open science",
     "reproducibility",
     "organisational design",
-    "project management"
+    "project management",
+    "reproducible science",
+    "guidebook",
+    "best practices"
+  ],
+  "communities": [
+    {
+      "identifier": "seedcase-project"
+    }
   ],
   "license": "cc-by-4.0",
   "upload_type": "publication",
-  "publication_type": "book",
+  "publication_type": "other",
   "language": "eng"
 }

@@ -2,32 +2,33 @@
 
 There are general contributing guidelines for those working across the
 different DP-Next projects, which can be found
-[here](https://dp-next.github.io/wp1-ros/guide/contributing/). This
-document is specific to the `wp1-ros` repository.
+[in more detail here](https://dp-next.github.io/wp1-ros/guide/contributing/).
+This document is specific to the `wp1-ros` repository.
 
-## Issues and bugs :bug:
+## :bug: Issues and bugs
 
 The easiest way to contribute is to report issues or bugs that you might
-find while using `template-data-package`. You can do this by creating a
+find while reading through the website. You can do this by creating a
 [new](https://github.com/dp-next/wp1-ros/issues/new/choose) issue on our
 GitHub repository.
 
-## Adding or modifying content :pencil2:
+## :pencil2: Adding or modifying content
 
-If you would like to contribute content, please check out the Seedcase
-Project's [guidebook](https://guidebook.seedcase-project.org/) for more
-specific details on how this repository is and will be developed. It is
-a regularly evolving document, so is at various states of completion.
+If you would like to contribute content, please check out our
+[guidebook](https://guidebook.seedcase-project.org/) for more specific
+details on how we work and develop. It is a regularly evolving document,
+so is at various states of completion.
 
 To contribute to `wp1-ros`, you first need to install
 [uv](https://docs.astral.sh/uv/) and
 [justfile](https://just.systems/man/en/packages.html). We use uv and
-justfile to manage our project, such as to run checks and build things.
-Both the uv and justfile websites have a more detailed guide on using
-uv, but below are some simple instructions to get you started by using
-[pipx](https://pypa.github.io/pipx/).
+justfile to manage our project, such as to run checks and test the
+template. Both the uv and justfile websites have a more detailed guide
+on using uv, but below are some simple instructions to get you started.
 
-To install uv and justfile, run:
+It's easiest to install uv and justfile using
+[pipx](https://pipx.pypa.io/latest/), so install that first. Then,
+install uv and justfile by running:
 
 ``` bash
 pipx install uv rust-just
@@ -42,9 +43,19 @@ just
 ```
 
 As you contribute, make sure your changes will pass our tests by opening
-a terminal so that the working directory is the root of this project
-(`wp1-ros/`) and running:
+a terminal so that the working directory is the root of this project's
+repository and running:
 
 ``` bash
 just run-all
 ```
+
+When committing changes, please try to follow
+[Conventional Commits](https://decisions.seedcase-project.org/why-conventional-commits/)
+as Git messages. Using this convention allows us to be able to
+automatically create a release based on the commit message by using
+[Commitizen](https://decisions.seedcase-project.org/why-semantic-release-with-commitizen/).
+If you don't use Conventional Commits when making a commit, we will
+revise the pull request title to follow that format, as we use squash
+merges when merging pull requests, so all other commits in the pull
+request will be squashed into one commit.

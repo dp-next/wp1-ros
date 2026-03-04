@@ -1,0 +1,12 @@
+# Changes here will be overwritten by Copier; NEVER EDIT MANUALLY
+_commit: 0.22.1
+_src_path: gh:seedcase-project/template-website
+author_family_name: Johnston
+author_given_name: Luke
+github_board_number: '9'
+github_repo: wp1-ros
+github_user: dp-next
+hosting_provider: gh-pages
+is_seedcase_website: true
+review_team: '@dp-next/platform-team'
+website_format: book
