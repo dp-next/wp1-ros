@@ -334,80 +334,91 @@
     ]
   },
   {
-    "objectID": "guide/collaborating.html",
-    "href": "guide/collaborating.html",
+    "objectID": "collaborating/index.html",
+    "href": "collaborating/index.html",
     "title": "10  Collaborating",
     "section": "",
-    "text": "10.1 Meetings",
+    "text": "Warning\n\n\n\n🚧 This website and documentation is still in very active development and evolving quickly, so content could undergo substantial changes at any time 🚧\n\nThis part contains documents that describe how we collaborate together as a group on the DP-Next project. We only describe how we work together, not how we contribute (add, edit, review) content, for that we have the Contributing part.",
     "crumbs": [
-      "Guide",
+      "Collaborating",
       "<span class='chapter-number'>10</span>  <span class='chapter-title'>Collaborating</span>"
     ]
   },
   {
-    "objectID": "guide/collaborating.html#meetings",
-    "href": "guide/collaborating.html#meetings",
-    "title": "10  Collaborating",
+    "objectID": "collaborating/project-management.html",
+    "href": "collaborating/project-management.html",
+    "title": "11  Project management",
     "section": "",
-    "text": "10.1.1 Collaboration assessments\nEvery month we have a “collaboration-assessment” meeting. At the least, the tech leads and/or representatives from each work package need to attend, but it is open to anyone working on DP-Next. We follow the style of a meeting type called a “retrospective” that is also used in the Seedcase Project.\nDuring these meetings we discuss ways we can improve collaboration within and between work packages. The focus is mainly on collaboration practices, tools, and methods that could benefit the project as a whole or multiple work packages. We discuss what went well, what didn’t go well, and what we can improve. Then we create action items to address the issues we identified.\n\n\n10.1.2 Update meetings\nEvery week we have a very short “update” meeting. We follow the style used in the Seedcase Project. Briefly, during the meeting, we screenshare the project board and go over the tasks on the board that are at the “in-progress” state or later (e.g. “in review”). Each person gives an a very brief update on their tasks they’ve been working on since the last update meeting. Specific attention is given to tasks that have blocks or barriers to completion.",
+    "text": "Warning\n\n\n\n🚧 This website and documentation is still in very active development and evolving quickly, so content could undergo substantial changes at any time 🚧\n\nEvery task that each person is working on is created, tracked, and visible on the GitHub Project board. The board is divided into columns that represent the state of the task (e.g. “to do”, “in progress”, “in review”, “done”). The board is used to track the progress of the project and to identify bottlenecks or issues that need to be addressed, reviewed, or discussed. We also assign tasks to people on the board, which is shown on on the board itself to make it clear who is working on what.\nAll discussions happen on the GitHub issues, which are linked to the tasks on the board. These discussions are comments to the Issue, that way we keep all the information about a task in one place and so that others can participate in the discussion as well.",
     "crumbs": [
-      "Guide",
-      "<span class='chapter-number'>10</span>  <span class='chapter-title'>Collaborating</span>"
+      "Collaborating",
+      "<span class='chapter-number'>11</span>  <span class='chapter-title'>Project management</span>"
     ]
   },
   {
-    "objectID": "guide/collaborating.html#project-management-and-task-tracking",
-    "href": "guide/collaborating.html#project-management-and-task-tracking",
-    "title": "10  Collaborating",
-    "section": "10.2 Project management and task tracking",
-    "text": "10.2 Project management and task tracking\nEvery task that each person is working on is created on, tracked, and visible on the GitHub Project board. The board is divided into columns that represent the state of the task (e.g. “to do”, “in progress”, “in review”, “done”). The board is used to track the progress of the project and to identify bottlenecks or issues that need to be addressed, reviewed, or discussed. We also assign tasks to people on the board, which is shown on on the board itself to make it clear who is working on what.\nAll discussions happen on the GitHub issues, which are linked to the tasks on the board. These discussions are comments to the Issue, that way we keep all the information about a task in one place and so that others can participate in the discussion as well.",
-    "crumbs": [
-      "Guide",
-      "<span class='chapter-number'>10</span>  <span class='chapter-title'>Collaborating</span>"
-    ]
-  },
-  {
-    "objectID": "guide/contributing.html",
-    "href": "guide/contributing.html",
-    "title": "11  Contributing",
+    "objectID": "collaborating/meetings.html",
+    "href": "collaborating/meetings.html",
+    "title": "12  Meetings",
     "section": "",
-    "text": "11.1 File naming conventions",
+    "text": "12.1 Collaboration assessments\nEvery month we have a “collaboration-assessment” meeting. At the least, the tech leads and/or representatives from each work package need to attend, but it is open to anyone working on DP-Next. We follow the style of a meeting type called a “retrospective” that is also used in the Seedcase Project.\nDuring these meetings we discuss ways we can improve collaboration within and between work packages. The focus is mainly on collaboration practices, tools, and methods that could benefit the project as a whole or multiple work packages. We discuss what went well, what didn’t go well, and what we can improve. Then we create action items to address the issues we identified.",
     "crumbs": [
-      "Guide",
-      "<span class='chapter-number'>11</span>  <span class='chapter-title'>Contributing</span>"
+      "Collaborating",
+      "<span class='chapter-number'>12</span>  <span class='chapter-title'>Meetings</span>"
     ]
   },
   {
-    "objectID": "guide/contributing.html#file-naming-conventions",
-    "href": "guide/contributing.html#file-naming-conventions",
-    "title": "11  Contributing",
+    "objectID": "collaborating/meetings.html#update-meetings",
+    "href": "collaborating/meetings.html#update-meetings",
+    "title": "12  Meetings",
+    "section": "12.2 Update meetings",
+    "text": "12.2 Update meetings\nEvery week we have a very short “update” meeting. We follow the style used in the Seedcase Project. Briefly, during the meeting, we screenshare the project board and go over the tasks on the board that are at the “in-progress” state or later (e.g. “in review”). Each person gives an a very brief update on their tasks they’ve been working on since the last update meeting. Specific attention is given to tasks that have blocks or barriers to completion.",
+    "crumbs": [
+      "Collaborating",
+      "<span class='chapter-number'>12</span>  <span class='chapter-title'>Meetings</span>"
+    ]
+  },
+  {
+    "objectID": "contributing/index.html",
+    "href": "contributing/index.html",
+    "title": "13  Contributing",
+    "section": "",
+    "text": "13.1 File naming conventions\nA guide on how we agree to contribute content to the project.",
+    "crumbs": [
+      "Contributing",
+      "<span class='chapter-number'>13</span>  <span class='chapter-title'>Contributing</span>"
+    ]
+  },
+  {
+    "objectID": "contributing/index.html#file-naming-conventions",
+    "href": "contributing/index.html#file-naming-conventions",
+    "title": "13  Contributing",
     "section": "",
     "text": "Prefer using lower case letters for the name, e.g. contributing.qmd. But, some files follow a widely-used standard of being all upper case, e.g. README.md.\nUse either hyphens or underscores to separate words, e.g. contributing.qmd or contributing_record.qmd, but not spaces.\n\nSpaces can make things difficult to work with for some systems and programs. For instance, if we want to generate our files into a website, including spaces in the names can make it difficult to generate the URLs for the pages.\n\nPrefer simpler, shorter words than longer ones, e.g. contributing.qmd instead of how-to-contribute-to-the-project.qmd.\nAvoid using special characters, including Danish characters like æ, ø, and å. These can also make things difficult to work with for some systems.\nAvoid repeating the same word in the file name and the folder name, e.g. contributing/contributing-next-steps.qmd. Instead, use contributing/next-steps.qmd.",
     "crumbs": [
-      "Guide",
-      "<span class='chapter-number'>11</span>  <span class='chapter-title'>Contributing</span>"
+      "Contributing",
+      "<span class='chapter-number'>13</span>  <span class='chapter-title'>Contributing</span>"
     ]
   },
   {
-    "objectID": "guide/contributing.html#writing",
-    "href": "guide/contributing.html#writing",
-    "title": "11  Contributing",
-    "section": "11.2 Writing",
-    "text": "11.2 Writing\n\nWrite content using Markdown and in files with either a .qmd (Quarto Markdown) or .md (Markdown) extension.",
+    "objectID": "contributing/index.html#writing",
+    "href": "contributing/index.html#writing",
+    "title": "13  Contributing",
+    "section": "13.2 Writing",
+    "text": "13.2 Writing\n\nWrite content using Markdown and in files with either a .qmd (Quarto Markdown) or .md (Markdown) extension.",
     "crumbs": [
-      "Guide",
-      "<span class='chapter-number'>11</span>  <span class='chapter-title'>Contributing</span>"
+      "Contributing",
+      "<span class='chapter-number'>13</span>  <span class='chapter-title'>Contributing</span>"
     ]
   },
   {
-    "objectID": "guide/contributing.html#adding-content",
-    "href": "guide/contributing.html#adding-content",
-    "title": "11  Contributing",
-    "section": "11.3 Adding content",
-    "text": "11.3 Adding content\n\nPut everything on GitHub, either as an Issue, a comment in an Issue, or as files in the GitHub repositories.\nIf text documents that aren’t Markdown-based are added, we’ll (maybe automatically?) convert them to Markdown file and then delete the original file.",
+    "objectID": "contributing/index.html#adding-content",
+    "href": "contributing/index.html#adding-content",
+    "title": "13  Contributing",
+    "section": "13.3 Adding content",
+    "text": "13.3 Adding content\n\nPut everything on GitHub, either as an Issue, a comment in an Issue, or as files in the GitHub repositories.\nIf text documents that aren’t Markdown-based are added, we’ll (maybe automatically?) convert them to Markdown file and then delete the original file.",
     "crumbs": [
-      "Guide",
-      "<span class='chapter-number'>11</span>  <span class='chapter-title'>Contributing</span>"
+      "Contributing",
+      "<span class='chapter-number'>13</span>  <span class='chapter-title'>Contributing</span>"
     ]
   },
   {
