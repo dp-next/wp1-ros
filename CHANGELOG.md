@@ -19,7 +19,8 @@ within each release.
 
 ### Refactor
 
-- :recycle: split the contributing and collaborating into two parts (#98)
+- :recycle: split the contributing and collaborating into two parts
+  (#98)
 
 ## 0.5.1 (2026-03-04)
 
