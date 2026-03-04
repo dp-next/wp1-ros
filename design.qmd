@@ -9,49 +9,49 @@ Part of the aim for DP-Next, and the purpose of Work Package 1, is to
 produce scientific results that follow open scientific and reproducible
 practices. In addition to this aim, Work Package 1 also aims to help
 produce better research in less time and resources. Aligning with these
-overall aims and expanding on the [guiding
-principles](strategy.qmd#guiding-principles) in the Strategy page, we
-want to eventually follow these principles:
+overall aims and expanding on the
+[guiding principles](strategy.qmd#guiding-principles) in the Strategy
+page, we want to eventually follow these principles:
 
--   Incorporate explicit feedback loops in how we collaborate
--   Actively and continually seek out and identify ways we can improve
-    how we work
--   Start with what we can do now and improve iteratively and
-    incrementally
--   Make work visible (at least to the group), including tasks to do,
-    project management
--   Incorporate regular upskilling activities, such as "pair-working"
--   Prefer written communication over verbal communication to ensure
-    more people can participate
--   Use open source software as much as possible and is reasonable
--   Have meetings sparingly and only when extensive, concurrent
-    discussions and brainstorming are needed
+- Incorporate explicit feedback loops in how we collaborate
+- Actively and continually seek out and identify ways we can improve how
+  we work
+- Start with what we can do now and improve iteratively and
+  incrementally
+- Make work visible (at least to the group), including tasks to do,
+  project management
+- Incorporate regular upskilling activities, such as "pair-working"
+- Prefer written communication over verbal communication to ensure more
+  people can participate
+- Use open source software as much as possible and is reasonable
+- Have meetings sparingly and only when extensive, concurrent
+  discussions and brainstorming are needed
 
 ## Practices, tools, and methods
 
 And to achieve these principles, we also eventually (not all at once)
 want to work towards a point where we:
 
--   Use GitHub or just Git to manage and track all files
--   Use R or Python for doing data analysis
--   Use Quarto Markdown for writing documentation
--   Use Quarto with R or Python code to write reproducible scientific
-    output
--   Use Quarto to create websites of our work
--   Use FAIR principles when managing data
--   Use Seedcase software to structure and manage data
--   Use Zenodo to upload protocols (before submitting to other outlets),
-    analysis code, and preprints
--   Use GitHub Project boards to follow a
-    [Kanban](https://en.wikipedia.org/wiki/Kanban_board)-style approach
-    to project management
--   Use Discord for informal communication or for coordinating across
-    groups
--   Use Discord for video meetings, including for upskilling activities
--   Use Teamup, a calendar tool, for scheduling meetings and events
-    relevant to all groups
--   Use GitHub Projects and Issues to create, discuss, and manage tasks
-    and issues
+- Use GitHub or just Git to manage and track all files
+- Use R or Python for doing data analysis
+- Use Quarto Markdown for writing documentation
+- Use Quarto with R or Python code to write reproducible scientific
+  output
+- Use Quarto to create websites of our work
+- Use FAIR principles when managing data
+- Use Seedcase software to structure and manage data
+- Use Zenodo to upload protocols (before submitting to other outlets),
+  analysis code, and preprints
+- Use GitHub Project boards to follow a
+  [Kanban](https://en.wikipedia.org/wiki/Kanban_board)-style approach to
+  project management
+- Use Discord for informal communication or for coordinating across
+  groups
+- Use Discord for video meetings, including for upskilling activities
+- Use Teamup, a calendar tool, for scheduling meetings and events
+  relevant to all groups
+- Use GitHub Projects and Issues to create, discuss, and manage tasks
+  and issues
 
 ## Decisions
 

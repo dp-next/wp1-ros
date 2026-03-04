@@ -18,42 +18,41 @@ the charts.
 
 ### Reports
 
--   Consensus document on agreed upon processes and workflows between
-    WPs
--   Research operational management practices and processes employed in
-    a large-scale multi-centered project: Future uses of using modern
-    approaches to team-based research
--   DP-Next as an open-access and secure Data Resource for broader
-    re-use of collected data for researchers (using SDCA-developed,
-    NNF-funded Seedcase software)
--   Challenges and lessons learned in applying modern research ops and
-    data engineering to a large-scale, multi-center project
+- Consensus document on agreed upon processes and workflows between WPs
+- Research operational management practices and processes employed in a
+  large-scale multi-centered project: Future uses of using modern
+  approaches to team-based research
+- DP-Next as an open-access and secure Data Resource for broader re-use
+  of collected data for researchers (using SDCA-developed, NNF-funded
+  Seedcase software)
+- Challenges and lessons learned in applying modern research ops and
+  data engineering to a large-scale, multi-center project
 
 ### Resources
 
--   Each center has resources and workflows for conducting reproducible
-    and modern register-based research using the Danish registers
--   DP-Next data resource built from Seedcase software
--   DP-Next project website, with all (internal and external) knowledge
-    generated, including all code and documentation
+- Each center has resources and workflows for conducting reproducible
+  and modern register-based research using the Danish registers
+- DP-Next data resource built from Seedcase software
+- DP-Next project website, with all (internal and external) knowledge
+  generated, including all code and documentation
 
 ## Milestones
 
--   Setup project websites to host details and documents relevant to
-    this project and it's WPs
+- Setup project websites to host details and documents relevant to this
+  project and it's WPs
 
--   Setup website to document and describe research operational
-    practices used across Centers for easier sharing and onboarding
+- Setup website to document and describe research operational practices
+  used across Centers for easier sharing and onboarding
 
--   Open-source template Data Management Plan to use for WP3
+- Open-source template Data Management Plan to use for WP3
 
--   Setup research data infrastructure that supports adhering to open
-    FAIR practices for ease of internal and external sharing of data for
-    WP3 (using software built from NNF-funded project from SDCA called
-    Seedcase: https://seedcase-project.org/)
+- Setup research data infrastructure that supports adhering to open FAIR
+  practices for ease of internal and external sharing of data for WP3
+  (using software built from NNF-funded project from SDCA called
+  Seedcase: <https://seedcase-project.org/>)
 
--   Open-source templates for building software package/app for risk
-    prediction engine from WP2
+- Open-source templates for building software package/app for risk
+  prediction engine from WP2
 
 ## Sequence of outcomes
 
@@ -67,25 +66,25 @@ update it as we've achieved each item.
 
 ### Collaboration
 
-1.  Only use GitHub Issues for tasks, discussions, and general
-    communication, so that all work is visible and tracked in one place.
-2.  Always refer to the GitHub Project board for the current status of
-    the project or individual work packages, so everyone is aware of the
-    current state of things.
-3.  Put all work package specific or DP-Next wide events or meetings
-    into the shared calendar (via Teamup).
-4.  Only use Discord and specific channels for work packages for
-    communication and coordination.
+1. Only use GitHub Issues for tasks, discussions, and general
+   communication, so that all work is visible and tracked in one place.
+2. Always refer to the GitHub Project board for the current status of
+   the project or individual work packages, so everyone is aware of the
+   current state of things.
+3. Put all work package specific or DP-Next wide events or meetings into
+   the shared calendar (via Teamup).
+4. Only use Discord and specific channels for work packages for
+   communication and coordination.
 
 ### Contribution
 
-1.  Put all content related to the project onto GitHub, at first at
-    least as comments on GitHub Issues.
-2.  Write files in only Markdown (if text).
-3.  Write all code in R or Python.
-4.  Have anything that isn't private/secret/admin as a public (open)
-    GitHub repository.
-5.  Include R or Python code into Markdown files (via Quarto).
-6.  Write R or Python code within a reproducible pipeline framework
-    (e.g. [targets](https://books.ropensci.org/targets/) for R).
-7.  Generate anything that isn't private/secret/admin into websites.
+1. Put all content related to the project onto GitHub, at first at least
+   as comments on GitHub Issues.
+2. Write files in only Markdown (if text).
+3. Write all code in R or Python.
+4. Have anything that isn't private/secret/admin as a public (open)
+   GitHub repository.
+5. Include R or Python code into Markdown files (via Quarto).
+6. Write R or Python code within a reproducible pipeline framework (e.g.
+   [targets](https://books.ropensci.org/targets/) for R).
+7. Generate anything that isn't private/secret/admin into websites.

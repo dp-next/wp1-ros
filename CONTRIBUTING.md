@@ -1,9 +1,7 @@
 # Contributing
 
-There are general contributing guidelines for those working across the
-different DP-Next projects, which can be found
-[in more detail here](https://dp-next.github.io/wp1-ros/guide/contributing/).
-This document is specific to the `wp1-ros` repository.
+This document describes how you might contribute to this particular
+repository, not about how to contribute to DP-Next in general.
 
 ## :bug: Issues and bugs
 

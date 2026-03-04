@@ -37,7 +37,7 @@ development of the project.
 Check out the [website](https://dp-next.github.io/wp1-ros/) for this
 work package for more information. For a list of changes made to the
 content itself (not to files that support developing this guide), see
-our [changelog](https://wp1-ros.github.io/wp1-ros/releases/) page.
+our [changelog](CHANGELOG.md) page.
 
 We integrate and make heavy use of the work done in the [Seedcase
 Project](https://seedcase-project.org).

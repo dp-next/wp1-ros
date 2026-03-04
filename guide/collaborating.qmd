@@ -12,8 +12,8 @@ the tech leads and/or representatives from each work package need to
 attend, but it is open to anyone working on DP-Next. We follow the style
 of a meeting type called a
 ["retrospective"](https://miro.com/agile/guide-to-retrospectives/) that
-is also used in the [Seedcase
-Project](https://team.seedcase-project.org/how-we-work/iteration#end-of-iteration).
+is also used in the
+[Seedcase Project](https://guidebook.seedcase-project.org/iterations/end).
 
 During these meetings we discuss ways we can improve collaboration
 within and between work packages. The focus is mainly on collaboration
@@ -25,8 +25,8 @@ the issues we identified.
 ### Update meetings
 
 Every week we have a very short "update" meeting. We follow the style
-used in the [Seedcase
-Project](https://team.seedcase-project.org/how-we-work/update-meetings).
+used in the
+[Seedcase Project](https://team.seedcase-project.org/how-we-work/update-meetings).
 Briefly, during the meeting, we screenshare the project board and go
 over the tasks on the board that are at the "in-progress" state or later
 (e.g. "in review"). Each person gives an a very brief update on their

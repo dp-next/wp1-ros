@@ -29,25 +29,25 @@ work packages. While we will finalise and refine the principles during
 the first year of the project, below are some principles that will form
 the basis for all other principles.
 
--   Assume openness with as many things as possible, including
-    communication.
--   Implement openness as much as possible, excluding personal and
-    sensitive data.
--   Disseminate as many steps of the research lifecycle as possible,
-    including non-traditional outputs (e.g. protocols or standard
-    operating procedures).
--   Implement as much as possible explicit analyses and data
-    processing/management using code-based and programmatic
-    pipeline/workflow management.
+- Assume openness with as many things as possible, including
+  communication.
+- Implement openness as much as possible, excluding personal and
+  sensitive data.
+- Disseminate as many steps of the research lifecycle as possible,
+  including non-traditional outputs (e.g. protocols or standard
+  operating procedures).
+- Implement as much as possible explicit analyses and data
+  processing/management using code-based and programmatic
+  pipeline/workflow management.
 
 ## Specifics of the strategy
 
 Expanding on the strategies listed on the [landing page](index.qmd), the
 below describes more of the details about the specific strategies from a
-technical or digital perspective. Many of these activities and strategies
-will get support and contributions from the [Seedcase
-Project](https://seedcase-project.org/) team at Steno Aarhus, who
-regularly use and refine many of these practices in their work.
+technical or digital perspective. Many of these activities and
+strategies will get support and contributions from the
+[Seedcase Project](https://seedcase-project.org/) team at Steno Aarhus,
+who regularly use and refine many of these practices in their work.
 
 ### Project management
 
@@ -57,13 +57,13 @@ management will involve applying iterative and incremental methods often
 used in software development, such as Agile-inspired methods.
 Practically, this involves:
 
--   Using time-bound "iterations" that has a specific aim to complete,
-    where tasks are assigned that work toward completing this aim. This
-    may involve having iterations be on a monthly basis.
--   Using a (digital) project board to track tasks, their status, who is
-    assigned to what, with issues or discussions connected to each task.
--   Having regular "reflection" meetings to identify things that work
-    and things to improve on in our collaboration and management.
+- Using time-bound "iterations" that has a specific aim to complete,
+  where tasks are assigned that work toward completing this aim. This
+  may involve having iterations be on a monthly basis.
+- Using a (digital) project board to track tasks, their status, who is
+  assigned to what, with issues or discussions connected to each task.
+- Having regular "reflection" meetings to identify things that work and
+  things to improve on in our collaboration and management.
 
 ### Collaborative practices
 
@@ -74,11 +74,10 @@ that we will discuss, refine, and agree on during the first year of the
 project. These documents will be living documents that we will post
 publicly on this website. Concretely, some practices may be:
 
--   Using a common set of tools for communication that works for
-    everyone.
--   Using relevant communication channels dependent on the purpose, for
-    example, extended discussions of a specific task should be done
-    where the task is listed.
+- Using a common set of tools for communication that works for everyone.
+- Using relevant communication channels dependent on the purpose, for
+  example, extended discussions of a specific task should be done where
+  the task is listed.
 
 ### Research operations
 
@@ -87,15 +86,15 @@ to minimise time and effort spent per unit of output. This often
 integrates software engineering and data engineering work to accomplish
 the operational task. Concretely, this may include:
 
--   Automatically converting our documentation in easy to share and
-    search websites.
--   Regularly and actively seeking out areas of the research lifecycle
-    that can be simplified, streamlined, or automated by incorporating
-    dedicated meetings or reviews to uncover these areas to optimise.
-    Then, based on this information, working to implement a solution.
--   Identifying and documenting the resources, limitations, and barriers
-    on cross-Steno collaboration practices and processes to minimize
-    their impact on the project.
+- Automatically converting our documentation in easy to share and search
+  websites.
+- Regularly and actively seeking out areas of the research lifecycle
+  that can be simplified, streamlined, or automated by incorporating
+  dedicated meetings or reviews to uncover these areas to optimise.
+  Then, based on this information, working to implement a solution.
+- Identifying and documenting the resources, limitations, and barriers
+  on cross-Steno collaboration practices and processes to minimize their
+  impact on the project.
 
 ### Software development
 
@@ -106,10 +105,10 @@ method, we will ensure that work with them to develop the software in a
 robust, well-designed, reliable, and maintainable way. Concretely, some
 activities may include:
 
--   Developing a template for building the software package that
-    includes best practices for software development.
--   Contributing to data science activities by building reproducible
-    analytic pipelines for faster dissemination of results.
+- Developing a template for building the software package that includes
+  best practices for software development.
+- Contributing to data science activities by building reproducible
+  analytic pipelines for faster dissemination of results.
 
 ### Data engineering
 
@@ -122,14 +121,14 @@ tasks that researchers have with requesting and working with the data.
 So the Seedcase team will be heavily involved in these tasks.
 Concretely, some activities may include:
 
--   Developing a template for building data pipelines that includes best
-    practices for data engineering.
--   Automating or streamlining data flows, from collected into stored,
-    for rapid internal sharing of data outputs.
--   Structuring and designing register data format conversion pipelines
-    into more powerful and modern formats.
--   Designing and building data generated into a functioning and FAIR
-    "data package".
+- Developing a template for building data pipelines that includes best
+  practices for data engineering.
+- Automating or streamlining data flows, from collected into stored, for
+  rapid internal sharing of data outputs.
+- Structuring and designing register data format conversion pipelines
+  into more powerful and modern formats.
+- Designing and building data generated into a functioning and FAIR
+  "data package".
 
 ### Knowledge management
 
@@ -141,17 +140,17 @@ we have. We "capture" knowledge largely by using GitHub to write, share,
 and discuss things, either as issues, comments, or files. Knowledge
 includes:
 
--   Information about the project, the research, and the tools and
-    practices that we use.
--   Study protocols that are the description of the research question,
-    the methods used to answer the question, and the data that will be
-    collected.
--   Data management plans, which are the description of how data will be
-    collected, stored, and shared.
--   Statistical analysis plans, which are the description of how the
-    data will be analysed.
--   Operational documents, like decisions made, procedures,
-    collaboration agreements, and workflows for collaboration and work.
+- Information about the project, the research, and the tools and
+  practices that we use.
+- Study protocols that are the description of the research question, the
+  methods used to answer the question, and the data that will be
+  collected.
+- Data management plans, which are the description of how data will be
+  collected, stored, and shared.
+- Statistical analysis plans, which are the description of how the data
+  will be analysed.
+- Operational documents, like decisions made, procedures, collaboration
+  agreements, and workflows for collaboration and work.
 
 ### Technical working group
 
