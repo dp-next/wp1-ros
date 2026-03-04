@@ -1,0 +1,168 @@
+# Denmark Statistics {#sec-dst}
+
+Working on the Denmark Statistics (DST) servers brings with it unique
+challenges when it comes to collaborating together. This page describes
+how we've set it up to effectively collaborate on the DST servers.
+
+## The folder structure
+
+Before setting up this folder structure, the first thing to decide is
+what the "product"/output will be and what its name (or abbreviation)
+will be. The reason for this, as per [our design](design.qmd), we want
+to structure work on products around teams (or groups), rather than
+people. So a folder structure should reflect the product, not the people
+working on it.
+
+We'll use an example of a product called `wp2-analysis` that will be
+done within DST. There are two people working on this product (for now)
+called `person-name-1` and `person-name-2`. The folder structure will
+look like this:
+
+``` text
+workdata/
+└── wp2-analysis/
+    ├── remote/ # Contains only Git specific folders
+    ├── person-name-1/
+    │   ├── .git/
+    │   ├── data/
+    │   ├── docs/
+    │   ├── R/
+    │   ├── wp2-analysis.Rproj
+    │   ├── DESCRIPTION
+    │   ├── _targets.R
+    │   └── README.md
+    └── person-name-2/
+        ├── .git/
+        ├── data/
+        ├── docs/
+        ├── R/
+        ├── wp2-analysis.Rproj
+        ├── DESCRIPTION
+        ├── _targets.R
+        └── README.md
+```
+
+The `remote/` folder is a (bare) Git repository, meaning that the only
+files and folders found within it are Git specific folders and files,
+such as `branches/`, `hooks/`, `objects/`, `refs/`, `config`,
+`description`, and `HEAD`. The other folders (for each collaborator) are
+the "local" repositories that have the standard structure for data
+analysis projects. In this case, the "remote" folder is a bit like a
+GitHub repository, while each collaborator's "local" repository is like
+their own local repository of the GitHub (remote) repository.
+
+## Creating a Git "remote" as a folder
+
+To create the "remote" folder, first create the `wp2-analysis/` folder.
+Then, open a terminal into the `wp2-analysis/` folder and run the
+following command:
+
+``` bash
+git init --bare remote
+```
+
+This will then create the `remote/` folder with the necessary Git files
+and folders that will allow it to be treated as a Git remote repository
+(like with GitHub). This is the folder each collaborator will push and
+pull to (more on that later below).
+
+## Creating the first "local" repository
+
+Next, one of the collaborators (e.g. `person-name-1`) needs to create
+their local repository, ideally using a standard structure as set up by
+the [prodigenr](https://rostools.github.io/prodigenr/) package. To do
+this, they can open an R Console into the `wp2-analysis/` folder and run
+the following R function:
+
+``` r
+prodigenr::setup_project("wp2-analysis")
+```
+
+This will create a folder with the `.Rproj` file name as `wp2-analysis`.
+But since we want each sub-folder to be the name of the collaborator,
+you'll need to rename the folder to `person-name-1` (name or other
+identifier of the person doing these tasks, without spaces). In the R
+Console, run this function:
+
+``` r
+fs::file_move("wp2-analysis", "person-name-1")
+```
+
+Next, you'll need to connect this local repository to the `remote/`
+folder. You can do this either in the terminal or in the R Console. In
+R, you do:
+
+``` r
+gert::git_remote_add("../remote")
+```
+
+Or in the terminal, you can run:
+
+``` bash
+git remote add origin ../remote
+```
+
+You'll use the relative path `../remote` as you will always be keeping
+both the remote and "local" (collaborator) repositories within the same
+parent folder (e.g. `wp2-analysis/`). You're now ready to collaborate!
+:tada:
+
+## Creating more "local" repositories
+
+Now that the "remote" folder has been officially set up, it's easy to
+add another "local" repository for another collaborator (e.g.
+`person-name-2`). Replace `person-name-2` with the name (or other
+identifier) of the second collaborator (without spaces). You can do this
+in R or in the terminal. In R, you can run:
+
+``` r
+gert::git_clone("../remote", "person-name-2")
+```
+
+Or in the terminal, you can run:
+
+``` bash
+git clone ../remote person-name-2
+```
+
+This will create a new folder called `person-name-2/` with the same structure as the first collaborator's local repository. It will also be connected to the same `remote/` folder for pushing and pulling changes.
+
+## Using the "remote" to collaborate
+
+Now that you have the remote and multiple local folders for each
+collaborator, you can start collaborating together! Whenever either
+collaborator makes changes to their local repository, regularly "push"
+and "pull" to the remote (via RStudio's interface or via the terminal)
+so that the remote is always up to date. This can be visually
+represented as follows:
+
+```{mermaid}
+flowchart TB
+    A["'person-name-1/'<br>repository"] -->|Push| B["'remote/'<br>repository"]
+    B -->|Pull| A
+    B -->|Pull| C["'person-name-2/'<br>repository"]
+    C -->|Push| B
+```
+
+This way, both collaborators can work on their own local repositories,
+but they can easily share their changes with each other by pushing and
+pulling to the remote repository. It also means that any collaborator
+can contribute to the product repository without impacting the work of
+other collaborators. This allows for effective collaboration while
+working on the DST servers, even without access to external platforms
+like GitHub.
+
+There will of course be some issues that will come up, especially merge
+conflicts. If each collaborator is pushing and pulling to the `main`
+(could also be called `master`) branch, then you will likely encounter
+merge conflicts. This isn't necessarily a bad thing, as you can always
+resolve them. And it's also fairly easy to avoid if you communicate with
+each other and coordinate your work effectively, e.g. by saying "hey I'm
+working on this file".
+
+A more powerful approach is to use branches for each change. This is
+most commonly used when working with GitHub-type repositories. In this
+case, it might not be necessary, nor is it as easy to do within the DST
+environment. So for now, the best approach is to just coordinate and
+communicate with each other while pushing and pulling to the `main`
+branch.
