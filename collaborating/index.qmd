@@ -1,0 +1,6 @@
+# Collaborating {#sec-collaborating}
+
+This part contains documents that describe how we collaborate together
+as a group on the DP-Next project. We only describe how we work
+together, not how we contribute (add, edit, review) content, for that we
+have the [Contributing](/contributing/index.qmd) part.
