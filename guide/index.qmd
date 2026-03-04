@@ -1,7 +1,0 @@
----
-title: "Guide"
-description: "A guidebook for how we work together on the DP-Next project."
----
-
-This lists the different documents we have in this guide on working
-together.
