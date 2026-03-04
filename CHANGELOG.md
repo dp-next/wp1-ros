@@ -15,6 +15,12 @@ that any individual release will not have many changes within it. Below
 is a list of the releases we've made so far, along with what was changed
 within each release.
 
+## 0.5.1 (2026-03-04)
+
+### Fix
+
+- :bug: correct URLs after running lychee checker
+
 ## 0.5.0 (2025-11-04)
 
 ### Feat
