@@ -8,7 +8,7 @@ how we've set it up to effectively collaborate on the DST servers.
 
 Before setting up this folder structure, the first thing to decide is
 what the "product"/output will be and what its name (or abbreviation)
-will be. The reason for this, as per [our design](design.qmd), we want
+will be. The reason for this, as per [our design](/design.qmd), we want
 to structure work on products around teams (or groups), rather than
 people. So a folder structure should reflect the product, not the people
 working on it.
