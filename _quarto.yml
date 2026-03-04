@@ -41,10 +41,14 @@ book:
       chapters:
         - decisions/index.qmd
         - decisions/why-r-python.qmd
-    - part: Guide
+    - part: Collaborating
       chapters:
-        - guide/collaborating.qmd
-        - guide/contributing.qmd
+        - collaborating/index.qmd
+        - collaborating/project-management.qmd
+        - collaborating/meetings.qmd
+    - part: Contributing
+      chapters:
+        - contributing/index.qmd
   appendices:
     - CONTRIBUTING.md
     - href: LICENSE.md

@@ -1,7 +1,6 @@
----
-title: "Contributing"
-description: "A guide on how we agree to contribute content to the project."
----
+# Contributing {#sec-contributing}
+
+A guide on how we agree to contribute content to the project.
 
 ## File naming conventions
 
