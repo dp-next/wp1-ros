@@ -278,8 +278,9 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#decisions" id="toc-decisions" class="nav-link" data-scroll-target="#decisions"><span class="header-section-number">7.3</span> Decisions</a></li>
   <li><a href="#design-patterns" id="toc-design-patterns" class="nav-link" data-scroll-target="#design-patterns"><span class="header-section-number">7.4</span> Design patterns</a>
   <ul class="collapse">
-  <li><a href="#one-git-or-github-repository-per-scientific-output" id="toc-one-git-or-github-repository-per-scientific-output" class="nav-link" data-scroll-target="#one-git-or-github-repository-per-scientific-output"><span class="header-section-number">7.4.1</span> One Git or GitHub repository per scientific output</a></li>
-  <li><a href="#repository-naming-convention" id="toc-repository-naming-convention" class="nav-link" data-scroll-target="#repository-naming-convention"><span class="header-section-number">7.4.2</span> Repository naming convention</a></li>
+  <li><a href="#one-git-or-github-repository-per-product" id="toc-one-git-or-github-repository-per-product" class="nav-link" data-scroll-target="#one-git-or-github-repository-per-product"><span class="header-section-number">7.4.1</span> One Git or GitHub repository per “product”</a></li>
+  <li><a href="#prefer-to-revolve-work-around-teams-and-products" id="toc-prefer-to-revolve-work-around-teams-and-products" class="nav-link" data-scroll-target="#prefer-to-revolve-work-around-teams-and-products"><span class="header-section-number">7.4.2</span> Prefer to revolve work around teams and “products”</a></li>
+  <li><a href="#repository-naming-convention" id="toc-repository-naming-convention" class="nav-link" data-scroll-target="#repository-naming-convention"><span class="header-section-number">7.4.3</span> Repository naming convention</a></li>
   </ul></li>
   </ul>
 <div class="toc-actions"><ul><li><a href="https://github.com/dp-next/wp1-ros/issues/new" class="toc-action"><i class="bi bi-github"></i>Report an issue</a></li><li><a href="https://github.com/dp-next/wp1-ros/edit/main/design.qmd" class="toc-action"><i class="bi empty"></i>Edit this page</a></li><li><a href="https://github.com/dp-next/wp1-ros/blob/main/design.qmd" class="toc-action"><i class="bi empty"></i>View source</a></li></ul></div></nav>
@@ -358,13 +359,27 @@ Warning
 <section id="design-patterns" class="level2" data-number="7.4">
 <h2 data-number="7.4" class="anchored" data-anchor-id="design-patterns"><span class="header-section-number">7.4</span> Design patterns</h2>
 <p>To help simplify how we work, it’s useful to follow commonly used patterns in project development and collaboration. In our case, the design patterns we will use are:</p>
-<section id="one-git-or-github-repository-per-scientific-output" class="level3" data-number="7.4.1">
-<h3 data-number="7.4.1" class="anchored" data-anchor-id="one-git-or-github-repository-per-scientific-output"><span class="header-section-number">7.4.1</span> One Git or GitHub repository per scientific output</h3>
-<p>The pattern of “one repo, one product” is a widely used pattern in many types of projects. There are many tools, templates, and workflows that are built around this pattern. For instance, it is easier to ensure a scientific document is reproducible if it follows this pattern. So administratively and collaboratively, it is easier to use a pattern like this, since it is a standardized way of structuring work. For DP-Next, this pattern includes the protocols as well as the scientific results.</p>
+<section id="one-git-or-github-repository-per-product" class="level3" data-number="7.4.1">
+<h3 data-number="7.4.1" class="anchored" data-anchor-id="one-git-or-github-repository-per-product"><span class="header-section-number">7.4.1</span> One Git or GitHub repository per “product”</h3>
+<p>The pattern of “one repo, one product” is a widely used pattern in many types of projects. There are many tools, templates, and workflows that are built around this pattern. For instance, it is easier to ensure a scientific document is reproducible if it follows this pattern. So administratively and collaboratively, it is easier to use a pattern like this, since it is a standardized way of structuring work. For DP-Next, a “product” includes scientific output such as papers, but also includes protocols, documentation on data, standard operating procedures, and guides (like this one).</p>
 <p>Some servers don’t allow internet or easy access to outside resources like GitHub. But all servers have Git installed. In those cases, each scientific output is one Git repository.</p>
 </section>
-<section id="repository-naming-convention" class="level3" data-number="7.4.2">
-<h3 data-number="7.4.2" class="anchored" data-anchor-id="repository-naming-convention"><span class="header-section-number">7.4.2</span> Repository naming convention</h3>
+<section id="prefer-to-revolve-work-around-teams-and-products" class="level3" data-number="7.4.2">
+<h3 data-number="7.4.2" class="anchored" data-anchor-id="prefer-to-revolve-work-around-teams-and-products"><span class="header-section-number">7.4.2</span> Prefer to revolve work around teams and “products”</h3>
+<p>Linking to the “one repo, one product” pattern, it’s also useful to revolve work around teams. From the <a href="https://www.teamtopologies.com/">Team Topology</a> book, the “the means of delivery of a product” is the team. What that means is that teams should be assigned work, not individuals, as teams are what effectively create and build products (especially knowledge work products). So by designing work on a product with a focus on a team and teamwork, we can make use of all the established and proven ways to structuring teams and organising how people work within a team to more effectively and efficiently produce a product.</p>
+<p>How do we define team then? As per the (excellent) Team Topology book, a team is a small group of people (of no more than 8-9 people) who work closely and cohesively together on a shared product. A team usually has these “signs”:</p>
+<ul>
+<li>Requires a high level of communication and coordination of tasks between members.</li>
+<li>Is usually composed of people with different, though complementary, skills.</li>
+<li>Is responsible for the entire lifecycle of a product.</li>
+<li>Has a high level of autonomy in deciding how they do and structure their work.</li>
+<li>Has specific roles within the team.</li>
+<li>Has a lead who is responsible for curating and coordinating tasks and ensuring the environment and organisation enables members to work effectively.</li>
+</ul>
+<p>With this in mind, the pattern of “one team, one product” is an effective and widely used pattern to structure work around products. This way, it makes it clear who is responsible for what. In DP-Next, we use this pattern for most of our main, larger products. However, many of the smaller products are not suitable for using a team-based approach, for example, a PhD student’s paper product for their thesis. In those cases, the individual assigned the product is responsible for it, with support and review from other (potentially explicitly assigned) people.</p>
+</section>
+<section id="repository-naming-convention" class="level3" data-number="7.4.3">
+<h3 data-number="7.4.3" class="anchored" data-anchor-id="repository-naming-convention"><span class="header-section-number">7.4.3</span> Repository naming convention</h3>
 <p>When creating repositories for DP-Next, we decided on following a naming convention that includes the work package number and the type of output that follows a descriptive pattern of a higher-level category to a lower-level category.</p>
 <p>For Work Package 3, we use this convention, in order:</p>
 <ol type="1">
