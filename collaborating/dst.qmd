@@ -125,7 +125,10 @@ Or in the terminal, you can run:
 git clone ../remote person-name-2
 ```
 
-This will create a new folder called `person-name-2/` with the same structure as the first collaborator's local repository. It will also be connected to the same `remote/` folder for pushing and pulling changes.
+This will create a new folder called `person-name-2/` with the same
+structure as the first collaborator's local repository. It will also
+be connected to the same `remote/` folder for pushing and pulling 
+changes.
 
 ## Using the "remote" to collaborate
 
