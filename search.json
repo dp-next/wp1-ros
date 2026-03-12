@@ -213,278 +213,289 @@
     ]
   },
   {
-    "objectID": "design.html",
-    "href": "design.html",
+    "objectID": "design/index.html",
+    "href": "design/index.html",
     "title": "7  Design",
     "section": "",
-    "text": "7.1 Principles\nPart of the aim for DP-Next, and the purpose of Work Package 1, is to produce scientific results that follow open scientific and reproducible practices. In addition to this aim, Work Package 1 also aims to help produce better research in less time and resources. Aligning with these overall aims and expanding on the guiding principles in the Strategy page, we want to eventually follow these principles:",
+    "text": "Warning\n\n\n\n🚧 This website and documentation is still in very active development and evolving quickly, so content could undergo substantial changes at any time 🚧\n\nPart of the aim for DP-Next, and the purpose of Work Package 1, is to produce scientific results that follow open scientific and reproducible practices. In addition to this aim, Work Package 1 also aims to help produce better research in less time and fewer resources. Aligning with these overall aims and expanding on the guiding principles in the Strategy page, we want to eventually follow these principles:\n\nIncorporate explicit feedback loops in how we collaborate.\nActively and continually seek out and identify ways we can improve how we work.\nStart with what we can do now and improve iteratively and incrementally.\nMake work visible (at least to the group), including tasks to do, and project management.\nIncorporate regular upskilling activities, such as “pair-working”.\nPrefer written communication over verbal communication to ensure more people can participate.\nUse open source software as much as possible and is reasonable.\nHave meetings sparingly and only when extensive, concurrent discussions and brainstorming are needed.",
     "crumbs": [
       "Design",
       "<span class='chapter-number'>7</span>  <span class='chapter-title'>Design</span>"
     ]
   },
   {
-    "objectID": "design.html#principles",
-    "href": "design.html#principles",
-    "title": "7  Design",
+    "objectID": "design/patterns.html",
+    "href": "design/patterns.html",
+    "title": "8  Design patterns",
     "section": "",
-    "text": "Incorporate explicit feedback loops in how we collaborate\nActively and continually seek out and identify ways we can improve how we work\nStart with what we can do now and improve iteratively and incrementally\nMake work visible (at least to the group), including tasks to do, project management\nIncorporate regular upskilling activities, such as “pair-working”\nPrefer written communication over verbal communication to ensure more people can participate\nUse open source software as much as possible and is reasonable\nHave meetings sparingly and only when extensive, concurrent discussions and brainstorming are needed",
+    "text": "8.1 One Git or GitHub repository per “product”\nTo help simplify how we work, it’s useful to follow commonly used patterns in project development and collaboration. In our case, the design patterns we will use are:\nThe pattern of “one repo, one product” is a widely used pattern in many types of projects. There are many tools, templates, and workflows that are built around this pattern. For instance, it is easier to ensure a scientific document is reproducible if it follows this pattern. So administratively and collaboratively, it is easier to use a pattern like this, since it is a standardized way of structuring work. For DP-Next, a “product” includes scientific output such as papers, but also includes protocols, documentation on data, standard operating procedures, and guides (like this one).\nSome servers don’t allow internet or easy access to outside resources like GitHub. But all servers have Git installed. In those cases, each scientific output is one Git repository.",
     "crumbs": [
       "Design",
-      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Design</span>"
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Design patterns</span>"
     ]
   },
   {
-    "objectID": "design.html#practices-tools-and-methods",
-    "href": "design.html#practices-tools-and-methods",
-    "title": "7  Design",
-    "section": "7.2 Practices, tools, and methods",
-    "text": "7.2 Practices, tools, and methods\nAnd to achieve these principles, we also eventually (not all at once) want to work towards a point where we:\n\nUse GitHub or just Git to manage and track all files\nUse R or Python for doing data analysis\nUse Quarto Markdown for writing documentation\nUse Quarto with R or Python code to write reproducible scientific output\nUse Quarto to create websites of our work\nUse FAIR principles when managing data\nUse Seedcase software to structure and manage data\nUse Zenodo to upload protocols (before submitting to other outlets), analysis code, and preprints\nUse GitHub Project boards to follow a Kanban-style approach to project management\nUse Discord for informal communication or for coordinating across groups\nUse Discord for video meetings, including for upskilling activities\nUse Teamup, a calendar tool, for scheduling meetings and events relevant to all groups\nUse GitHub Projects and Issues to create, discuss, and manage tasks and issues",
+    "objectID": "design/patterns.html#prefer-to-revolve-work-around-teams-and-products",
+    "href": "design/patterns.html#prefer-to-revolve-work-around-teams-and-products",
+    "title": "8  Design patterns",
+    "section": "8.2 Prefer to revolve work around teams and “products”",
+    "text": "8.2 Prefer to revolve work around teams and “products”\nLinking to the “one repo, one product” pattern, it’s also useful to revolve work around teams. From the Team Topology book, the “the means of delivery of a product” is the team. What that means is that teams should be assigned work, not individuals, as teams are what effectively create and build products (especially knowledge work products). So by designing work on a product with a focus on a team and teamwork, we can make use of all the established and proven ways to structuring teams and organising how people work within a team to more effectively and efficiently produce a product.\nHow do we define team then? As per the (excellent) Team Topology book, a team is a small group of people (of no more than 8-9 people) who work closely and cohesively together on a shared product. A team usually has these “signs”:\n\nRequires a high level of communication and coordination of tasks between members.\nIs usually composed of people with different, though complementary, skills.\nIs responsible for the entire lifecycle of a product.\nHas a high level of autonomy in deciding how they do and structure their work.\nHas specific roles within the team.\nHas a lead who is responsible for curating and coordinating tasks and ensuring the environment and organisation enables members to work effectively.\n\nWith this in mind, the pattern of “one team, one product” is an effective and widely used pattern to structure work around products. This way, it makes it clear who is responsible for what. In DP-Next, we use this pattern for most of our main, larger products. However, many of the smaller products are not suitable for using a team-based approach, for example, a PhD student’s paper product for their thesis. In those cases, the individual assigned the product is responsible for it, with support and review from other (potentially explicitly assigned) people.",
     "crumbs": [
       "Design",
-      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Design</span>"
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Design patterns</span>"
     ]
   },
   {
-    "objectID": "design.html#decisions",
-    "href": "design.html#decisions",
-    "title": "7  Design",
-    "section": "7.3 Decisions",
-    "text": "7.3 Decisions\nTo be explicit about the reasons for our choices of tools, methods, and approaches that apply to the DP-Next project, we have documented them in the Decisions section. This website will not document choices for things that are specific to a single work package, for instance, the type of machine to measure a specific biological marker. Instead, we will focus on the decisions that are relevant to the entire project or to multiple work packages.",
+    "objectID": "design/practicals.html",
+    "href": "design/practicals.html",
+    "title": "9  Practicals",
+    "section": "",
+    "text": "Warning\n\n\n\n🚧 This website and documentation is still in very active development and evolving quickly, so content could undergo substantial changes at any time 🚧\n\nAnd to achieve our design principles from Chapter 7, we also eventually (not all at once) want to work towards a point where we:\n\nUse GitHub or just Git to manage and track all files\nUse R or Python for doing data analysis\nUse Quarto Markdown for writing documentation\nUse Quarto with R or Python code to write reproducible scientific output\nUse Quarto to create websites of our work\nUse FAIR principles when managing data\nUse Seedcase software to structure and manage data\nUse Zenodo to upload protocols (before submitting to other outlets), analysis code, and preprints\nUse GitHub Project boards to follow a Kanban-style approach to project management\nUse Discord for informal communication or for coordinating across groups\nUse Discord for video meetings, including for upskilling activities\nUse Teamup, a calendar tool, for scheduling meetings and events relevant to all groups\nUse GitHub Projects and Issues to create, discuss, and manage tasks and issues",
     "crumbs": [
       "Design",
-      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Design</span>"
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Practicals</span>"
     ]
   },
   {
-    "objectID": "design.html#design-patterns",
-    "href": "design.html#design-patterns",
-    "title": "7  Design",
-    "section": "7.4 Design patterns",
-    "text": "7.4 Design patterns\nTo help simplify how we work, it’s useful to follow commonly used patterns in project development and collaboration. In our case, the design patterns we will use are:\n\n7.4.1 One Git or GitHub repository per “product”\nThe pattern of “one repo, one product” is a widely used pattern in many types of projects. There are many tools, templates, and workflows that are built around this pattern. For instance, it is easier to ensure a scientific document is reproducible if it follows this pattern. So administratively and collaboratively, it is easier to use a pattern like this, since it is a standardized way of structuring work. For DP-Next, a “product” includes scientific output such as papers, but also includes protocols, documentation on data, standard operating procedures, and guides (like this one).\nSome servers don’t allow internet or easy access to outside resources like GitHub. But all servers have Git installed. In those cases, each scientific output is one Git repository.\n\n\n7.4.2 Prefer to revolve work around teams and “products”\nLinking to the “one repo, one product” pattern, it’s also useful to revolve work around teams. From the Team Topology book, the “the means of delivery of a product” is the team. What that means is that teams should be assigned work, not individuals, as teams are what effectively create and build products (especially knowledge work products). So by designing work on a product with a focus on a team and teamwork, we can make use of all the established and proven ways to structuring teams and organising how people work within a team to more effectively and efficiently produce a product.\nHow do we define team then? As per the (excellent) Team Topology book, a team is a small group of people (of no more than 8-9 people) who work closely and cohesively together on a shared product. A team usually has these “signs”:\n\nRequires a high level of communication and coordination of tasks between members.\nIs usually composed of people with different, though complementary, skills.\nIs responsible for the entire lifecycle of a product.\nHas a high level of autonomy in deciding how they do and structure their work.\nHas specific roles within the team.\nHas a lead who is responsible for curating and coordinating tasks and ensuring the environment and organisation enables members to work effectively.\n\nWith this in mind, the pattern of “one team, one product” is an effective and widely used pattern to structure work around products. This way, it makes it clear who is responsible for what. In DP-Next, we use this pattern for most of our main, larger products. However, many of the smaller products are not suitable for using a team-based approach, for example, a PhD student’s paper product for their thesis. In those cases, the individual assigned the product is responsible for it, with support and review from other (potentially explicitly assigned) people.\n\n\n7.4.3 Repository naming convention\nWhen creating repositories for DP-Next, we decided on following a naming convention that includes the work package number and the type of output that follows a descriptive pattern of a higher-level category to a lower-level category.\nFor Work Package 3, we use this convention, in order:\n\nwp3- to indicate the work package number.\nd- and a- to indicate the output is either “data” (d-) or “analysis” (a-).\nclin- and quest for the clinical and questionnaire data, respectively. Without any later sub-outputs, this indicates the main output is the “data package” itself.\nprotocol, dmp, sop, and dap for the protocol, data management plan, standard operating procedure, and data analysis plan, respectively.\n\nBased on that convention, we have the following repositories for Work Package 3 (at least for the d- outputs):\n\nwp3-d-clin\nwp3-d-clin-protocol\nwp3-d-clin-dmp\nwp3-d-clin-sop\nwp3-d-clin-dap\nwp3-d-quest\nwp3-d-quest-protocol\nwp3-d-quest-dmp\nwp3-d-quest-sop\nwp3-d-quest-dap",
+    "objectID": "design/naming.html",
+    "href": "design/naming.html",
+    "title": "10  Naming conventions",
+    "section": "",
+    "text": "10.1 Work Package 3\nWhen creating repositories for DP-Next, we decided on following a naming convention that includes the work package number and the type of output that follows a descriptive pattern of a higher-level category to a lower-level category.\nWe use this convention following this order in the file name:\nBased on that convention, we have the following repositories for Work Package 3 (at least for the d- outputs):",
     "crumbs": [
       "Design",
-      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Design</span>"
+      "<span class='chapter-number'>10</span>  <span class='chapter-title'>Naming conventions</span>"
+    ]
+  },
+  {
+    "objectID": "design/naming.html#work-package-3",
+    "href": "design/naming.html#work-package-3",
+    "title": "10  Naming conventions",
+    "section": "",
+    "text": "wp3- to indicate the work package number.\nd- and a- to indicate the output is either “data” (d-) or “analysis” (a-).\nclin- and quest for the clinical and questionnaire data, respectively. Without any later sub-outputs, this indicates the main output is the “data package” itself.\nprotocol, dmp, sop, and dap for the protocol, data management plan, standard operating procedure, and data analysis plan, respectively.\n\n\n\nwp3-d-clin\nwp3-d-clin-protocol\nwp3-d-clin-dmp\nwp3-d-clin-sop\nwp3-d-clin-dap\nwp3-d-quest\nwp3-d-quest-protocol\nwp3-d-quest-dmp\nwp3-d-quest-sop\nwp3-d-quest-dap",
+    "crumbs": [
+      "Design",
+      "<span class='chapter-number'>10</span>  <span class='chapter-title'>Naming conventions</span>"
     ]
   },
   {
     "objectID": "decisions/index.html",
     "href": "decisions/index.html",
-    "title": "8  Decisions",
+    "title": "11  Decisions",
     "section": "",
-    "text": "8.1 DP-Next specific decisions\nThis document lists “decisions records”, which are documents describing and justifying why we’ve made the decisions we have. We make heavy use of many of the same decisions as have been made in the Seedcase Project:",
+    "text": "11.1 DP-Next specific decisions\nThis document lists “decisions records”, which are documents describing and justifying why we’ve made the decisions we have. We make heavy use of many of the same decisions as have been made in the Seedcase Project:",
     "crumbs": [
       "Decisions",
-      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Decisions</span>"
+      "<span class='chapter-number'>11</span>  <span class='chapter-title'>Decisions</span>"
     ]
   },
   {
     "objectID": "decisions/index.html#dp-next-specific-decisions",
     "href": "decisions/index.html#dp-next-specific-decisions",
-    "title": "8  Decisions",
+    "title": "11  Decisions",
     "section": "",
     "text": "Note\n\n\n\nThese are decisions are being written.\n\nWhy Seedcase software (in progress)\nWhy open science (in progress)\nWhy reproducibility (in progress)\nWhy Zenodo (in progress)",
     "crumbs": [
       "Decisions",
-      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Decisions</span>"
+      "<span class='chapter-number'>11</span>  <span class='chapter-title'>Decisions</span>"
     ]
   },
   {
     "objectID": "decisions/why-r-python.html",
     "href": "decisions/why-r-python.html",
-    "title": "9  Why R and Python",
+    "title": "12  Why R and Python",
     "section": "",
-    "text": "9.1 Context and problem statement\nDoing data analysis is part of the lifecycle of a research project. To achieve our reproducibility aim, we need to use tools that are code-based and not GUI-based since GUI-based tools are inherently difficult to make reproducible. Using an open source tool greatly simplifies the process of sharing and reproducing results. But for this decision post, we will compare closed sources tools as well. So we need to decide on the software we will use for data analysis. The question is:\nWhat is the best software we can use for data analysis for our purposes, principles, and aims?",
+    "text": "12.1 Context and problem statement\nDoing data analysis is part of the lifecycle of a research project. To achieve our reproducibility aim, we need to use tools that are code-based and not GUI-based since GUI-based tools are inherently difficult to make reproducible. Using an open source tool greatly simplifies the process of sharing and reproducing results. But for this decision post, we will compare closed sources tools as well. So we need to decide on the software we will use for data analysis. The question is:\nWhat is the best software we can use for data analysis for our purposes, principles, and aims?",
     "crumbs": [
       "Decisions",
-      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Why R and Python</span>"
+      "<span class='chapter-number'>12</span>  <span class='chapter-title'>Why R and Python</span>"
     ]
   },
   {
     "objectID": "decisions/why-r-python.html#decision-drivers",
     "href": "decisions/why-r-python.html#decision-drivers",
-    "title": "9  Why R and Python",
-    "section": "9.2 Decision drivers",
-    "text": "9.2 Decision drivers\nThe main things driving this decision are:\n\nComparatively easy way to reproduce results we obtain.\nA tool we can all standardize on and use to help support each other and more effectively collaborate.\nA tool that is widely available and is installed or can easily be installed on our computers or servers (or already installed).\nStill needs to follow our core principles and aims.\nIs not a GUI-based tool.\nShould be relatively familiar to most of us or easy to learn.",
+    "title": "12  Why R and Python",
+    "section": "12.2 Decision drivers",
+    "text": "12.2 Decision drivers\nThe main things driving this decision are:\n\nComparatively easy way to reproduce results we obtain.\nA tool we can all standardize on and use to help support each other and more effectively collaborate.\nA tool that is widely available and is installed or can easily be installed on our computers or servers (or already installed).\nStill needs to follow our core principles and aims.\nIs not a GUI-based tool.\nShould be relatively familiar to most of us or easy to learn.",
     "crumbs": [
       "Decisions",
-      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Why R and Python</span>"
+      "<span class='chapter-number'>12</span>  <span class='chapter-title'>Why R and Python</span>"
     ]
   },
   {
     "objectID": "decisions/why-r-python.html#considered-options",
     "href": "decisions/why-r-python.html#considered-options",
-    "title": "9  Why R and Python",
-    "section": "9.3 Considered options",
-    "text": "9.3 Considered options\nBased on our context, question, and drivers, we will consider the following options:\n\nR\nPython\nSAS\nStata\n\nCommon GUI-based tools that are excluded from consideration are:\n\nJMP\nGraphPad Prism\nExcel\nSPSS\nTableau\nGoogle Sheets\n\n\n9.3.1 R\nR is an open-source programming language and software environment for statistical computing and graphics supported by the R Foundation for Statistical Computing. The R language is widely used among statisticians and data analysts for developing statistical methods and doing data analysis.\n\n\n\n9.3.1.1 Benefits\n\nWidely used in the research community\nMassive, friendly, and supportive community\nLarge number of packages, that can do nearly any task\nHas all the latest statistical methods that can be installed as packages\nHas a large number of resources and learning material to use (including the DDEA’s R courses that run every year)\nBeginner friendly data analysis tools via the tidyverse\nOpen source, free to use, easy to install\nBecause it is open source, it has more support with AI helper tools like ChatGPT or GitHub Copilot\nHas a lot of templating tools available to simplify many aspects of data analysis work through packages like usethis\n\n\n\n\n9.3.1.2 Drawbacks\n\nCan be difficult to learn, so has a steeper learning curve\nStill not as widely used in the research environment, at least the Danish context, as Stata, so doesn’t have as much institutional support\n\n\n\n\n\n\n9.3.2 Python\nPython is an interpreted, high-level, general-purpose programming language. Python’s design philosophy emphasizes code readability with its notable use of significant whitespace. Its language uses an object-oriented approach aim to help programmers write clear, logical code for small and large-scale projects. Because it is a general-purpose language, there are packages available for doing data analysis tasks.\n\n\n\n9.3.2.1 Benefits\n\nMassive community\nIs a general-purpose programming language, so can be used for more than just data analysis\nHas a large number of packages for many different programming tasks\nIs more commonly used in the data science and machine learning community\nHas all necessary machine learning models available as packages\nBecause it is open source, it has more support with AI helper tools like ChatGPT or GitHub Copilot\nOpen source, free to use, and easy to install\n\n\n\n\n9.3.2.2 Drawbacks\n\nBecause it is a more formal and general-purpose programming language, it can be more difficult to learn for non-software engineers/developers\nNot as many statistical packages as R\nNot as easy to get started and setup when first making a project (need to create virtual environments)\nCommunity, and thus the packages available, take a more “set it up yourself” approach to common tasks, which can be a major barrier to entry for beginners\nThere are less beginner-friendly or -focused resources and learning material available\nStill not as widely used in the research environment, at least the Danish context, as Stata, so doesn’t have as much institutional support\nThere are few in-person courses that teach Python for data analysis, at least within the Danish context\n\n\n\n\n\n\n9.3.3 SAS\nSAS is a software suite developed by SAS Institute for advanced analytics, multivariate analysis, business intelligence, data management, and predictive analytics. It is used for data management, business intelligence, predictive analysis, and more.\n\n\n\n9.3.3.1 Benefits\n\nWidely used in certain industries, such as the pharmaceutical industry, as well as some Danish research institutions like Denmark Statistics\nIs a very old language and so has many of the established statistical methods built-in\nAs it is a paid software, there is more personal support available\n\n\n\n\n9.3.3.2 Drawbacks\n\nIs closed source, so you need a license to install and use it, which makes it difficult to share and reproduce results\nWas designed in a different time period when software development practices were less advanced, so it’s language is less modern and more difficult to use\nNearly no new PhD student is familiar with SAS\nVery few courses teach SAS now\nBecause it is closed source, there is much less online and free resources for learning and using it\nBecause it is closed source, it has less support with AI helper tools like ChatGPT or GitHub Copilot\nThe whole ecosystem is closed, which means learning all the features only available through SAS\nBecause it is closed source, it is more difficult to integrate with other tools and software\n\n\n\n\n\n\n9.3.4 Stata\nStata is a general-purpose statistical software package created by StataCorp. It is used by many researchers in the social sciences, public health, and economics.\n\n\n\n9.3.4.1 Benefits\n\nHas strong institutional support within Danish universities\nIs widely used in the research community, especially in the Danish context\nMany established researchers (in Denmark) are familiar with Stata\nHas many of the established statistical methods built-in\nWithin the Danish context, there are many courses at the university level that teach Stata\n\n\n\n\n9.3.4.2 Drawbacks\n\nHas all of the same drawbacks as SAS\nIn Denmark, fewer courses are teaching Stata compared to previous years",
+    "title": "12  Why R and Python",
+    "section": "12.3 Considered options",
+    "text": "12.3 Considered options\nBased on our context, question, and drivers, we will consider the following options:\n\nR\nPython\nSAS\nStata\n\nCommon GUI-based tools that are excluded from consideration are:\n\nJMP\nGraphPad Prism\nExcel\nSPSS\nTableau\nGoogle Sheets\n\n\n12.3.1 R\nR is an open-source programming language and software environment for statistical computing and graphics supported by the R Foundation for Statistical Computing. The R language is widely used among statisticians and data analysts for developing statistical methods and doing data analysis.\n\n\n\n12.3.1.1 Benefits\n\nWidely used in the research community\nMassive, friendly, and supportive community\nLarge number of packages, that can do nearly any task\nHas all the latest statistical methods that can be installed as packages\nHas a large number of resources and learning material to use (including the DDEA’s R courses that run every year)\nBeginner friendly data analysis tools via the tidyverse\nOpen source, free to use, easy to install\nBecause it is open source, it has more support with AI helper tools like ChatGPT or GitHub Copilot\nHas a lot of templating tools available to simplify many aspects of data analysis work through packages like usethis\n\n\n\n\n12.3.1.2 Drawbacks\n\nCan be difficult to learn, so has a steeper learning curve\nStill not as widely used in the research environment, at least the Danish context, as Stata, so doesn’t have as much institutional support\n\n\n\n\n\n\n12.3.2 Python\nPython is an interpreted, high-level, general-purpose programming language. Python’s design philosophy emphasizes code readability with its notable use of significant whitespace. Its language uses an object-oriented approach aim to help programmers write clear, logical code for small and large-scale projects. Because it is a general-purpose language, there are packages available for doing data analysis tasks.\n\n\n\n12.3.2.1 Benefits\n\nMassive community\nIs a general-purpose programming language, so can be used for more than just data analysis\nHas a large number of packages for many different programming tasks\nIs more commonly used in the data science and machine learning community\nHas all necessary machine learning models available as packages\nBecause it is open source, it has more support with AI helper tools like ChatGPT or GitHub Copilot\nOpen source, free to use, and easy to install\n\n\n\n\n12.3.2.2 Drawbacks\n\nBecause it is a more formal and general-purpose programming language, it can be more difficult to learn for non-software engineers/developers\nNot as many statistical packages as R\nNot as easy to get started and setup when first making a project (need to create virtual environments)\nCommunity, and thus the packages available, take a more “set it up yourself” approach to common tasks, which can be a major barrier to entry for beginners\nThere are less beginner-friendly or -focused resources and learning material available\nStill not as widely used in the research environment, at least the Danish context, as Stata, so doesn’t have as much institutional support\nThere are few in-person courses that teach Python for data analysis, at least within the Danish context\n\n\n\n\n\n\n12.3.3 SAS\nSAS is a software suite developed by SAS Institute for advanced analytics, multivariate analysis, business intelligence, data management, and predictive analytics. It is used for data management, business intelligence, predictive analysis, and more.\n\n\n\n12.3.3.1 Benefits\n\nWidely used in certain industries, such as the pharmaceutical industry, as well as some Danish research institutions like Denmark Statistics\nIs a very old language and so has many of the established statistical methods built-in\nAs it is a paid software, there is more personal support available\n\n\n\n\n12.3.3.2 Drawbacks\n\nIs closed source, so you need a license to install and use it, which makes it difficult to share and reproduce results\nWas designed in a different time period when software development practices were less advanced, so it’s language is less modern and more difficult to use\nNearly no new PhD student is familiar with SAS\nVery few courses teach SAS now\nBecause it is closed source, there is much less online and free resources for learning and using it\nBecause it is closed source, it has less support with AI helper tools like ChatGPT or GitHub Copilot\nThe whole ecosystem is closed, which means learning all the features only available through SAS\nBecause it is closed source, it is more difficult to integrate with other tools and software\n\n\n\n\n\n\n12.3.4 Stata\nStata is a general-purpose statistical software package created by StataCorp. It is used by many researchers in the social sciences, public health, and economics.\n\n\n\n12.3.4.1 Benefits\n\nHas strong institutional support within Danish universities\nIs widely used in the research community, especially in the Danish context\nMany established researchers (in Denmark) are familiar with Stata\nHas many of the established statistical methods built-in\nWithin the Danish context, there are many courses at the university level that teach Stata\n\n\n\n\n12.3.4.2 Drawbacks\n\nHas all of the same drawbacks as SAS\nIn Denmark, fewer courses are teaching Stata compared to previous years",
     "crumbs": [
       "Decisions",
-      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Why R and Python</span>"
+      "<span class='chapter-number'>12</span>  <span class='chapter-title'>Why R and Python</span>"
     ]
   },
   {
     "objectID": "decisions/why-r-python.html#decision-outcome",
     "href": "decisions/why-r-python.html#decision-outcome",
-    "title": "9  Why R and Python",
-    "section": "9.4 Decision outcome",
-    "text": "9.4 Decision outcome\nWe decided on using R for most of our data analysis tasks because of the benefits we listed above. It is also the tool most new PhD students are familiar with or learn to use during their studies. However, because of tools that make it very easy to mix R and Python code together, for instance with Quarto, we also decide to use Python for some tasks where it is more appropriate, such as with machine learning analyses.\n\n9.4.1 Consequences\n\nStata has been used, supported, taught, and recommended at institutional levels in Danish universities for many years, many established researchers will be more familiar with Stata. Because of this, we may initially need to do more onboarding and training for those working on DP-Next\nFew people may be familiar with mixing Python and R, so may need to do more onboarding and training on this",
+    "title": "12  Why R and Python",
+    "section": "12.4 Decision outcome",
+    "text": "12.4 Decision outcome\nWe decided on using R for most of our data analysis tasks because of the benefits we listed above. It is also the tool most new PhD students are familiar with or learn to use during their studies. However, because of tools that make it very easy to mix R and Python code together, for instance with Quarto, we also decide to use Python for some tasks where it is more appropriate, such as with machine learning analyses.\n\n12.4.1 Consequences\n\nStata has been used, supported, taught, and recommended at institutional levels in Danish universities for many years, many established researchers will be more familiar with Stata. Because of this, we may initially need to do more onboarding and training for those working on DP-Next\nFew people may be familiar with mixing Python and R, so may need to do more onboarding and training on this",
     "crumbs": [
       "Decisions",
-      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Why R and Python</span>"
+      "<span class='chapter-number'>12</span>  <span class='chapter-title'>Why R and Python</span>"
     ]
   },
   {
     "objectID": "collaborating/index.html",
     "href": "collaborating/index.html",
-    "title": "10  Collaborating",
+    "title": "13  Collaborating",
     "section": "",
     "text": "Warning\n\n\n\n🚧 This website and documentation is still in very active development and evolving quickly, so content could undergo substantial changes at any time 🚧\n\nThis part contains documents that describe how we collaborate together as a group on the DP-Next project. We only describe how we work together, not how we contribute (add, edit, review) content, for that we have the Contributing part.",
     "crumbs": [
       "Collaborating",
-      "<span class='chapter-number'>10</span>  <span class='chapter-title'>Collaborating</span>"
+      "<span class='chapter-number'>13</span>  <span class='chapter-title'>Collaborating</span>"
     ]
   },
   {
     "objectID": "collaborating/project-management.html",
     "href": "collaborating/project-management.html",
-    "title": "11  Project management",
+    "title": "14  Project management",
     "section": "",
     "text": "Warning\n\n\n\n🚧 This website and documentation is still in very active development and evolving quickly, so content could undergo substantial changes at any time 🚧\n\nEvery task that each person is working on is created, tracked, and visible on the GitHub Project board. The board is divided into columns that represent the state of the task (e.g. “to do”, “in progress”, “in review”, “done”). The board is used to track the progress of the project and to identify bottlenecks or issues that need to be addressed, reviewed, or discussed. We also assign tasks to people on the board, which is shown on on the board itself to make it clear who is working on what.\nAll discussions happen on the GitHub issues, which are linked to the tasks on the board. These discussions are comments to the Issue, that way we keep all the information about a task in one place and so that others can participate in the discussion as well.",
     "crumbs": [
       "Collaborating",
-      "<span class='chapter-number'>11</span>  <span class='chapter-title'>Project management</span>"
+      "<span class='chapter-number'>14</span>  <span class='chapter-title'>Project management</span>"
     ]
   },
   {
     "objectID": "collaborating/meetings.html",
     "href": "collaborating/meetings.html",
-    "title": "12  Meetings",
+    "title": "15  Meetings",
     "section": "",
-    "text": "12.1 Collaboration assessments\nEvery month we have a “collaboration-assessment” meeting. At the least, the tech leads and/or representatives from each work package need to attend, but it is open to anyone working on DP-Next. We follow the style of a meeting type called a “retrospective” that is also used in the Seedcase Project.\nDuring these meetings we discuss ways we can improve collaboration within and between work packages. The focus is mainly on collaboration practices, tools, and methods that could benefit the project as a whole or multiple work packages. We discuss what went well, what didn’t go well, and what we can improve. Then we create action items to address the issues we identified.",
+    "text": "15.1 Collaboration assessments\nEvery month we have a “collaboration-assessment” meeting. At the least, the tech leads and/or representatives from each work package need to attend, but it is open to anyone working on DP-Next. We follow the style of a meeting type called a “retrospective” that is also used in the Seedcase Project.\nDuring these meetings we discuss ways we can improve collaboration within and between work packages. The focus is mainly on collaboration practices, tools, and methods that could benefit the project as a whole or multiple work packages. We discuss what went well, what didn’t go well, and what we can improve. Then we create action items to address the issues we identified.",
     "crumbs": [
       "Collaborating",
-      "<span class='chapter-number'>12</span>  <span class='chapter-title'>Meetings</span>"
+      "<span class='chapter-number'>15</span>  <span class='chapter-title'>Meetings</span>"
     ]
   },
   {
     "objectID": "collaborating/meetings.html#update-meetings",
     "href": "collaborating/meetings.html#update-meetings",
-    "title": "12  Meetings",
-    "section": "12.2 Update meetings",
-    "text": "12.2 Update meetings\nEvery week we have a very short “update” meeting. We follow the style used in the Seedcase Project. Briefly, during the meeting, we screenshare the project board and go over the tasks on the board that are at the “in-progress” state or later (e.g. “in review”). Each person gives an a very brief update on their tasks they’ve been working on since the last update meeting. Specific attention is given to tasks that have blocks or barriers to completion.",
+    "title": "15  Meetings",
+    "section": "15.2 Update meetings",
+    "text": "15.2 Update meetings\nEvery week we have a very short “update” meeting. We follow the style used in the Seedcase Project. Briefly, during the meeting, we screenshare the project board and go over the tasks on the board that are at the “in-progress” state or later (e.g. “in review”). Each person gives an a very brief update on their tasks they’ve been working on since the last update meeting. Specific attention is given to tasks that have blocks or barriers to completion.",
     "crumbs": [
       "Collaborating",
-      "<span class='chapter-number'>12</span>  <span class='chapter-title'>Meetings</span>"
+      "<span class='chapter-number'>15</span>  <span class='chapter-title'>Meetings</span>"
     ]
   },
   {
     "objectID": "collaborating/dst.html",
     "href": "collaborating/dst.html",
-    "title": "13  Denmark Statistics",
+    "title": "16  Denmark Statistics",
     "section": "",
-    "text": "13.1 The folder structure\nWorking on the Denmark Statistics (DST) servers brings with it unique challenges when it comes to collaborating together. This page describes how we’ve set it up to effectively collaborate on the DST servers.\nBefore setting up this folder structure, the first thing to decide is what the “product”/output will be and what its name (or abbreviation) will be. The reason for this, as per our design, we want to structure work on products around teams (or groups), rather than people. So a folder structure should reflect the product, not the people working on it.\nWe’ll use an example of a product called wp2-analysis that will be done within DST. There are two people working on this product (for now) called person-name-1 and person-name-2. The folder structure will look like this:\nThe remote/ folder is a (bare) Git repository, meaning that the only files and folders found within it are Git specific folders and files, such as branches/, hooks/, objects/, refs/, config, description, and HEAD. The other folders (for each collaborator) are the “local” repositories that have the standard structure for data analysis projects. In this case, the “remote” folder is a bit like a GitHub repository, while each collaborator’s “local” repository is like their own local repository of the GitHub (remote) repository.",
+    "text": "16.1 The folder structure\nWorking on the Denmark Statistics (DST) servers brings with it unique challenges when it comes to collaborating together. This page describes how we’ve set it up to effectively collaborate on the DST servers.\nBefore setting up this folder structure, the first thing to decide is what the “product”/output will be and what its name (or abbreviation) will be. The reason for this, as per our design, we want to structure work on products around teams (or groups), rather than people. So a folder structure should reflect the product, not the people working on it.\nWe’ll use an example of a product called wp2-analysis that will be done within DST. There are two people working on this product (for now) called person-name-1 and person-name-2. The folder structure will look like this:\nThe remote/ folder is a (bare) Git repository, meaning that the only files and folders found within it are Git specific folders and files, such as branches/, hooks/, objects/, refs/, config, description, and HEAD. The other folders (for each collaborator) are the “local” repositories that have the standard structure for data analysis projects. In this case, the “remote” folder is a bit like a GitHub repository, while each collaborator’s “local” repository is like their own local repository of the GitHub (remote) repository.",
     "crumbs": [
       "Collaborating",
-      "<span class='chapter-number'>13</span>  <span class='chapter-title'>Denmark Statistics</span>"
+      "<span class='chapter-number'>16</span>  <span class='chapter-title'>Denmark Statistics</span>"
     ]
   },
   {
     "objectID": "collaborating/dst.html#the-folder-structure",
     "href": "collaborating/dst.html#the-folder-structure",
-    "title": "13  Denmark Statistics",
+    "title": "16  Denmark Statistics",
     "section": "",
     "text": "workdata/\n└── wp2-analysis/\n    ├── remote/ # Contains only Git specific folders\n    ├── person-name-1/\n    │   ├── .git/\n    │   ├── data/\n    │   ├── docs/\n    │   ├── R/\n    │   ├── wp2-analysis.Rproj\n    │   ├── DESCRIPTION\n    │   ├── _targets.R\n    │   └── README.md\n    └── person-name-2/\n        ├── .git/\n        ├── data/\n        ├── docs/\n        ├── R/\n        ├── wp2-analysis.Rproj\n        ├── DESCRIPTION\n        ├── _targets.R\n        └── README.md",
     "crumbs": [
       "Collaborating",
-      "<span class='chapter-number'>13</span>  <span class='chapter-title'>Denmark Statistics</span>"
+      "<span class='chapter-number'>16</span>  <span class='chapter-title'>Denmark Statistics</span>"
     ]
   },
   {
     "objectID": "collaborating/dst.html#creating-a-git-remote-as-a-folder",
     "href": "collaborating/dst.html#creating-a-git-remote-as-a-folder",
-    "title": "13  Denmark Statistics",
-    "section": "13.2 Creating a Git “remote” as a folder",
-    "text": "13.2 Creating a Git “remote” as a folder\nTo create the “remote” folder, first create the wp2-analysis/ folder. Then, open a terminal into the wp2-analysis/ folder and run the following command:\ngit init --bare remote\nThis will then create the remote/ folder with the necessary Git files and folders that will allow it to be treated as a Git remote repository (like with GitHub). This is the folder each collaborator will push and pull to (more on that later below).",
+    "title": "16  Denmark Statistics",
+    "section": "16.2 Creating a Git “remote” as a folder",
+    "text": "16.2 Creating a Git “remote” as a folder\nTo create the “remote” folder, first create the wp2-analysis/ folder. Then, open a terminal into the wp2-analysis/ folder and run the following command:\ngit init --bare remote\nThis will then create the remote/ folder with the necessary Git files and folders that will allow it to be treated as a Git remote repository (like with GitHub). This is the folder each collaborator will push and pull to (more on that later below).",
     "crumbs": [
       "Collaborating",
-      "<span class='chapter-number'>13</span>  <span class='chapter-title'>Denmark Statistics</span>"
+      "<span class='chapter-number'>16</span>  <span class='chapter-title'>Denmark Statistics</span>"
     ]
   },
   {
     "objectID": "collaborating/dst.html#creating-the-first-local-repository",
     "href": "collaborating/dst.html#creating-the-first-local-repository",
-    "title": "13  Denmark Statistics",
-    "section": "13.3 Creating the first “local” repository",
-    "text": "13.3 Creating the first “local” repository\nNext, one of the collaborators (e.g. person-name-1) needs to create their local repository, ideally using a standard structure as set up by the prodigenr package. To do this, they can open an R Console into the wp2-analysis/ folder and run the following R function:\nprodigenr::setup_project(\"wp2-analysis\")\nThis will create a folder with the .Rproj file name as wp2-analysis. But since we want each sub-folder to be the name of the collaborator, you’ll need to rename the folder to person-name-1 (name or other identifier of the person doing these tasks, without spaces). In the R Console, run this function:\nfs::file_move(\"wp2-analysis\", \"person-name-1\")\nNext, you’ll need to connect this local repository to the remote/ folder. You can do this either in the terminal or in the R Console. In R, you do:\ngert::git_remote_add(\"../remote\")\nOr in the terminal, you can run:\ngit remote add origin ../remote\nYou’ll use the relative path ../remote as you will always be keeping both the remote and “local” (collaborator) repositories within the same parent folder (e.g. wp2-analysis/). You’re now ready to collaborate! 🎉",
+    "title": "16  Denmark Statistics",
+    "section": "16.3 Creating the first “local” repository",
+    "text": "16.3 Creating the first “local” repository\nNext, one of the collaborators (e.g. person-name-1) needs to create their local repository, ideally using a standard structure as set up by the prodigenr package. To do this, they can open an R Console into the wp2-analysis/ folder and run the following R function:\nprodigenr::setup_project(\"wp2-analysis\")\nThis will create a folder with the .Rproj file name as wp2-analysis. But since we want each sub-folder to be the name of the collaborator, you’ll need to rename the folder to person-name-1 (name or other identifier of the person doing these tasks, without spaces). In the R Console, run this function:\nfs::file_move(\"wp2-analysis\", \"person-name-1\")\nNext, you’ll need to connect this local repository to the remote/ folder. You can do this either in the terminal or in the R Console. In R, you do:\ngert::git_remote_add(\"../remote\")\nOr in the terminal, you can run:\ngit remote add origin ../remote\nYou’ll use the relative path ../remote as you will always be keeping both the remote and “local” (collaborator) repositories within the same parent folder (e.g. wp2-analysis/). You’re now ready to collaborate! 🎉",
     "crumbs": [
       "Collaborating",
-      "<span class='chapter-number'>13</span>  <span class='chapter-title'>Denmark Statistics</span>"
+      "<span class='chapter-number'>16</span>  <span class='chapter-title'>Denmark Statistics</span>"
     ]
   },
   {
     "objectID": "collaborating/dst.html#creating-more-local-repositories",
     "href": "collaborating/dst.html#creating-more-local-repositories",
-    "title": "13  Denmark Statistics",
-    "section": "13.4 Creating more “local” repositories",
-    "text": "13.4 Creating more “local” repositories\nNow that the “remote” folder has been officially set up, it’s easy to add another “local” repository for another collaborator (e.g. person-name-2). Replace person-name-2 with the name (or other identifier) of the second collaborator (without spaces). You can do this in R or in the terminal. In R, you can run:\ngert::git_clone(\"../remote\", \"person-name-2\")\nOr in the terminal, you can run:\ngit clone ../remote person-name-2\nThis will create a new folder called person-name-2/ with the same structure as the first collaborator’s local repository. It will also be connected to the same remote/ folder for pushing and pulling changes.",
+    "title": "16  Denmark Statistics",
+    "section": "16.4 Creating more “local” repositories",
+    "text": "16.4 Creating more “local” repositories\nNow that the “remote” folder has been officially set up, it’s easy to add another “local” repository for another collaborator (e.g. person-name-2). Replace person-name-2 with the name (or other identifier) of the second collaborator (without spaces). You can do this in R or in the terminal. In R, you can run:\ngert::git_clone(\"../remote\", \"person-name-2\")\nOr in the terminal, you can run:\ngit clone ../remote person-name-2\nThis will create a new folder called person-name-2/ with the same structure as the first collaborator’s local repository. It will also be connected to the same remote/ folder for pushing and pulling changes.",
     "crumbs": [
       "Collaborating",
-      "<span class='chapter-number'>13</span>  <span class='chapter-title'>Denmark Statistics</span>"
+      "<span class='chapter-number'>16</span>  <span class='chapter-title'>Denmark Statistics</span>"
     ]
   },
   {
     "objectID": "collaborating/dst.html#using-the-remote-to-collaborate",
     "href": "collaborating/dst.html#using-the-remote-to-collaborate",
-    "title": "13  Denmark Statistics",
-    "section": "13.5 Using the “remote” to collaborate",
-    "text": "13.5 Using the “remote” to collaborate\nNow that you have the remote and multiple local folders for each collaborator, you can start collaborating together! Whenever either collaborator makes changes to their local repository, regularly “push” and “pull” to the remote (via RStudio’s interface or via the terminal) so that the remote is always up to date. This can be visually represented as follows:\n\n\n\n\n\nflowchart TB\n    A[\"'person-name-1/'&lt;br&gt;repository\"] --&gt;|Push| B[\"'remote/'&lt;br&gt;repository\"]\n    B --&gt;|Pull| A\n    B --&gt;|Pull| C[\"'person-name-2/'&lt;br&gt;repository\"]\n    C --&gt;|Push| B\n\n\n\n\n\n\nThis way, both collaborators can work on their own local repositories, but they can easily share their changes with each other by pushing and pulling to the remote repository. It also means that any collaborator can contribute to the product repository without impacting the work of other collaborators. This allows for effective collaboration while working on the DST servers, even without access to external platforms like GitHub.\nThere will of course be some issues that will come up, especially merge conflicts. If each collaborator is pushing and pulling to the main (could also be called master) branch, then you will likely encounter merge conflicts. This isn’t necessarily a bad thing, as you can always resolve them. And it’s also fairly easy to avoid if you communicate with each other and coordinate your work effectively, e.g. by saying “hey I’m working on this file”.\nA more powerful approach is to use branches for each change. This is most commonly used when working with GitHub-type repositories. In this case, it might not be necessary, nor is it as easy to do within the DST environment. So for now, the best approach is to just coordinate and communicate with each other while pushing and pulling to the main branch.",
+    "title": "16  Denmark Statistics",
+    "section": "16.5 Using the “remote” to collaborate",
+    "text": "16.5 Using the “remote” to collaborate\nNow that you have the remote and multiple local folders for each collaborator, you can start collaborating together! Whenever either collaborator makes changes to their local repository, regularly “push” and “pull” to the remote (via RStudio’s interface or via the terminal) so that the remote is always up to date. This can be visually represented as follows:\n\n\n\n\n\nflowchart TB\n    A[\"'person-name-1/'&lt;br&gt;repository\"] --&gt;|Push| B[\"'remote/'&lt;br&gt;repository\"]\n    B --&gt;|Pull| A\n    B --&gt;|Pull| C[\"'person-name-2/'&lt;br&gt;repository\"]\n    C --&gt;|Push| B\n\n\n\n\n\n\nThis way, both collaborators can work on their own local repositories, but they can easily share their changes with each other by pushing and pulling to the remote repository. It also means that any collaborator can contribute to the product repository without impacting the work of other collaborators. This allows for effective collaboration while working on the DST servers, even without access to external platforms like GitHub.\nThere will of course be some issues that will come up, especially merge conflicts. If each collaborator is pushing and pulling to the main (could also be called master) branch, then you will likely encounter merge conflicts. This isn’t necessarily a bad thing, as you can always resolve them. And it’s also fairly easy to avoid if you communicate with each other and coordinate your work effectively, e.g. by saying “hey I’m working on this file”.\nA more powerful approach is to use branches for each change. This is most commonly used when working with GitHub-type repositories. In this case, it might not be necessary, nor is it as easy to do within the DST environment. So for now, the best approach is to just coordinate and communicate with each other while pushing and pulling to the main branch.",
     "crumbs": [
       "Collaborating",
-      "<span class='chapter-number'>13</span>  <span class='chapter-title'>Denmark Statistics</span>"
+      "<span class='chapter-number'>16</span>  <span class='chapter-title'>Denmark Statistics</span>"
     ]
   },
   {
     "objectID": "contributing/index.html",
     "href": "contributing/index.html",
-    "title": "14  Contributing",
+    "title": "17  Contributing",
     "section": "",
-    "text": "14.1 File naming conventions\nA guide on how we agree to contribute content to the project.",
+    "text": "17.1 File naming conventions\nA guide on how we agree to contribute content to the project.",
     "crumbs": [
       "Contributing",
-      "<span class='chapter-number'>14</span>  <span class='chapter-title'>Contributing</span>"
+      "<span class='chapter-number'>17</span>  <span class='chapter-title'>Contributing</span>"
     ]
   },
   {
     "objectID": "contributing/index.html#file-naming-conventions",
     "href": "contributing/index.html#file-naming-conventions",
-    "title": "14  Contributing",
+    "title": "17  Contributing",
     "section": "",
     "text": "Prefer using lower case letters for the name, e.g. contributing.qmd. But, some files follow a widely-used standard of being all upper case, e.g. README.md.\nUse either hyphens or underscores to separate words, e.g. contributing.qmd or contributing_record.qmd, but not spaces.\n\nSpaces can make things difficult to work with for some systems and programs. For instance, if we want to generate our files into a website, including spaces in the names can make it difficult to generate the URLs for the pages.\n\nPrefer simpler, shorter words than longer ones, e.g. contributing.qmd instead of how-to-contribute-to-the-project.qmd.\nAvoid using special characters, including Danish characters like æ, ø, and å. These can also make things difficult to work with for some systems.\nAvoid repeating the same word in the file name and the folder name, e.g. contributing/contributing-next-steps.qmd. Instead, use contributing/next-steps.qmd.",
     "crumbs": [
       "Contributing",
-      "<span class='chapter-number'>14</span>  <span class='chapter-title'>Contributing</span>"
+      "<span class='chapter-number'>17</span>  <span class='chapter-title'>Contributing</span>"
     ]
   },
   {
     "objectID": "contributing/index.html#writing",
     "href": "contributing/index.html#writing",
-    "title": "14  Contributing",
-    "section": "14.2 Writing",
-    "text": "14.2 Writing\n\nWrite content using Markdown and in files with either a .qmd (Quarto Markdown) or .md (Markdown) extension.",
+    "title": "17  Contributing",
+    "section": "17.2 Writing",
+    "text": "17.2 Writing\n\nWrite content using Markdown and in files with either a .qmd (Quarto Markdown) or .md (Markdown) extension.",
     "crumbs": [
       "Contributing",
-      "<span class='chapter-number'>14</span>  <span class='chapter-title'>Contributing</span>"
+      "<span class='chapter-number'>17</span>  <span class='chapter-title'>Contributing</span>"
     ]
   },
   {
     "objectID": "contributing/index.html#adding-content",
     "href": "contributing/index.html#adding-content",
-    "title": "14  Contributing",
-    "section": "14.3 Adding content",
-    "text": "14.3 Adding content\n\nPut everything on GitHub, either as an Issue, a comment in an Issue, or as files in the GitHub repositories.\nIf text documents that aren’t Markdown-based are added, we’ll (maybe automatically?) convert them to Markdown file and then delete the original file.",
+    "title": "17  Contributing",
+    "section": "17.3 Adding content",
+    "text": "17.3 Adding content\n\nPut everything on GitHub, either as an Issue, a comment in an Issue, or as files in the GitHub repositories.\nIf text documents that aren’t Markdown-based are added, we’ll (maybe automatically?) convert them to Markdown file and then delete the original file.",
     "crumbs": [
       "Contributing",
-      "<span class='chapter-number'>14</span>  <span class='chapter-title'>Contributing</span>"
+      "<span class='chapter-number'>17</span>  <span class='chapter-title'>Contributing</span>"
     ]
   },
   {
