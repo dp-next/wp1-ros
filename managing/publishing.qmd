@@ -141,7 +141,7 @@ The Steering Committee consists of the following members:
 
 -   Daniel Witte, SDCA
 -   Gunnar Toft, SDCA
--   Claus Bogh Juhl, SDCO
+-   Clause Bogh Juhl, SDCO
 -   Stine Byberg, SDCC
 -   Nicklas Rasmussen, SDCN
 -   Line Lindahl-Jacobsen, SDCS
