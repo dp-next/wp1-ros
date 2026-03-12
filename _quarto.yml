@@ -29,9 +29,8 @@ book:
       text: Welcome
     - part: Overview
       chapters:
-        - motivation.qmd
+        - overview/index.qmd
         - strategy.qmd
-        - risks.qmd
         - groups.qmd
         - roadmap.qmd
     - part: Design
