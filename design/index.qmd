@@ -5,7 +5,7 @@ produce scientific results that follow open scientific and reproducible
 practices. In addition to this aim, Work Package 1 also aims to help
 produce better research in less time and fewer resources. Aligning with
 these overall aims and expanding on the
-[guiding principles](strategy.qmd#guiding-principles) in the Strategy
+[guiding principles](/strategy.qmd#guiding-principles) in the Strategy
 page, we want to eventually follow these principles:
 
 - Incorporate explicit feedback loops in how we collaborate.
