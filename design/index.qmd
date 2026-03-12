@@ -1,0 +1,23 @@
+# Design {#sec-design}
+
+Part of the aim for DP-Next, and the purpose of Work Package 1, is to
+produce scientific results that follow open scientific and reproducible
+practices. In addition to this aim, Work Package 1 also aims to help
+produce better research in less time and fewer resources. Aligning with
+these overall aims and expanding on the
+[guiding principles](strategy.qmd#guiding-principles) in the Strategy
+page, we want to eventually follow these principles:
+
+- Incorporate explicit feedback loops in how we collaborate.
+- Actively and continually seek out and identify ways we can improve how
+  we work.
+- Start with what we can do now and improve iteratively and
+  incrementally.
+- Make work visible (at least to the group), including tasks to do, and
+  project management.
+- Incorporate regular upskilling activities, such as "pair-working".
+- Prefer written communication over verbal communication to ensure more
+  people can participate.
+- Use open source software as much as possible and is reasonable.
+- Have meetings sparingly and only when extensive, concurrent
+  discussions and brainstorming are needed.

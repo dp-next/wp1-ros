@@ -1,0 +1,34 @@
+# Naming conventions {#sec-naming}
+
+When creating repositories for DP-Next, we decided on following a naming
+convention that includes the work package number and the type of output
+that follows a descriptive pattern of a higher-level category to a
+lower-level category.
+
+## Work Package 3
+
+We use this convention following this order in the file name:
+
+1. `wp3-` to indicate the work package number.
+2. `d-` and `a-` to indicate the output is either "data" (`d-`) or
+   "analysis" (`a-`).
+3. `clin-` and `quest` for the clinical and questionnaire data,
+   respectively. Without any later sub-outputs, this indicates the main
+   output is the "data package" itself.
+4. `protocol`, `dmp`, `sop`, and `dap` for the protocol, data management
+   plan, standard operating procedure, and data analysis plan,
+   respectively.
+
+Based on that convention, we have the following repositories for Work
+Package 3 (at least for the `d-` outputs):
+
+- `wp3-d-clin`
+- `wp3-d-clin-protocol`
+- `wp3-d-clin-dmp`
+- `wp3-d-clin-sop`
+- `wp3-d-clin-dap`
+- `wp3-d-quest`
+- `wp3-d-quest-protocol`
+- `wp3-d-quest-dmp`
+- `wp3-d-quest-sop`
+- `wp3-d-quest-dap`
