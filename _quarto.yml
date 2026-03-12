@@ -36,7 +36,10 @@ book:
         - roadmap.qmd
     - part: Design
       chapters:
-        - design.qmd
+        - index.qmd
+        - patterns.qmd
+        - practicals.qmd
+        - naming.qmd
     - part: Decisions
       chapters:
         - decisions/index.qmd

@@ -1,0 +1,25 @@
+# Practicals {#sec-practicals}
+
+And to achieve our design principles from @sec-design, we also
+eventually (not all at once) want to work towards a point where we:
+
+- Use GitHub or just Git to manage and track all files
+- Use R or Python for doing data analysis
+- Use Quarto Markdown for writing documentation
+- Use Quarto with R or Python code to write reproducible scientific
+  output
+- Use Quarto to create websites of our work
+- Use FAIR principles when managing data
+- Use Seedcase software to structure and manage data
+- Use Zenodo to upload protocols (before submitting to other outlets),
+  analysis code, and preprints
+- Use GitHub Project boards to follow a
+  [Kanban](https://en.wikipedia.org/wiki/Kanban_board)-style approach to
+  project management
+- Use Discord for informal communication or for coordinating across
+  groups
+- Use Discord for video meetings, including for upskilling activities
+- Use Teamup, a calendar tool, for scheduling meetings and events
+  relevant to all groups
+- Use GitHub Projects and Issues to create, discuss, and manage tasks
+  and issues
