@@ -52,6 +52,9 @@ book:
     - part: Contributing
       chapters:
         - contributing/index.qmd
+    - part: Managing
+      chapters:
+        - managing/publishing.qmd
   appendices:
     - CONTRIBUTING.md
     - href: LICENSE.md
