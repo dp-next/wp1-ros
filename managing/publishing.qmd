@@ -1,7 +1,5 @@
 # DP-Next Publication Guidelines {#sec-publishing}
 
-## Introduction
-
 The purpose of this document is to establish an internal guideline for
 publications and authorship based on the DP-Next project and related
 subprojects. It also outlines the decision-making processes in relation
