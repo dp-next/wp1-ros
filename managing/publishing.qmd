@@ -7,7 +7,7 @@ to publications and the responsibilities of authors and the DP-Next
 Steering Committee (SC) in facilitating an optimal publication strategy
 and an honest and transparent authorship policy.
 
-## DP-Next publication mindset and overall process
+## Mindset and overall process
 
 According to the original project description to the Novo Nordisk
 Foundation (<https://dp-next.github.io/>) and the collaboration
