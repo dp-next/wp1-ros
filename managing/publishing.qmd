@@ -110,7 +110,7 @@ The requirements for preparing a DP-Next publication apply to both
 internal and external researchers and should follow these steps:
 
 1. Creation of a publicly accessible repository specifically for each
-   publication on Github. The repository should be placed under the
+   publication on Github. The repository must be placed under the
    DP-Next organization, be named according to the naming guide \[INSERT
    LINK TO NAMING GUIDE\] and preferably use the Seedcase template
    \[INSERT LINK TO TEMPLATE\]. This repository will contain the various
