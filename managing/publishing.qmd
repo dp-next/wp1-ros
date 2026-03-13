@@ -13,7 +13,7 @@ and an honest and transparent authorship policy.
 
 According to the original project description to the Novo Nordisk
 Foundation (<https://dp-next.github.io/>) and the collaboration
-agreement (Section 12), DP-Next aims to work, collaborate and publish
+agreement (Section 12), DP-Next aims to work, collaborate, and publish
 following the principles of open and reproducible science. This document
 outlines in more detail how we operationalise these principles in
 practice, and has the status of guideline. In case of any discrepancy or
