@@ -93,7 +93,7 @@ acknowledgment statement for the DP-Next project.
 
 ### Initiative for publications
 
-It is expected that the initiative to propose a new publication based on
+We expect that the initiative to propose a new publication based on
 DP-Next data will primarily be taken by investigators within the DP-Next
 team. However, DP-Next also welcomes collaborative publication
 initiatives by external investigators (i.e. those who are not part of
