@@ -198,12 +198,12 @@ internal and external researchers and should follow these steps:
 
 8. Internal approval and first submission. When a substantial version of
    the manuscript / a conference abstract is ready for submission, the
-   authors should request approval for submission from the SC by filing
+   authors should request approval for submission from the Steering Committee by filing
    an 'issue' in the Github wp1-management project, with reference to
    the publication's Github repository. This should be done at least two
    weeks before the intended submission date / deadline. The SC will
-   provide their agreement /disagreement as soon as possible and within
-   two weeks. The SC will only disagree with the submission of a paper
+   provide their agreement / disagreement as soon as possible and within
+   two weeks. If the Steering Committee does not respond within two weeks, this is regarded as agreement and the authors may proceed with submission. The Steering Committee may nominate some of its members to lead publication reviews/approvals on behalf of the full committee. The SC will only disagree with the submission of a paper
    or abstract at this stage if it is felt to be too premature, is seen
    as repetition of previously published work or if substantial parts of
    the process described in this guideline have not been followed (e.g.
