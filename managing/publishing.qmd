@@ -45,13 +45,13 @@ publications, with a strong preference for:
 All publications should be accompanied by the following:
 
 - A synopsis of the proposed publication, including a defined aim/hypothesis,
-  general methodological approach, required data, expected timeline, and 
+  general methodological approach, required data, expected timeline, and
   proposed author list. This synopsis is only for internal use, and should be
   approved by the Steering Committee before any work on a specific analysis/paper
   starts (see below).
 - A detailed analysis protocol, published on an online repository such as Zenodo
   or OpenAIRE to obtain a Digital Object Identifier (DOI) and clearly establish a
-  clear temporal sequence between definition of hypotheses/analytic approaches 
+  clear temporal sequence between definition of hypotheses/analytic approaches
   and analysis of data.
 - A publicly accessible repository on GitHub containing the detailed analytical
   code that generates the tables, graphs, and figures included in the manuscript,
