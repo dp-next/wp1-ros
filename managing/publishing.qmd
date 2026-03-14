@@ -286,19 +286,7 @@ ResearchFish).
 
 ### Steering Committee
 
-The Steering Committee consists of the following members:
-
-- Daniel Witte, SDCA
-- Gunnar Toft, SDCA
-- Clause Bogh Juhl, SDCO
-- Stine Byberg, SDCC
-- Nicklas Rasmussen, SDCN
-- Line Lindahl-Jacobsen, SDCS
-- Maria Skaalum SDCF
-- Marit Eika Jørgensen, SDCG
-
-The Steering Committee meets regularly online, at least 6 times per year
-and communicates more frequently as required.
+The current members of the Steering Committee are listed on the DP-Next website: https://dp-next.github.io/who-we-are.html
 
 ### Acknowledgement Statement
 
