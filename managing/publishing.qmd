@@ -14,7 +14,7 @@ Foundation (<https://dp-next.github.io/>) and the collaboration
 agreement (Section 12), DP-Next aims to work, collaborate, and publish
 following the principles of open and reproducible science. This document
 outlines in more detail how we apply these principles,
-practice, and has the status of guideline. In case of any discrepancy or
+and has the status of guideline. In case of any discrepancy or
 conflict between this guideline and the collaboration agreement, the
 text of the collaboration agreement has precedence. Any substantial
 deviations from this guideline should be justified and approved by the
