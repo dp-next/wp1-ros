@@ -100,7 +100,7 @@ acknowledgment statement for the DP-Next project.
 
 ## Practical implementation
 
-### Initiative for publications
+### Initiating a research project
 
 We expect that the initiative to propose a new publication based on
 DP-Next data will primarily be taken by DP-Next investigators.
