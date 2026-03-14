@@ -269,7 +269,7 @@ still considered new results until they are definitively published.
   of the SC.
 
 - After the dissemination activity, the researcher should send a copy or
-  link to the final materials to the SC and report/log the activity on
+  link to the final materials to the SC and report/log the activity on the project's Github as well as
   the relevant academic output tracking platform (e.g. Researchfish).
 
 #### Dissemination of published results / general DP-Next dissemination
@@ -281,7 +281,7 @@ prior approval by the SC is not required. It is highly appreciated if
 the researcher keeps the SC and the relevant members of the team updated
 on any major dissemination activities. The researcher should still send
 a copy or link to the final materials to the SC and report/log the
-activity on the relevant academic output tracking platform (e.g.
+activity on the project's Github as well as on the relevant academic output tracking platform (e.g.
 ResearchFish).
 
 ### Steering Committee
