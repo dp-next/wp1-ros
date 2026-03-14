@@ -80,7 +80,7 @@ Substantial contributions are a requirement for co-authorships. All
 potential co-authors must be involved early in the process of preparing
 the publications, ideally at the stage of the synopsis submission. In
 addition to the named authors, all papers should by default include the
-group authorship of 'on behalf of the DP-Next investigators'.
+group authorship of 'on behalf of the DP-Next investigators', linking to the current list of [DP-Next investigators](https://dp-next.github.io/who-we-are.html)
 
 Author lists and orders may be amended after synopsis approval by
 consensus among the authors or by the Steering Committee if the factual contributions
@@ -286,7 +286,7 @@ ResearchFish).
 
 ### Steering Committee
 
-The current members of the Steering Committee are listed on the DP-Next website: https://dp-next.github.io/who-we-are.html
+The current members of the [Steering Committee](https://dp-next.github.io/who-we-are.html) are listed on the DP-Next website.
 
 ### Acknowledgement Statement
 
