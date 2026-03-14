@@ -4,7 +4,7 @@ The purpose of this document is to establish an internal guideline for
 publications and authorship based on the DP-Next project and related
 subprojects. It also outlines the decision-making processes in relation
 to publications and the responsibilities of authors and the DP-Next
-Steering Committee (SC) in facilitating an optimal publication strategy
+Steering Committee in facilitating an optimal publication strategy
 and an honest and transparent authorship policy.
 
 ## Mindset and overall process
