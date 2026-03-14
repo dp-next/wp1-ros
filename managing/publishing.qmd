@@ -291,11 +291,13 @@ The current members of the [Steering Committee](https://dp-next.github.io/who-we
 ### Acknowledgement Statement
 
 Any publication, dissemination or communication stemming from the
-DP-Next project should mention the following acknowledgment statement
-(version 12-03-2025):
+DP-Next project should mention the following acknowledgment statements
+(version 14-03-2025):
 
+All publications:
 "The DP-Next project was funded by a Steno National Collaborative Grant
-from the Novo Nordisk Foundation (Grant number XXXX \[Look up and
-complete\]). Additional funding was obtained from all Steno Diabetes
-Centers. The WP3 electronic questionnaires were distributed using OPEN
-Research Infrastructure at Steno Diabetes Center Odense."
+from the Novo Nordisk Foundation (Grant number NNF24OC008916). Additional funding was obtained from all Steno Diabetes
+Centers."
+
+Additionally for publications involving data collected through OPEN (The electronic questionnaires used in WP3):
+"Electronic questionnaires were distributed using OPEN, Open Patient data Explorative Network, Odense University Hospital, Region of Southern Denmark (open.rsyd.dk)”.
