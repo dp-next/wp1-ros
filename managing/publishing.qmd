@@ -17,7 +17,6 @@ outlines in more detail how we apply these principles,
 and has the status of guideline. In case of any discrepancy or
 conflict between this guideline and the collaboration agreement, the
 text of the collaboration agreement has precedence. If there are any substantial deviations from this guideline due to external/unforeseen circumstances, the authors should request approval to proceed from the Steering Committee, justifying the deviations.
-deviations from this guideline should be justified and approved by the
 Steering Committee.
 
 According to the collaboration agreement the Steering Committee is charged with
