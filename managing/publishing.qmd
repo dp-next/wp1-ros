@@ -41,7 +41,7 @@ All publications/outputs should be published as Open Access
 publications, with a strong preference for:
 
 - The Green Open Access format (meaning to publish as a pre-print in an
-  open archive such as [Zenodo](https://zenodo.org) or bioRxiv.
+  open archive such as [Zenodo](https://zenodo.org) or bioRxiv).
 - Publication agreements that do not require the transfer of copyright
   to publishers.
 - Publication under a Creative Commons CC-BY license.
