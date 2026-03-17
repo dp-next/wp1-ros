@@ -262,7 +262,7 @@ Zenodo.
 10. Publication. The authors should send a copy of the full text of a
     publication and/or a link to the final materials to the Steering
     Committee and report/log the activity on the relevant academic
-    output tracking platform (e.g. ResearchFish).
+    output tracking platform.
 
 ### Other forms of dissemination
 
@@ -305,7 +305,7 @@ still considered new results until they are definitively published.
 - After the dissemination activity, the researcher should send a copy or
   link to the final materials to the Steering Committee and report/log
   the activity on the project's GitHub as well as the relevant academic
-  output tracking platform (e.g. Researchfish).
+  output tracking platform.
 
 #### Dissemination of published results / general DP-Next dissemination
 
@@ -318,7 +318,7 @@ relevant members of the team updated on any major dissemination
 activities. The researcher should still send a copy or link to the final
 materials to the Steering Committee and report/log the activity on the
 project's GitHub as well as on the relevant academic output tracking
-platform (e.g. ResearchFish).
+platform.
 
 ### Steering Committee
 
