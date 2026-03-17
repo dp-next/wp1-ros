@@ -142,8 +142,8 @@ internal and external researchers and should follow these steps:
    should take place as early as possible, and should be completed
    before any part of the analysis or writing process starts. The
    synopsis should be brief (around 1 page) and be written inside the
-   Github repository created under 1, according to this template \[ADD
-   LINK TO TEMPLATE\]. It should contain:
+   Github repository created under 1, according to the template.
+   It should contain:
 
    - A link to the Github repository
 
