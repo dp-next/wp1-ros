@@ -325,14 +325,17 @@ listed on the DP-Next website.
 
 Any publication, dissemination or communication stemming from the
 DP-Next project should mention the following acknowledgment statements
-(version 14-03-2025):
+(version 14-03-2025).
 
-All publications: "The DP-Next project was funded by a Steno National
-Collaborative Grant from the Novo Nordisk Foundation (Grant number
-NNF24OC008916). Additional funding was obtained from all Steno Diabetes
-Centers."
+For all publications:
+
+> "The DP-Next project was funded by a Steno National Collaborative
+> Grant from the Novo Nordisk Foundation (Grant number NNF24OC008916).
+> Additional funding was obtained from all Steno Diabetes Centers."
 
 Additionally for publications involving data collected through OPEN (The
-electronic questionnaires used in WP3): "Electronic questionnaires were
-distributed using OPEN, Open Patient data Explorative Network, Odense
-University Hospital, Region of Southern Denmark (open.rsyd.dk)”.
+electronic questionnaires used in WP3):
+
+> "Electronic questionnaires were distributed using OPEN, Open Patient
+> data Explorative Network, Odense University Hospital, Region of
+> Southern Denmark (open.rsyd.dk)”.
