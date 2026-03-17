@@ -167,12 +167,13 @@ internal and external researchers and should follow these steps:
      progresses through the cycle
 
 Once the synopsis is completed, an approval request should be submitted
-to the SC by filing an 'issue' in the Github wp1-management project,
-with reference to the publication's Github repository. The Steering
-Committee will review and discuss requests within the Github environment
-or at their regular meetings, and may provide comments and ask for
-changes before approval. The synopsis is an internal management document
-and does not need to be published on Zenodo.
+to the Steering Committee by filing an 'issue' in the Github
+wp1-management project, with reference to the publication's Github
+repository. The Steering Committee will review and discuss requests
+within the Github environment or at their regular meetings, and may
+provide comments and ask for changes before approval. The synopsis is an
+internal management document and does not need to be published on
+Zenodo.
 
 3. For investigators [not]{.underline} covered by the DP-Next agreements
    (by institutional affiliation to one of the Steno Diabetes Centres),
@@ -228,17 +229,17 @@ and does not need to be published on Zenodo.
    Committee by filing an 'issue' in the Github wp1-management project,
    with reference to the publication's Github repository. This should be
    done at least two weeks before the intended submission date /
-   deadline. The SC will provide their agreement / disagreement as soon
-   as possible and within two weeks. If the Steering Committee does not
-   respond within two weeks, this is regarded as agreement and the
-   authors may proceed with submission. The Steering Committee may
-   nominate some of its members to lead publication reviews/approvals on
-   behalf of the full committee. The SC will only disagree with the
-   submission of a paper or abstract at this stage if it is felt to be
-   too premature, is seen as repetition of previously published work or
-   if substantial parts of the process described in this guideline have
-   not been followed (e.g. no Github repository, no approved synopsis,
-   no protocol).
+   deadline. The Steering Committee will provide their agreement /
+   disagreement as soon as possible and within two weeks. If the
+   Steering Committee does not respond within two weeks, this is
+   regarded as agreement and the authors may proceed with submission.
+   The Steering Committee may nominate some of its members to lead
+   publication reviews/approvals on behalf of the full committee. The
+   Steering Committee will only disagree with the submission of a paper
+   or abstract at this stage if it is felt to be too premature, is seen
+   as repetition of previously published work or if substantial parts of
+   the process described in this guideline have not been followed (e.g.
+   no Github repository, no approved synopsis, no protocol).
 
 9. Updates and acceptance. Throughout the project life cycle (also after
    the manuscript / conference abstract is submitted), the authors
@@ -248,7 +249,7 @@ and does not need to be published on Zenodo.
    - Major milestones in analysis / writing / internal review, linked to
      major versions.
 
-   - SC approval
+   - Steering Committee approval
 
    - First submission
 
@@ -259,9 +260,9 @@ and does not need to be published on Zenodo.
    - Acceptance
 
 10. Publication. The authors should send a copy of the full text of a
-    publication and/or a link to the final materials to the SC and
-    report/log the activity on the relevant academic output tracking
-    platform (e.g. ResearchFish).
+    publication and/or a link to the final materials to the Steering
+    Committee and report/log the activity on the relevant academic
+    output tracking platform (e.g. ResearchFish).
 
 ### Other forms of dissemination
 
@@ -282,8 +283,9 @@ still considered new results until they are definitively published.
 - Inclusion of preliminary or new results in lectures/seminars being
   given outside the research teams directly involved in DP-Next, should
   be done with care. Researchers wishing to present preliminary or new
-  results in small academic circles should notify the SC before giving
-  the presentation, by raising an issue in the project's Github.
+  results in small academic circles should notify the Steering Committee
+  before giving the presentation, by raising an issue in the project's
+  Github.
 
 - Dissemination of new results through media or outreach activities can
   only take place after the academic dissemination in the form of
@@ -293,29 +295,30 @@ still considered new results until they are definitively published.
   coincides with the academic presentation of results.
 
 - Before issuing any press release or disseminating any new results from
-  DP-Next, researchers should inform the SC.
+  DP-Next, researchers should inform the Steering Committee.
 
 - For press releases the notification should occur as early as possible,
   and if there is less than 72 hours for approval, e-mail can be
   followed up with text message or phone call to the PI or other members
-  of the SC.
+  of the Steering Committee.
 
 - After the dissemination activity, the researcher should send a copy or
-  link to the final materials to the SC and report/log the activity on
-  the project's Github as well as the relevant academic output tracking
-  platform (e.g. Researchfish).
+  link to the final materials to the Steering Committee and report/log
+  the activity on the project's Github as well as the relevant academic
+  output tracking platform (e.g. Researchfish).
 
 #### Dissemination of published results / general DP-Next dissemination
 
 If a dissemination activity only covers general information about
 DP-Next or definitively published results (i.e. not including
 preliminary results, preprints, conference abstracts or Github content),
-prior approval by the SC is not required. It is highly appreciated if
-the researcher keeps the SC and the relevant members of the team updated
-on any major dissemination activities. The researcher should still send
-a copy or link to the final materials to the SC and report/log the
-activity on the project's Github as well as on the relevant academic
-output tracking platform (e.g. ResearchFish).
+prior approval by the Steering Committee is not required. It is highly
+appreciated if the researcher keeps the Steering Committee and the
+relevant members of the team updated on any major dissemination
+activities. The researcher should still send a copy or link to the final
+materials to the Steering Committee and report/log the activity on the
+project's Github as well as on the relevant academic output tracking
+platform (e.g. ResearchFish).
 
 ### Steering Committee
 
