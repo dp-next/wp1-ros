@@ -132,7 +132,7 @@ internal and external researchers and should follow these steps:
 <!-- TODO: Link to template when created -->
 
 1. Creation of a publicly accessible repository specifically for each
-   publication on Github. The repository must be placed under the
+   publication on GitHub. The repository must be placed under the
    DP-Next organization, be named according to the
    [naming guide](/design/naming.qmd) and use our template. This
    repository will contain the various 'sub-products' described below as
@@ -142,10 +142,10 @@ internal and external researchers and should follow these steps:
    should take place as early as possible, and should be completed
    before any part of the analysis or writing process starts. The
    synopsis should be brief (around 1 page) and be written inside the
-   Github repository created under 1, according to the template.
+   GitHub repository created under 1, according to the template.
    It should contain:
 
-   - A link to the Github repository
+   - A link to the GitHub repository
 
    - The title
 
@@ -167,10 +167,10 @@ internal and external researchers and should follow these steps:
      progresses through the cycle
 
 Once the synopsis is completed, an approval request should be submitted
-to the Steering Committee by filing an 'issue' in the Github
-wp1-management project, with reference to the publication's Github
+to the Steering Committee by filing an 'issue' in the GitHub
+wp1-management project, with reference to the publication's GitHub
 repository. The Steering Committee will review and discuss requests
-within the Github environment or at their regular meetings, and may
+within the GitHub environment or at their regular meetings, and may
 provide comments and ask for changes before approval. The synopsis is an
 internal management document and does not need to be published on
 Zenodo.
@@ -184,7 +184,7 @@ Zenodo.
    publication will be an analysis protocol. Investigators should follow
    these steps:
 
-   - Draft a detailed analysis protocol in the publication's Github
+   - Draft a detailed analysis protocol in the publication's GitHub
      repository that describes the following points:
      - The title
      - Authors
@@ -206,18 +206,18 @@ Zenodo.
 
 5. Work on the data analysis. Depending on the data used, this work will
    take place on a local secure server or on Denmark Statistics Servers.
-   Please follow the guides on the use of Git / Github for data analysis
+   Please follow the guides on the use of Git / GitHub for data analysis
    in these two environments, making sure that the analytical code is
-   saved in the project's Github repository.
+   saved in the project's GitHub repository.
 
 6. Preparation of a conference abstract, interim / preliminary results /
    progress reports / presentations / slides. As the project progresses,
    various interim results and materials are likely to be produced. As
    far as possible, these should also be managed as separate 'chapters'
-   of the project's Github repository.
+   of the project's GitHub repository.
 
 7. Preparation of the manuscript. This should also take place as a
-   'chapter' in the project's Github repository and should be clearly
+   'chapter' in the project's GitHub repository and should be clearly
    linked to the annotated detailed analytical code that generated the
    tables, graphs and figures included in the manuscript. Stable
    versions of the manuscript should be published as a preprint on
@@ -226,8 +226,8 @@ Zenodo.
 8. Internal approval and first submission. When a substantial version of
    the manuscript / a conference abstract is ready for submission, the
    authors should request approval for submission from the Steering
-   Committee by filing an 'issue' in the Github wp1-management project,
-   with reference to the publication's Github repository. This should be
+   Committee by filing an 'issue' in the GitHub wp1-management project,
+   with reference to the publication's GitHub repository. This should be
    done at least two weeks before the intended submission date /
    deadline. The Steering Committee will provide their agreement /
    disagreement as soon as possible and within two weeks. If the
@@ -239,7 +239,7 @@ Zenodo.
    or abstract at this stage if it is felt to be too premature, is seen
    as repetition of previously published work or if substantial parts of
    the process described in this guideline have not been followed (e.g.
-   no Github repository, no approved synopsis, no protocol).
+   no GitHub repository, no approved synopsis, no protocol).
 
 9. Updates and acceptance. Throughout the project life cycle (also after
    the manuscript / conference abstract is submitted), the authors
@@ -277,7 +277,7 @@ results.
 The following applies if the dissemination contains any 'new results'
 from DP-Next. 'New results' refers to any results that have not yet been
 definitively published in a peer-reviewed journal. Results included in a
-conference abstract/presentation, preprint or Github repository are
+conference abstract/presentation, preprint or GitHub repository are
 still considered new results until they are definitively published.
 
 - Inclusion of preliminary or new results in lectures/seminars being
@@ -285,7 +285,7 @@ still considered new results until they are definitively published.
   be done with care. Researchers wishing to present preliminary or new
   results in small academic circles should notify the Steering Committee
   before giving the presentation, by raising an issue in the project's
-  Github.
+  GitHub.
 
 - Dissemination of new results through media or outreach activities can
   only take place after the academic dissemination in the form of
@@ -304,20 +304,20 @@ still considered new results until they are definitively published.
 
 - After the dissemination activity, the researcher should send a copy or
   link to the final materials to the Steering Committee and report/log
-  the activity on the project's Github as well as the relevant academic
+  the activity on the project's GitHub as well as the relevant academic
   output tracking platform (e.g. Researchfish).
 
 #### Dissemination of published results / general DP-Next dissemination
 
 If a dissemination activity only covers general information about
 DP-Next or definitively published results (i.e. not including
-preliminary results, preprints, conference abstracts or Github content),
+preliminary results, preprints, conference abstracts or GitHub content),
 prior approval by the Steering Committee is not required. It is highly
 appreciated if the researcher keeps the Steering Committee and the
 relevant members of the team updated on any major dissemination
 activities. The researcher should still send a copy or link to the final
 materials to the Steering Committee and report/log the activity on the
-project's Github as well as on the relevant academic output tracking
+project's GitHub as well as on the relevant academic output tracking
 platform (e.g. ResearchFish).
 
 ### Steering Committee
