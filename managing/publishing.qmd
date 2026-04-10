@@ -130,34 +130,47 @@ The requirements for preparing a DP-Next publication apply to both
 internal and external researchers and should follow these steps:
 
 ```{mermaid}
-%%| fig-cap: "Figure 1: Publication Life Cycle — Steps to follow during the publication life cycle of a DP-Next project (Section 17.2.2)"
-%%| fig-alt: ""
+%%| label: fig-publication-steps
+%%| fig-cap: "Publication steps to follow during the life cycle of a DP-Next project. The rounded boxes in orange are tasks you are responsible for doing. The rectangular ones in light blue are for the committee members to do."
+%%| fig-alt: "Boxes and arrows indicating the flow of tasks from preparation to publication. The boxes are colored according to whether they are the responsibility of the authors or the committee members. These tasks are visual representations of the text below."
 graph LR
     subgraph S1["Preparation"]
-    A --> B --> C --> D
+      A["Create GitHub<br>repository"]:::ours
+      B1("Synopsis preparation"):::yours
+      B2["Synopsis review<br>and approval"]:::ours
+      C["Data agreement<br>(if required)"]:::ours
+      D1("Protocol writing"):::yours
+      D2["Protocol review<br>and approval"]:::ours
+      D3["Protocol to<br>Zenodo"]:::ours
+      A --> B1 --> B2 --> C --> D1 --> D2 --> D3
     end
 
-    subgraph S2["Analysis and Writing"]
-    E --> F --> G
+    subgraph S2["Analysis and writing"]
+      E("Data analysis"):::yours
+      F("Conference abstracts<br>and interim materials"):::yours
+      G1("Manuscript preparation"):::yours
+      G2["Manuscript review<br>(co-authors)"]:::ours
+      E --> F --> G1 --> G2
     end
 
     subgraph S3["Publication"]
-    H --> I --> J
+      H1["Manuscript approval"]:::ours
+      H2["Preprint to<br>Zenodo"]:::ours
+      I["GitHub repository<br>to Zenodo"]:::ours
+      I("Submit manuscript<br>to journal"):::yours
+      J("Track review status,<br>updates and acceptance"):::yours
+      K("Update on<br>publication"):::yours
+      H1 --> H2 --> I --> J --> K
     end
 
-    S1 -.- S2
-    S2 -.- S3
+    S1 -.-> S2
+    S2 -.-> S3
 
-    A["Step 1: <br/>Create GitHub Repository"]
-    B["Step 2: <br/>Synopsis Preparation & Approval"]
-    C["Step 3: <br/>Data Agreement<br/>(if required)"]
-    D["Step 4: <br/>Protocol Writing"]
-    E["Step 5: <br/>Data Analysis"]
-    F["Step 6: <br/>Conference Abstracts & Interim Materials"]
-    G["Step 7: <br/>Manuscript Preparation"]
-    H["Step 8: <br/>Internal Approval & First Submission"]
-    I["Step 9: <br/>Updates & Acceptance Tracking"]
-    J["Step 10: <br/>Publication"]
+    style S1 fill:#FFFFFF, color:#000000
+    style S2 fill:#FFFFFF, color:#000000
+    style S3 fill:#FFFFFF, color:#000000
+    classDef ours fill:#ADD8E6;
+    classDef yours fill:#FFA07A;
 ```
 
 <!-- TODO: Link to template when created -->
