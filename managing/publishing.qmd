@@ -4,9 +4,9 @@ The purpose of this document is to establish an internal guideline for
 publications and authorship based on the DP-Next project and related
 subprojects. It also outlines the decision-making processes in relation
 to publications and the responsibilities of authors and the DP-Next
-[Steering Committee](https://dp-next.github.io/who-we-are.html)
-in facilitating an optimal publication strategy and
-an honest and transparent authorship policy.
+[Steering Committee](https://dp-next.github.io/who-we-are.html) in
+facilitating an optimal publication strategy and an honest and
+transparent authorship policy.
 
 ## Mindset and overall process
 
@@ -129,6 +129,50 @@ to be included in a PhD thesis.
 The requirements for preparing a DP-Next publication apply to both
 internal and external researchers and should follow these steps:
 
+```{mermaid}
+%%| label: fig-publication-steps
+%%| fig-cap: "Publication steps to follow during the life cycle of a DP-Next project. The rounded boxes in orange are tasks you are responsible for doing. The rectangular ones in light blue are for the committee members to do."
+%%| fig-alt: "Boxes and arrows indicating the flow of tasks from preparation to publication. The boxes are colored according to whether they are the responsibility of the authors or the committee members. These tasks are visual representations of the text below."
+graph LR
+    subgraph S1["Preparation"]
+      A["Create GitHub<br>repository"]:::ours
+      B1("Synopsis preparation"):::yours
+      B2["Synopsis review<br>and approval"]:::ours
+      C["Data agreement<br>(if required)"]:::ours
+      D1("Protocol writing"):::yours
+      D2["Protocol review<br>and approval"]:::ours
+      D3["Protocol to<br>Zenodo"]:::ours
+      A --> B1 --> B2 --> C --> D1 --> D2 --> D3
+    end
+
+    subgraph S2["Analysis and writing"]
+      E("Data analysis"):::yours
+      F("Conference abstracts<br>and interim materials"):::yours
+      G1("Manuscript preparation"):::yours
+      G2["Manuscript review<br>(co-authors)"]:::ours
+      E --> F --> G1 --> G2
+    end
+
+    subgraph S3["Publication"]
+      H1["Manuscript approval"]:::ours
+      H2["Preprint to<br>Zenodo"]:::ours
+      I["GitHub repository<br>to Zenodo"]:::ours
+      I("Submit manuscript<br>to journal"):::yours
+      J("Track review status,<br>updates and acceptance"):::yours
+      K("Update on<br>publication"):::yours
+      H1 --> H2 --> I --> J --> K
+    end
+
+    S1 -.-> S2
+    S2 -.-> S3
+
+    style S1 fill:#FFFFFF, color:#000000
+    style S2 fill:#FFFFFF, color:#000000
+    style S3 fill:#FFFFFF, color:#000000
+    classDef ours fill:#ADD8E6;
+    classDef yours fill:#FFA07A;
+```
+
 <!-- TODO: Link to template when created -->
 
 1. Creation of a publicly accessible repository specifically for each
@@ -142,8 +186,8 @@ internal and external researchers and should follow these steps:
    should take place as early as possible, and should be completed
    before any part of the analysis or writing process starts. The
    synopsis should be brief (around 1 page) and be written inside the
-   GitHub repository created under 1, according to the template.
-   It should contain:
+   GitHub repository created under 1, according to the template. It
+   should contain:
 
    - A link to the GitHub repository
 
