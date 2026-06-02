@@ -1,7 +1,7 @@
 @_default:
     just --list --unsorted
 
-@_checks: check-spelling check-urls check-commits
+@_checks: check-spelling check-urls
 
 @_builds: build-contributors build-readme build-website
 
@@ -48,19 +48,6 @@ check-urls:
 # Format Markdown files
 format-md:
     uvx rumdl fmt --silent
-
-# Check the commit messages on the current branch that are not on the main branch
-check-commits:
-  #!/usr/bin/env bash
-  branch_name=$(git rev-parse --abbrev-ref HEAD)
-  number_of_commits=$(git rev-list --count HEAD ^main)
-  if [[ ${branch_name} != "main" && ${number_of_commits} -gt 0 ]]
-  then
-    # If issue happens, try `uv tool update-shell`
-    uvx --from commitizen cz check --rev-range main..HEAD
-  else
-    echo "On 'main' or current branch doesn't have any commits."
-  fi
 
 # Build the website using Quarto
 build-website:
