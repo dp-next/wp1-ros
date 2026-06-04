@@ -15,6 +15,12 @@ that any individual release will not have many changes within it. Below
 is a list of the releases we've made so far, along with what was changed
 within each release.
 
+## 0.10.0 (2026-06-04)
+
+### Feat
+
+- ✨ diagram of tasks/steps to flow of a project (#123)
+
 ## 0.9.0 (2026-03-17)
 
 ### Feat
