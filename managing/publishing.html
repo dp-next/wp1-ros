@@ -70,6 +70,9 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<script src="../site_libs/quarto-diagram/mermaid.min.js"></script>
+<script src="../site_libs/quarto-diagram/mermaid-init.js"></script>
+<link href="../site_libs/quarto-diagram/mermaid.css" rel="stylesheet">
 
 
 </head>
@@ -359,7 +362,61 @@ Warning
 <p>🚧 This website and documentation is still in very active development and evolving quickly, so content could undergo substantial changes at any time 🚧</p>
 </div>
 </div>
-<p>The purpose of this document is to establish an internal guideline for publications and authorship based on the DP-Next project and related subprojects. It also outlines the decision-making processes in relation to publications and the responsibilities of authors and the DP-Next <a href="https://dp-next.github.io/who-we-are.html">Steering Committee</a> in facilitating an optimal publication strategy and an honest and transparent authorship policy.</p>
+<p>The purpose of this document is to establish an internal guideline for publications and authorship based on the DP-Next project and related subprojects. It also outlines the decision-making processes in relation to publications and the responsibilities of authors and the DP-Next <a href="https://dp-next.github.io/who-we-are.html">Steering Committee</a> in facilitating an optimal publication strategy and an honest and transparent authorship policy. The diagram below shows the typical steps involved in the lifecycle of a DP-Next publication, from starting the project to publishing a report on the results.</p>
+<div class="cell" data-layout-align="default">
+<div class="cell-output-display">
+<div id="fig-publication-steps" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-publication-steps-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<div>
+<pre class="mermaid mermaid-js" data-label="fig-publication-steps">graph LR
+    subgraph S1["Preparation"]
+      A["Create GitHub&lt;br&gt;repository"]:::ours
+      B1("Synopsis preparation"):::yours
+      B2["Synopsis review&lt;br&gt;and approval"]:::ours
+      C["Data agreement&lt;br&gt;(if required)"]:::ours
+      D1("Protocol writing"):::yours
+      D2["Protocol review&lt;br&gt;and approval"]:::ours
+      D3["Protocol to&lt;br&gt;Zenodo"]:::ours
+      A --&gt; B1 --&gt; B2 --&gt; C --&gt; D1 --&gt; D2 --&gt; D3
+    end
+
+    subgraph S2["Analysis and writing"]
+      E("Data analysis"):::yours
+      F("Conference abstracts&lt;br&gt;and interim materials"):::yours
+      G1("Manuscript preparation"):::yours
+      G2["Manuscript review&lt;br&gt;(co-authors)"]:::ours
+      E --&gt; F --&gt; G1 --&gt; G2
+    end
+
+    subgraph S3["Publication"]
+      H1["Manuscript approval"]:::ours
+      H2["Preprint to&lt;br&gt;Zenodo"]:::ours
+      I["GitHub repository&lt;br&gt;to Zenodo"]:::ours
+      I("Submit manuscript&lt;br&gt;to journal"):::yours
+      J("Track review status,&lt;br&gt;updates and acceptance"):::yours
+      K("Update committee&lt;br&gt;on publication"):::yours
+      H1 --&gt; H2 --&gt; I --&gt; J --&gt; K
+    end
+
+    S1 -.-&gt; S2
+    S2 -.-&gt; S3
+
+    style S1 fill:#FFFFFF, color:#000000
+    style S2 fill:#FFFFFF, color:#000000
+    style S3 fill:#FFFFFF, color:#000000
+    classDef ours fill:#ADD8E6;
+    classDef yours fill:#FFA07A;
+</pre>
+</div>
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-publication-steps-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;17.1: Publication steps to follow during the life cycle of a DP-Next project. The rounded boxes in orange are tasks you are responsible for doing. The rectangular ones in light blue are for the committee members to do.
+</figcaption>
+</figure>
+</div>
+</div>
+</div>
 <section id="mindset-and-overall-process" class="level2" data-number="17.1">
 <h2 data-number="17.1" class="anchored" data-anchor-id="mindset-and-overall-process"><span class="header-section-number">17.1</span> Mindset and overall process</h2>
 <p>According to the original project description to the Novo Nordisk Foundation (<a href="https://dp-next.github.io/" class="uri">https://dp-next.github.io/</a>) and Section 12 of the collaboration agreement, DP-Next aims to work, collaborate, and publish following the principles of open and reproducible science. This document outlines in more detail how we apply these principles, and has the status of guideline. In case of any discrepancy or conflict between this guideline and the collaboration agreement, the text of the collaboration agreement has precedence. If there are any substantial deviations from this guideline due to external/unforeseen circumstances, the authors should request approval to proceed from the Steering Committee, justifying the deviations.</p>
@@ -438,7 +495,7 @@ Warning
 <li><p>Work on the data analysis. Depending on the data used, this work will take place on a local secure server or on Denmark Statistics Servers. Please follow the guides on the use of Git / GitHub for data analysis in these two environments, making sure that the analytical code is saved in the project’s GitHub repository.</p></li>
 <li><p>Preparation of a conference abstract, interim / preliminary results / progress reports / presentations / slides. As the project progresses, various interim results and materials are likely to be produced. As far as possible, these should also be managed as separate ‘chapters’ of the project’s GitHub repository.</p></li>
 <li><p>Preparation of the manuscript. This should also take place as a ‘chapter’ in the project’s GitHub repository and should be clearly linked to the annotated detailed analytical code that generated the tables, graphs and figures included in the manuscript. Stable versions of the manuscript should be published as a preprint on online preprint servers such as arXiv or medRxiv.</p></li>
-<li><p>Internal approval and first submission. When a substantial version of the manuscript / a conference abstract is ready for submission, the authors should request approval for submission from the Steering Committee by filing an ‘issue’ in the GitHub wp1-management project, with reference to the publication’s GitHub repository. This should be done at least two weeks before the intended submission date / deadline. The Steering Committee will provide their agreement / disagreement as soon as possible and within two weeks. If the Steering Committee does not respond within two weeks, this is regarded as agreement and the authors may proceed with submission. The Steering Committee may nominate some of its members to lead publication reviews/approvals on behalf of the full committee. The Steering Committee will only disagree with the submission of a paper or abstract at this stage if it is felt to be too premature, is seen as repetition of previously published work or if substantial parts of the process described in this guideline have not been followed (e.g. no GitHub repository, no approved synopsis, no protocol).</p></li>
+<li><p>Internal approval and first submission. When a substantial version of the manuscript / a conference abstract is ready for submission, the authors should request approval for submission from the Steering Committee by filing an ‘issue’ in the GitHub wp1-management project, with reference to the publication’s GitHub repository. This should be done at least two weeks before the intended submission date / deadline. The Steering Committee will provide their agreement / disagreement as soon as possible and within two weeks. If the Steering Committee does not respond within two weeks, this is regarded as agreement and the authors may proceed with submission. The Steering Committee may nominate some of its members to lead publication reviews/approvals on behalf of the full committee. The Steering Committee will only disagree with the submission of a paper or abstract at this stage if it is felt to be too premature, is seen as repetition of previously published work or if substantial parts of the process described in this guideline have not been followed (e.g.&nbsp;no GitHub repository, no approved synopsis, no protocol).</p></li>
 <li><p>Updates and acceptance. Throughout the project life cycle (also after the manuscript / conference abstract is submitted), the authors should keep the status table in the synopsis up to date to reflect (where relevant):</p>
 <ul>
 <li><p>Major milestones in analysis / writing / internal review, linked to major versions.</p></li>
