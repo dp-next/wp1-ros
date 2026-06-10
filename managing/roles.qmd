@@ -1,0 +1,111 @@
+# Roles and responsibilities
+
+In a larger project there are many tasks and needs to be done, many more than
+any individual person can handle at any one time. To manage this, we describe
+specific responsibilities that need to be done within DP-Next and assign them to
+people so that people's roles are clear and they know what they are responsible
+for.
+
+## Roadmap management
+
+A roadmap is a set of products, milestones, and timelines necessary to complete
+a particular project. In our case, a project would be an individual work
+package.
+
+An effectively developed and regularly maintained roadmap is critical for
+successful and timely completion of a project. But they aren't just for planning
+purposes, they also are extremely effective at communicating the project's
+status, next steps, progress, and direction to everyone involved in the project.
+It keeps everyone aligned and makes it clearer what needs to be done.
+
+Because roadmaps are so important and require regular maintenance and
+management, someone needs to be responsible for them. The roadmap manager's
+tasks are:
+
+- Identify all concrete products for a project (one product is one repository)
+  by talking to the collaborators and list them in the roadmap (see how below).
+  This is a critical step, but also can be extremely difficult to do, as knowing
+  clearly what a product is and what products are needed for the project can be
+  hard for collaborators to themselves communicate and agree on. This is part of
+  the responsibility of the roadmap manager to dig in and ask detailed and
+  probing questions. This will be an iterative process, so don't expect to get
+  clear answers right away.
+- Identify all milestones for each product, again by talking to the
+  collaborators by probing and digging in to get as clear an idea and picture as
+  possible on what needs to be done for each product. Then list them in the
+  roadmap. Like the products, this is something that will need to be done
+  regularly and will evolve over time. So expect to regularly talk with
+  collaborators about milestones and tasks.
+
+We use GitHub Projects to create and manage roadmaps (see some of our roadmaps
+in our [list of project
+boards](https://github.com/orgs/dp-next/projects?query=is%3Aopen)). These are
+some things that we do in the GitHub Projects to manage our roadmaps:
+
+- Use the
+  [roadmap](https://docs.github.com/en/issues/planning-and-tracking-with-projects/learning-about-projects/quickstart-for-projects#creating-a-team-roadmap)
+  view in GitHub Projects as the main view for the roadmap project board. Group
+  this view by "product" (see below) to see the milestones (see below) grouped
+  by product. This main view should be filtered by `-status:Done`, so that only
+  active milestones are shown.
+- Create [draft
+  issues](https://docs.github.com/en/issues/planning-and-tracking-with-projects/learning-about-projects/quickstart-for-projects#adding-draft-issues-to-your-project)
+  and use them to represent milestones for a given product. Start and end dates
+  should be put on each milestone.
+- Create a custom, single-select
+  [field](https://docs.github.com/en/issues/planning-and-tracking-with-projects/learning-about-projects/quickstart-for-projects#adding-fields)
+  to represent the project's products and within that field, add options for
+  each of the products in the project. One product should represent one
+  repository. Each milestone ("draft issue") should be assigned to a product
+  using this single-select "products" field, so that milestones are grouped by
+  product in the roadmap view.
+- When a milestone is complete, change the status to "Done" so it gets filtered
+  from the main roadmap view.
+
+## Issue management
+
+GitHub Issues are the primary way we track work in DP-Next. We use issues to
+describe specific tasks that need to be done, to have a place to discuss and
+brainstorm about particular topics, and come to an agreement or decision for
+those topics. As a product progresses, more issues are made, often faster than
+they can be completed. And issues can quickly accumulate, go out-of-date, or be
+forgotten. Combined with the fact that the priority of any given issue needs to
+reflect the current state of the roadmap, someone needs to be responsible for
+curating and managing the issues for a given product. The issue manager's tasks
+are:
+
+- Understand the product enough to create issues that contribute to its
+  completion.
+- Track and ensure issues are completed and closed, by reminding assignees of
+  their issues and checking on the status of issues regularly (ideally during
+  update meetings)
+- Close any issues that are no longer relevant or are out-of-date.
+- Consult the roadmap to identify what issues need to be prioritized in any
+  given period of time.
+- Ensure that the distribution of the issues priorities are balanced. If all
+  issues are high priority, no issue is a high priority. There needs to be a
+  balance between high, medium, and low priority as it reflects an understanding
+  the actual state and needs of the product and overall project.
+
+We use GitHub Issues as well as GitHub Projects to manage our issues. These are
+some things that we do in GitHub to manage our issues:
+
+- Use a
+  [Board](https://docs.github.com/en/issues/planning-and-tracking-with-projects/customizing-views-in-your-project/customizing-the-board-layout)
+  view in GitHub Projects, grouped by "status" to show "todo", "in progress",
+  and "done" columns. This is the main view for managing issues. Create
+  "swimlanes" on the board by assignee so each person has their own "lane" to
+  track and manage their own issues.
+- Create a custom, single-select
+  [field](https://docs.github.com/en/issues/planning-and-tracking-with-projects/learning-about-projects/quickstart-for-projects#adding-fields)
+  to represent the issue's priority and within that field, add options for
+  "high", "medium", and "low" priority.
+- Assign priorities to issues using the "priority" field. An easy way to do this
+  is to create a new view (just for the issue manager) that has all the issues
+  grouped by priority. With the grouping, it is easy to drag issues between the
+  different priority levels to assign them. This also makes it easy to see the
+  distribution of priorities across all issues and ensure that they are
+  balanced.
+- Keep the main view (grouping by status and swimlane by assignee) filtered by
+  `has:priority`, so that only issues with priorities are shown. This helps keep
+  the focus on and communicates to everyone what actually needs to get done.
