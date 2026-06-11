@@ -54,6 +54,7 @@ book:
         - contributing/index.qmd
     - part: Managing
       chapters:
+        - managing/roles.qmd
         - managing/publishing.qmd
   appendices:
     - CONTRIBUTING.md
