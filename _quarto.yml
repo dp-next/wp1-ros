@@ -7,6 +7,7 @@ book:
   title: "Better research in less time"
   site-url: "https://dp-next.github.io/wp1-ros/"
   repo-url: "https://github.com/dp-next/wp1-ros"
+  repo-branch: main
   repo-actions: [issue, edit, source]
   author:
     - name: "Luke W. Johnston"
@@ -33,6 +34,9 @@ book:
         - strategy.qmd
         - groups.qmd
         - roadmap.qmd
+    - part: Getting started
+      chapters:
+        - getting-started/new-project.qmd
     - part: Design
       chapters:
         - design/index.qmd

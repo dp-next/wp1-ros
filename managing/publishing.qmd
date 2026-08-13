@@ -11,18 +11,23 @@ publication, from starting the project to publishing a report on the results.
 
 ```{mermaid}
 %%| label: fig-publication-steps
-%%| fig-cap: "Publication steps to follow during the life cycle of a DP-Next project. The rounded boxes in orange are tasks you are responsible for doing. The rectangular ones in light blue are for the committee members to do."
-%%| fig-alt: "Boxes and arrows indicating the flow of tasks from preparation to publication. The boxes are colored according to whether they are the responsibility of the authors or the committee members. These tasks are visual representations of the text below."
+%%| fig-cap: >-
+%%|   Publication steps to follow during the life cycle of a DP-Next project.
+%%|   The rounded boxes in orange are tasks you are responsible for doing. The
+%%|   rectangular ones in light blue are for the committee members to do.
+%%| fig-alt: >-
+%%|   Boxes and arrows indicating the flow of tasks from preparation to
+%%|   publication. The boxes are colored according to whether they are the
+%%|   responsibility of the authors or the committee members. These tasks are
+%%|   visual representations of the text below.
+
 graph LR
     subgraph S1["Preparation"]
-      A["Create GitHub<br>repository"]:::ours
-      B1("Synopsis preparation"):::yours
-      B2["Synopsis review<br>and approval"]:::ours
-      C["Data agreement<br>(if required)"]:::ours
+      A["Start the project<br>(from Getting Started<br>guide)"]
       D1("Protocol writing"):::yours
       D2["Protocol review<br>and approval"]:::ours
       D3["Protocol to<br>Zenodo"]:::ours
-      A --> B1 --> B2 --> C --> D1 --> D2 --> D3
+      A --> D1 --> D2 --> D3
     end
 
     subgraph S2["Analysis and writing"]
@@ -93,9 +98,9 @@ All publications should be accompanied by the following:
 
 - A synopsis of the proposed publication, including a defined aim/hypothesis,
   general methodological approach, required data, expected timeline, and
-  proposed author list. This synopsis is only for internal use, and should be
-  approved by the Steering Committee before any work on a specific
-  analysis/paper starts (see below).
+  proposed author list. This synopsis is found partly in the project proposal
+  issue as well as in the `dp-next.yaml` file within the project repository
+  itself. See @sec-start-new-project for more details.
 - A detailed analysis protocol, published on an online repository such as Zenodo
   or OpenAIRE to obtain a Digital Object Identifier (DOI) and clearly establish
   a clear temporal sequence between definition of hypotheses/analytic approaches
@@ -150,72 +155,14 @@ acknowledgment statement for the DP-Next project.
 
 ## Practical implementation
 
-### Initiating a research project
-
-We expect that the initiative for new publications based on DP-Next data will
-primarily be taken by DP-Next investigators. However, we also welcome
-collaborative publication initiatives by external investigators (i.e. those who
-are not part of the DP-Next team). Publication initiatives led by external
-investigators must include at least one DP-Next co-author to ensure continuity
-and handling and reporting according to our guidelines. Publication initiatives
-can be stand-alone or part of a wider protocol, such as a PhD or post-doc
-protocol. The same steps outlined below for manuscripts apply if DP-Next results
-are to be included in a PhD thesis.
-
 ### Steps to follow during the publication life cycle
 
 The requirements for preparing a DP-Next publication apply to both internal and
 external researchers and should follow these steps:
 
-<!-- TODO: Link to template when created -->
+1. New projects should always begin with the steps in @sec-start-new-project.
 
-1. Creation of a publicly accessible repository specifically for each
-   publication on GitHub. The repository must be placed under the DP-Next
-   organization, be named according to the [naming guide](/design/naming.qmd)
-   and use our template. This repository will contain the various 'sub-products'
-   described below as separate 'chapters'.
-
-2. Synopsis preparation and approval from the Steering Committee. This should
-   take place as early as possible, and should be completed before any part of
-   the analysis or writing process starts. The synopsis should be brief (around
-   1 page) and be written inside the GitHub repository created under 1,
-   according to the template. It should contain:
-
-   - A link to the GitHub repository
-
-   - The title
-
-   - The proposed author list, with roles
-
-   - A clear hypothesis, with a brief background if needed
-
-   - The required DP-Next data
-
-   - A general outline of the analytical approach
-
-   - A proposed timeline for the work, including proposed conference
-     presentations and proposed target journals
-
-   - Connection to specific DP-Next WP aims, PhD/postdoc protocols and other
-     prior or ongoing projects
-
-   - A table to track the status of the project with dates as it progresses
-     through the cycle
-
-Once the synopsis is completed, an approval request should be submitted to the
-Steering Committee by filing an 'issue' in the GitHub wp1-management project,
-with reference to the publication's GitHub repository. The Steering Committee
-will review and discuss requests within the GitHub environment or at their
-regular meetings, and may provide comments and ask for changes before approval.
-The synopsis is an internal management document and does not need to be
-published on Zenodo.
-
-3. For investigators [not]{.underline} covered by the DP-Next agreements (by
-   institutional affiliation to one of the Steno Diabetes Centres), a separate
-   data agreement must be signed if they require data access. This agreement
-   must be in place before any data access can be given.
-
-4. Protocol writing. It is expected that the first output from each publication
+2. Protocol writing. It is expected that the first output from each publication
    will be an analysis protocol. Investigators should follow these steps:
 
    - Draft a detailed analysis protocol in the publication's GitHub repository
@@ -236,25 +183,25 @@ published on Zenodo.
    - A stable version of the protocol may also be published as a preprint on
      online preprint servers such as arXiv or medRxiv.
 
-5. Work on the data analysis. Depending on the data used, this work will take
+3. Work on the data analysis. Depending on the data used, this work will take
    place on a local secure server or on Denmark Statistics Servers. Please
    follow the guides on the use of Git / GitHub for data analysis in these two
    environments, making sure that the analytical code is saved in the project's
    GitHub repository.
 
-6. Preparation of a conference abstract, interim / preliminary results /
+4. Preparation of a conference abstract, interim / preliminary results /
    progress reports / presentations / slides. As the project progresses, various
    interim results and materials are likely to be produced. As far as possible,
    these should also be managed as separate 'chapters' of the project's GitHub
    repository.
 
-7. Preparation of the manuscript. This should also take place as a 'chapter' in
+5. Preparation of the manuscript. This should also take place as a 'chapter' in
    the project's GitHub repository and should be clearly linked to the annotated
    detailed analytical code that generated the tables, graphs and figures
    included in the manuscript. Stable versions of the manuscript should be
    published as a preprint on online preprint servers such as arXiv or medRxiv.
 
-8. Internal approval and first submission. When a substantial version of the
+6. Internal approval and first submission. When a substantial version of the
    manuscript / a conference abstract is ready for submission, the authors
    should request approval for submission from the Steering Committee by filing
    an 'issue' in the GitHub wp1-management project, with reference to the
@@ -271,7 +218,7 @@ published on Zenodo.
    guideline have not been followed (e.g. no GitHub repository, no approved
    synopsis, no protocol).
 
-9. Updates and acceptance. Throughout the project life cycle (also after the
+7. Updates and acceptance. Throughout the project life cycle (also after the
    manuscript / conference abstract is submitted), the authors should keep the
    status table in the synopsis up to date to reflect (where relevant):
 
@@ -288,10 +235,9 @@ published on Zenodo.
 
    - Acceptance
 
-10. Publication. The authors should send a copy of the full text of a
-    publication and/or a link to the final materials to the Steering Committee
-    and report/log the activity on the relevant academic output tracking
-    platform.
+8. Publication. The authors should send a copy of the full text of a publication
+   and/or a link to the final materials to the Steering Committee and report/log
+   the activity on the relevant academic output tracking platform.
 
 ### Other forms of dissemination
 
