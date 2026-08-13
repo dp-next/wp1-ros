@@ -11,8 +11,16 @@ publication, from starting the project to publishing a report on the results.
 
 ```{mermaid}
 %%| label: fig-publication-steps
-%%| fig-cap: "Publication steps to follow during the life cycle of a DP-Next project. The rounded boxes in orange are tasks you are responsible for doing. The rectangular ones in light blue are for the committee members to do."
-%%| fig-alt: "Boxes and arrows indicating the flow of tasks from preparation to publication. The boxes are colored according to whether they are the responsibility of the authors or the committee members. These tasks are visual representations of the text below."
+%%| fig-cap: >-
+%%|   Publication steps to follow during the life cycle of a DP-Next project.
+%%|   The rounded boxes in orange are tasks you are responsible for doing. The
+%%|   rectangular ones in light blue are for the committee members to do.
+%%| fig-alt: >-
+%%|   Boxes and arrows indicating the flow of tasks from preparation to
+%%|   publication. The boxes are colored according to whether they are the
+%%|   responsibility of the authors or the committee members. These tasks are
+%%|   visual representations of the text below.
+
 graph LR
     subgraph S1["Preparation"]
       A["Create GitHub<br>repository"]:::ours
