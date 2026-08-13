@@ -76,8 +76,7 @@ data analysis.
 - Because it is open source, it has more support with AI helper tools like
   ChatGPT or GitHub Copilot
 - Has a lot of templating tools available to simplify many aspects of data
-  analysis work through packages like
-  [usethis](https://usethis.r-lib.org/)
+  analysis work through packages like [usethis](https://usethis.r-lib.org/)
 :::::
 
 ::::: column
@@ -85,8 +84,7 @@ data analysis.
 
 - Can be difficult to learn, so has a steeper learning curve
 - Still not as widely used in the research environment, at least the Danish
-  context, as Stata, so doesn't have as much institutional
-  support
+  context, as Stata, so doesn't have as much institutional support
 :::::
 :::
 
@@ -128,8 +126,8 @@ are packages available for doing data analysis tasks.
   available
 - Still not as widely used in the research environment, at least the Danish
   context, as Stata, so doesn't have as much institutional support
-- There are few in-person courses that teach Python for data analysis,
-  at least within the Danish context
+- There are few in-person courses that teach Python for data analysis, at least
+  within the Danish context
 :::::
 :::
 
@@ -166,8 +164,8 @@ management, business intelligence, predictive analysis, and more.
   ChatGPT or GitHub Copilot
 - The whole ecosystem is closed, which means learning all the features only
   available through SAS
-- Because it is closed source, it is more difficult to integrate with
-  other tools and software
+- Because it is closed source, it is more difficult to integrate with other
+  tools and software
 :::::
 :::
 
@@ -185,16 +183,15 @@ sciences, public health, and economics.
 - Is widely used in the research community, especially in the Danish context
 - Many established researchers (in Denmark) are familiar with Stata
 - Has many of the established statistical methods built-in
-- Within the Danish context, there are many courses at the university
-  level that teach Stata
+- Within the Danish context, there are many courses at the university level that
+  teach Stata
 :::::
 
 ::::: column
 #### Drawbacks
 
 - Has all of the same drawbacks as SAS
-- In Denmark, fewer courses are teaching Stata compared to previous
-  years
+- In Denmark, fewer courses are teaching Stata compared to previous years
 :::::
 :::
 
