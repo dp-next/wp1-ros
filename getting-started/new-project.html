@@ -6,10 +6,8 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="dcterms.date" content="2025-02-13">
-<meta name="description" content="An effective and powerful tool is critical to doing the data analysis and this post describes why we choose R and Python for different purposes.">
 
-<title>12&nbsp; Why R and Python – Better research in less time</title>
+<title>6&nbsp; Start a new project – Better research in less time</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -37,8 +35,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-search/fuse.min.js"></script>
 <script src="../site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="../">
-<link href="../collaborating/index.html" rel="next">
-<link href="../decisions/index.html" rel="prev">
+<link href="../design/index.html" rel="next">
+<link href="../roadmap.html" rel="prev">
 <script src="../site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
 <script src="../site_libs/quarto-html/popper.min.js"></script>
@@ -75,6 +73,9 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<script src="../site_libs/quarto-diagram/mermaid.min.js"></script>
+<script src="../site_libs/quarto-diagram/mermaid-init.js"></script>
+<link href="../site_libs/quarto-diagram/mermaid.css" rel="stylesheet">
 
 
 </head>
@@ -101,7 +102,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../decisions/index.html">Decisions</a></li><li class="breadcrumb-item"><a href="../decisions/why-r-python.html"><span class="chapter-number">12</span>&nbsp; <span class="chapter-title">Why R and Python</span></a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../getting-started/new-project.html">Getting started</a></li><li class="breadcrumb-item"><a href="../getting-started/new-project.html"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Start a new project</span></a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
     </div>
@@ -165,7 +166,7 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../getting-started/new-project.html" class="sidebar-item-text sidebar-link">
+  <a href="../getting-started/new-project.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Start a new project</span></span></a>
   </div>
 </li>
@@ -223,7 +224,7 @@ ul.task-list li input[type="checkbox"] {
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../decisions/why-r-python.html" class="sidebar-item-text sidebar-link active">
+  <a href="../decisions/why-r-python.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text"><span class="chapter-number">12</span>&nbsp; <span class="chapter-title">Why R and Python</span></span></a>
   </div>
 </li>
@@ -332,33 +333,15 @@ ul.task-list li input[type="checkbox"] {
 </nav>
 <div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">Table of contents</h2>
-   
-  <ul>
-  <li><a href="#context-and-problem-statement" id="toc-context-and-problem-statement" class="nav-link active" data-scroll-target="#context-and-problem-statement"><span class="header-section-number">12.1</span> Context and problem statement</a></li>
-  <li><a href="#decision-drivers" id="toc-decision-drivers" class="nav-link" data-scroll-target="#decision-drivers"><span class="header-section-number">12.2</span> Decision drivers</a></li>
-  <li><a href="#considered-options" id="toc-considered-options" class="nav-link" data-scroll-target="#considered-options"><span class="header-section-number">12.3</span> Considered options</a>
-  <ul class="collapse">
-  <li><a href="#r" id="toc-r" class="nav-link" data-scroll-target="#r"><span class="header-section-number">12.3.1</span> R</a></li>
-  <li><a href="#python" id="toc-python" class="nav-link" data-scroll-target="#python"><span class="header-section-number">12.3.2</span> Python</a></li>
-  <li><a href="#sas" id="toc-sas" class="nav-link" data-scroll-target="#sas"><span class="header-section-number">12.3.3</span> SAS</a></li>
-  <li><a href="#stata" id="toc-stata" class="nav-link" data-scroll-target="#stata"><span class="header-section-number">12.3.4</span> Stata</a></li>
-  </ul></li>
-  <li><a href="#decision-outcome" id="toc-decision-outcome" class="nav-link" data-scroll-target="#decision-outcome"><span class="header-section-number">12.4</span> Decision outcome</a>
-  <ul class="collapse">
-  <li><a href="#consequences" id="toc-consequences" class="nav-link" data-scroll-target="#consequences"><span class="header-section-number">12.4.1</span> Consequences</a></li>
-  </ul></li>
-  </ul>
-<div class="toc-actions"><ul><li><a href="https://github.com/dp-next/wp1-ros/issues/new" class="toc-action"><i class="bi bi-github"></i>Report an issue</a></li><li><a href="https://github.com/dp-next/wp1-ros/edit/main/decisions/why-r-python.qmd" class="toc-action"><i class="bi empty"></i>Edit this page</a></li><li><a href="https://github.com/dp-next/wp1-ros/blob/main/decisions/why-r-python.qmd" class="toc-action"><i class="bi empty"></i>View source</a></li></ul></div></nav>
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
+        
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../decisions/index.html">Decisions</a></li><li class="breadcrumb-item"><a href="../decisions/why-r-python.html"><span class="chapter-number">12</span>&nbsp; <span class="chapter-title">Why R and Python</span></a></li></ol></nav>
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../getting-started/new-project.html">Getting started</a></li><li class="breadcrumb-item"><a href="../getting-started/new-project.html"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Start a new project</span></a></li></ol></nav>
 <div class="quarto-title">
-<h1 class="title"><span class="chapter-number">12</span>&nbsp; <span class="chapter-title">Why R and Python</span></h1>
+<h1 class="title"><span id="sec-start-new-project" class="quarto-section-identifier"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Start a new project</span></span></h1>
 </div>
 
 
@@ -366,12 +349,6 @@ ul.task-list li input[type="checkbox"] {
 <div class="quarto-title-meta">
 
     
-    <div>
-    <div class="quarto-title-meta-heading">Published</div>
-    <div class="quarto-title-meta-contents">
-      <p class="date">February 13, 2025</p>
-    </div>
-  </div>
   
     
   </div>
@@ -379,6 +356,7 @@ ul.task-list li input[type="checkbox"] {
 
 
 </header>
+
 
 <div class="callout callout-style-default callout-warning callout-titled">
 <div class="callout-header d-flex align-content-center">
@@ -392,175 +370,67 @@ Warning
 <div class="callout-body-container callout-body">
 <p>🚧 This website and documentation is still in very active development and evolving quickly, so content could undergo substantial changes at any time 🚧</p>
 </div>
-</div>
-<section id="context-and-problem-statement" class="level2" data-number="12.1">
-<h2 data-number="12.1" class="anchored" data-anchor-id="context-and-problem-statement"><span class="header-section-number">12.1</span> Context and problem statement</h2>
-<p>Doing data analysis is part of the lifecycle of a research project. To achieve our reproducibility aim, we need to use tools that are code-based and not GUI-based since GUI-based tools are inherently difficult to make reproducible. Using an open source tool greatly simplifies the process of sharing and reproducing results. But for this decision post, we will compare closed sources tools as well. So we need to decide on the software we will use for data analysis. The question is:</p>
-<p><em>What is the best software we can use for data analysis for our purposes, principles, and aims?</em></p>
-</section>
-<section id="decision-drivers" class="level2" data-number="12.2">
-<h2 data-number="12.2" class="anchored" data-anchor-id="decision-drivers"><span class="header-section-number">12.2</span> Decision drivers</h2>
-<p>The main things driving this decision are:</p>
-<ul>
-<li>Comparatively easy way to reproduce results we obtain.</li>
-<li>A tool we can all standardize on and use to help support each other and more effectively collaborate.</li>
-<li>A tool that is widely available and is installed or can easily be installed on our computers or servers (or already installed).</li>
-<li>Still needs to follow our core principles and aims.</li>
-<li>Is not a GUI-based tool.</li>
-<li>Should be relatively familiar to most of us or easy to learn.</li>
-</ul>
-</section>
-<section id="considered-options" class="level2" data-number="12.3">
-<h2 data-number="12.3" class="anchored" data-anchor-id="considered-options"><span class="header-section-number">12.3</span> Considered options</h2>
-<p>Based on our context, question, and drivers, we will consider the following options:</p>
-<ul>
-<li><a href="https://www.r-project.org/">R</a></li>
-<li><a href="https://www.python.org/">Python</a></li>
-<li><a href="https://www.sas.com/en_us/home.geo.html">SAS</a></li>
-<li><a href="https://www.stata.com/">Stata</a></li>
-</ul>
-<p>Common GUI-based tools that are excluded from consideration are:</p>
-<ul>
-<li><a href="https://www.jmp.com/en/home">JMP</a></li>
-<li><a href="https://www.graphpad.com/">GraphPad Prism</a></li>
-<li><a href="https://www.microsoft.com/en-us/microsoft-365/excel">Excel</a></li>
-<li><a href="https://www.ibm.com/products/spss-statistics">SPSS</a></li>
-<li><a href="https://en.wikipedia.org/wiki/Tableau_Software">Tableau</a></li>
-<li><a href="https://workspace.google.com/products/sheets/">Google Sheets</a></li>
-</ul>
-<section id="r" class="level3" data-number="12.3.1">
-<h3 data-number="12.3.1" class="anchored" data-anchor-id="r"><span class="header-section-number">12.3.1</span> R</h3>
-<p><a href="https://www.r-project.org">R</a> is an open-source programming language and software environment for statistical computing and graphics supported by the R Foundation for Statistical Computing. The R language is widely used among statisticians and data analysts for developing statistical methods and doing data analysis.</p>
-<div class="columns">
-<div class="column">
-<section id="benefits" class="level4" data-number="12.3.1.1">
-<h4 data-number="12.3.1.1" class="anchored" data-anchor-id="benefits"><span class="header-section-number">12.3.1.1</span> Benefits</h4>
-<ul>
-<li>Widely used in the research community</li>
-<li>Massive, friendly, and supportive community</li>
-<li>Large number of packages, that can do nearly any task</li>
-<li>Has all the latest statistical methods that can be installed as packages</li>
-<li>Has a large number of resources and learning material to use (including the <a href="https://ddeacademy.dk/">DDEA’s</a> <a href="https://r-cubed.rostools.org">R courses</a> that run every year)</li>
-<li>Beginner friendly data analysis tools via the <a href="https://tidyverse.org/">tidyverse</a></li>
-<li>Open source, free to use, easy to install</li>
-<li>Because it is open source, it has more support with AI helper tools like ChatGPT or GitHub Copilot</li>
-<li>Has a lot of templating tools available to simplify many aspects of data analysis work through packages like <a href="https://usethis.r-lib.org/">usethis</a></li>
-</ul>
-</section>
-</div><div class="column">
-<section id="drawbacks" class="level4" data-number="12.3.1.2">
-<h4 data-number="12.3.1.2" class="anchored" data-anchor-id="drawbacks"><span class="header-section-number">12.3.1.2</span> Drawbacks</h4>
-<ul>
-<li>Can be difficult to learn, so has a steeper learning curve</li>
-<li>Still not as widely used in the research environment, at least the Danish context, as Stata, so doesn’t have as much institutional support</li>
-</ul>
-</section>
+</div><p>If you are part of DP-Next (or not), you’ll be working on projects. This guide describes what to do when starting a new project. Below in <a href="#fig-new-project-steps" class="quarto-xref">Figure&nbsp;<span>6.1</span></a> is a visual summary of the steps to take, along with descriptions afterwards that outline the steps in more detail.</p>
+<div class="cell" data-layout-align="default">
+<div class="cell-output-display">
+<div id="fig-new-project-steps" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-new-project-steps-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<div>
+<pre class="mermaid mermaid-js" data-label="fig-new-project-steps">graph TB
+  A("Create GitHub&lt;br&gt;project proposal issue&lt;br&gt;(you)"):::yours
+  B["Synopsis review&lt;br&gt;and approval&lt;br&gt;(us)"]:::ours
+  C["Data agreement&lt;br&gt;(if required)&lt;br&gt;(us)"]:::ours
+  D["Create GitHub&lt;br&gt;repository&lt;br&gt;(us)"]:::ours
+  D("Complete TODOs in&lt;br&gt;'dp-next.yaml'&lt;br&gt;(you)"):::yours
+  A --&gt; B --&gt; C --&gt; D
+
+  classDef ours fill:#ADD8E6;
+  classDef yours fill:#FFA07A;
+</pre>
 </div>
 </div>
-</section>
-<section id="python" class="level3" data-number="12.3.2">
-<h3 data-number="12.3.2" class="anchored" data-anchor-id="python"><span class="header-section-number">12.3.2</span> Python</h3>
-<p><a href="https://www.python.org/">Python</a> is an interpreted, high-level, general-purpose programming language. Python’s design philosophy emphasizes code readability with its notable use of significant whitespace. Its language uses an object-oriented approach aim to help programmers write clear, logical code for small and large-scale projects. Because it is a general-purpose language, there are packages available for doing data analysis tasks.</p>
-<div class="columns">
-<div class="column">
-<section id="benefits-1" class="level4" data-number="12.3.2.1">
-<h4 data-number="12.3.2.1" class="anchored" data-anchor-id="benefits-1"><span class="header-section-number">12.3.2.1</span> Benefits</h4>
-<ul>
-<li>Massive community</li>
-<li>Is a general-purpose programming language, so can be used for more than just data analysis</li>
-<li>Has a large number of packages for many different programming tasks</li>
-<li>Is more commonly used in the data science and machine learning community</li>
-<li>Has all necessary machine learning models available as packages</li>
-<li>Because it is open source, it has more support with AI helper tools like ChatGPT or GitHub Copilot</li>
-<li>Open source, free to use, and easy to install</li>
-</ul>
-</section>
-</div><div class="column">
-<section id="drawbacks-1" class="level4" data-number="12.3.2.2">
-<h4 data-number="12.3.2.2" class="anchored" data-anchor-id="drawbacks-1"><span class="header-section-number">12.3.2.2</span> Drawbacks</h4>
-<ul>
-<li>Because it is a more formal and general-purpose programming language, it can be more difficult to learn for non-software engineers/developers</li>
-<li>Not as many statistical packages as R</li>
-<li>Not as easy to get started and setup when first making a project (need to create virtual environments)</li>
-<li>Community, and thus the packages available, take a more “set it up yourself” approach to common tasks, which can be a major barrier to entry for beginners</li>
-<li>There are less beginner-friendly or -focused resources and learning material available</li>
-<li>Still not as widely used in the research environment, at least the Danish context, as Stata, so doesn’t have as much institutional support</li>
-<li>There are few in-person courses that teach Python for data analysis, at least within the Danish context</li>
-</ul>
-</section>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-new-project-steps-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;6.1: Steps to take for starting a project within DP-Next. The rounded boxes in orange are tasks you are responsible for doing. The rectangular ones in light blue are for the managers (“us”) to do.
+</figcaption>
+</figure>
 </div>
 </div>
-</section>
-<section id="sas" class="level3" data-number="12.3.3">
-<h3 data-number="12.3.3" class="anchored" data-anchor-id="sas"><span class="header-section-number">12.3.3</span> SAS</h3>
-<p><a href="https://www.sas.com/en_us/home.geo.html">SAS</a> is a software suite developed by SAS Institute for advanced analytics, multivariate analysis, business intelligence, data management, and predictive analytics. It is used for data management, business intelligence, predictive analysis, and more.</p>
-<div class="columns">
-<div class="column">
-<section id="benefits-2" class="level4" data-number="12.3.3.1">
-<h4 data-number="12.3.3.1" class="anchored" data-anchor-id="benefits-2"><span class="header-section-number">12.3.3.1</span> Benefits</h4>
-<ul>
-<li>Widely used in certain industries, such as the pharmaceutical industry, as well as some Danish research institutions like Denmark Statistics</li>
-<li>Is a very old language and so has many of the established statistical methods built-in</li>
-<li>As it is a paid software, there is more personal support available</li>
-</ul>
-</section>
-</div><div class="column">
-<section id="drawbacks-2" class="level4" data-number="12.3.3.2">
-<h4 data-number="12.3.3.2" class="anchored" data-anchor-id="drawbacks-2"><span class="header-section-number">12.3.3.2</span> Drawbacks</h4>
-<ul>
-<li>Is closed source, so you need a license to install and use it, which makes it difficult to share and reproduce results</li>
-<li>Was designed in a different time period when software development practices were less advanced, so it’s language is less modern and more difficult to use</li>
-<li>Nearly no new PhD student is familiar with SAS</li>
-<li>Very few courses teach SAS now</li>
-<li>Because it is closed source, there is much less online and free resources for learning and using it</li>
-<li>Because it is closed source, it has less support with AI helper tools like ChatGPT or GitHub Copilot</li>
-<li>The whole ecosystem is closed, which means learning all the features only available through SAS</li>
-<li>Because it is closed source, it is more difficult to integrate with other tools and software</li>
-</ul>
-</section>
+</div>
+<p>The requirements for preparing a DP-Next publication apply to both internal and external researchers and should follow these steps:</p>
+<ol type="1">
+<li><p>Create a new issue in the <a href="https://github.com/dp-next/WP1-Management">WP1-Management</a> repo (private for now) and select the “Project proposal” issue template. Fill in the fields there, which we’ll use to assess how relevant the project is within DP-Next.</p></li>
+<li><p>Once you’ve created the issue, at least one member of the <a href="https://dp-next.github.io/who-we-are.html#sc">Steering Committee</a> needs to approve it (usually either the principle investigator or the general coordinator). Once approved, someone with access permissions (e.g.&nbsp;in <a href="https://dp-next.github.io/who-we-are.html#wp1">WP1</a>) will create a GitHub repository for the project by using the DP-Next <a href="https://dp-next.github.io/template-project">template project</a> and following our <a href="../design/naming.html">naming guide</a>.</p></li>
+<li><p>After the repository is created, you need to go through the repository and complete any TODO items, such as those found in the <code>TODO.md</code> file. Importantly, the TODO items in the <code>dp-next.yaml</code> file need to be filled. We use the information in this file to create an overview of the different projects going on in DP-Next.</p></li>
+</ol>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Note
 </div>
 </div>
-</section>
-<section id="stata" class="level3" data-number="12.3.4">
-<h3 data-number="12.3.4" class="anchored" data-anchor-id="stata"><span class="header-section-number">12.3.4</span> Stata</h3>
-<p><a href="https://www.stata.com/">Stata</a> is a general-purpose statistical software package created by StataCorp. It is used by many researchers in the social sciences, public health, and economics.</p>
-<div class="columns">
-<div class="column">
-<section id="benefits-3" class="level4" data-number="12.3.4.1">
-<h4 data-number="12.3.4.1" class="anchored" data-anchor-id="benefits-3"><span class="header-section-number">12.3.4.1</span> Benefits</h4>
-<ul>
-<li>Has strong institutional support within Danish universities</li>
-<li>Is widely used in the research community, especially in the Danish context</li>
-<li>Many established researchers (in Denmark) are familiar with Stata</li>
-<li>Has many of the established statistical methods built-in</li>
-<li>Within the Danish context, there are many courses at the university level that teach Stata</li>
-</ul>
-</section>
-</div><div class="column">
-<section id="drawbacks-3" class="level4" data-number="12.3.4.2">
-<h4 data-number="12.3.4.2" class="anchored" data-anchor-id="drawbacks-3"><span class="header-section-number">12.3.4.2</span> Drawbacks</h4>
-<ul>
-<li>Has all of the same drawbacks as SAS</li>
-<li>In Denmark, fewer courses are teaching Stata compared to previous years</li>
-</ul>
-</section>
+<div class="callout-body-container callout-body">
+<p>We expect that many new projects based on DP-Next data will be done by DP-Next researchers. However, we also welcome collaborations with external researchers (i.e.&nbsp;those who are not part of DP-Next), though these projects must include at least one DP-Next member as coauthor so that projects follow our standards. Projects can be stand-alone or part of a wider initiative, such as a PhD or postdoc protocol. Since the project proposal process is started through a private process, the external collaborator must have their DP-Next collaborator start the process.</p>
 </div>
 </div>
-</section>
-</section>
-<section id="decision-outcome" class="level2" data-number="12.4">
-<h2 data-number="12.4" class="anchored" data-anchor-id="decision-outcome"><span class="header-section-number">12.4</span> Decision outcome</h2>
-<p>We decided on using R for most of our data analysis tasks because of the benefits we listed above. It is also the tool most new PhD students are familiar with or learn to use during their studies. However, because of tools that make it very easy to mix R and Python code together, for instance with <a href="https://quarto.org/">Quarto</a>, we also decide to use Python for some tasks where it is more appropriate, such as with machine learning analyses.</p>
-<section id="consequences" class="level3" data-number="12.4.1">
-<h3 data-number="12.4.1" class="anchored" data-anchor-id="consequences"><span class="header-section-number">12.4.1</span> Consequences</h3>
-<ul>
-<li>Stata has been used, supported, taught, and recommended at institutional levels in Danish universities for many years, many established researchers will be more familiar with Stata. Because of this, we may initially need to do more onboarding and training for those working on DP-Next</li>
-<li>Few people may be familiar with mixing Python and R, so may need to do more onboarding and training on this</li>
-</ul>
+<div class="callout callout-style-default callout-warning callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Warning
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>For investigators not covered by the DP-Next agreements (by institutional affiliation to one of the Steno Diabetes Centres), a separate data agreement must be signed if they require data access. This agreement must be in place before any data access can be given.</p>
+</div>
+</div>
 
 
-</section>
-</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
@@ -965,13 +835,13 @@ Warning
   </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
-      <a href="../decisions/index.html" class="pagination-link" aria-label="Decisions">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">11</span>&nbsp; <span class="chapter-title">Decisions</span></span>
+      <a href="../roadmap.html" class="pagination-link" aria-label="Roadmap">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Roadmap</span></span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="../collaborating/index.html" class="pagination-link" aria-label="Collaborating">
-        <span class="nav-page-text"><span class="chapter-number">13</span>&nbsp; <span class="chapter-title">Collaborating</span></span> <i class="bi bi-arrow-right-short"></i>
+      <a href="../design/index.html" class="pagination-link" aria-label="Design">
+        <span class="nav-page-text"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Design</span></span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>
@@ -989,7 +859,7 @@ Warning
 </a>
   </li>  
 </ul>
-    <div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/dp-next/wp1-ros/issues/new" class="toc-action"><i class="bi bi-github"></i>Report an issue</a></li><li><a href="https://github.com/dp-next/wp1-ros/edit/main/decisions/why-r-python.qmd" class="toc-action"><i class="bi empty"></i>Edit this page</a></li><li><a href="https://github.com/dp-next/wp1-ros/blob/main/decisions/why-r-python.qmd" class="toc-action"><i class="bi empty"></i>View source</a></li></ul></div></div>
+    <div class="toc-actions"><ul><li><a href="https://github.com/dp-next/wp1-ros/issues/new" class="toc-action"><i class="bi bi-github"></i>Report an issue</a></li><li><a href="https://github.com/dp-next/wp1-ros/edit/main/getting-started/new-project.qmd" class="toc-action"><i class="bi empty"></i>Edit this page</a></li><li><a href="https://github.com/dp-next/wp1-ros/blob/main/getting-started/new-project.qmd" class="toc-action"><i class="bi empty"></i>View source</a></li></ul></div></div>
     <div class="nav-footer-right">
       &nbsp;
     </div>
