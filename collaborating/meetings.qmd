@@ -2,28 +2,26 @@
 
 ## Collaboration assessments
 
-Every month we have a "collaboration-assessment" meeting. At the least,
-the tech leads and/or representatives from each work package need to
-attend, but it is open to anyone working on DP-Next. We follow the style
-of a meeting type called a
-["retrospective"](https://miro.com/agile/guide-to-retrospectives/) that
-is also used in the
-[Seedcase Project](https://guidebook.seedcase-project.org/iterations/end).
+Every month we have a "collaboration-assessment" meeting. At the least, the tech
+leads and/or representatives from each work package need to attend, but it is
+open to anyone working on DP-Next. We follow the style of a meeting type called
+a ["retrospective"](https://miro.com/agile/guide-to-retrospectives/) that is
+also used in the [Seedcase
+Project](https://guidebook.seedcase-project.org/iterations/end).
 
-During these meetings we discuss ways we can improve collaboration
-within and between work packages. The focus is mainly on collaboration
-practices, tools, and methods that could benefit the project as a whole
-or multiple work packages. We discuss what went well, what didn't go
-well, and what we can improve. Then we create action items to address
-the issues we identified.
+During these meetings we discuss ways we can improve collaboration within and
+between work packages. The focus is mainly on collaboration practices, tools,
+and methods that could benefit the project as a whole or multiple work packages.
+We discuss what went well, what didn't go well, and what we can improve. Then we
+create action items to address the issues we identified.
 
 ## Update meetings
 
-Every week we have a very short "update" meeting. We follow the style
-used in the
-[Seedcase Project](https://team.seedcase-project.org/how-we-work/update-meetings).
-Briefly, during the meeting, we screenshare the project board and go
-over the tasks on the board that are at the "in-progress" state or later
-(e.g. "in review"). Each person gives an a very brief update on their
-tasks they've been working on since the last update meeting. Specific
-attention is given to tasks that have blocks or barriers to completion.
+Every week we have a very short "update" meeting. We follow the style used in
+the [Seedcase
+Project](https://team.seedcase-project.org/how-we-work/update-meetings).
+Briefly, during the meeting, we screenshare the project board and go over the
+tasks on the board that are at the "in-progress" state or later (e.g. "in
+review"). Each person gives an a very brief update on their tasks they've been
+working on since the last update meeting. Specific attention is given to tasks
+that have blocks or barriers to completion.

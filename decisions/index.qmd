@@ -1,16 +1,19 @@
 ---
 title: "Decisions"
-description: "Reasons and explanations for the different choices we've made for the tools, methods, and practices we use."
+description: >-
+  Reasons and explanations for the different choices we've made for the tools,
+  methods, and practices we use.
 ---
 
-This document lists "decisions records", which are documents describing
-and justifying why we've made the decisions we have. We make heavy use
-of many of the same decisions as have been made in the
-[Seedcase Project](https://decisions.seedcase-project.org):
+This document lists "decisions records", which are documents describing and
+justifying why we've made the decisions we have. We make heavy use of many of
+the same decisions as have been made in the [Seedcase
+Project](https://decisions.seedcase-project.org):
 
 - [Why Quarto](https://decisions.seedcase-project.org/why-quarto/)
 - [Why Discord](https://decisions.seedcase-project.org/why-discord/)
-- [Why GitHub Project Boards](https://decisions.seedcase-project.org/why-github-projects/)
+- [Why GitHub Project
+  Boards](https://decisions.seedcase-project.org/why-github-projects/)
 - [Why Markdown](https://decisions.seedcase-project.org/why-markdown/)
 - [Why Git]() (in progress)
 - [Why GitHub]() (in progress)
@@ -27,5 +30,4 @@ These are decisions are being written.
 - [Why open science]() (in progress)
 - [Why reproducibility]() (in progress)
 - [Why Zenodo]() (in progress)
-
 :::

@@ -3,170 +3,157 @@ title: "Strategy"
 description: Strategic principles and actions taken in Work Package 1.
 ---
 
-We've structured and organised Work Package 1 based on the increasing
-need for openness, transparency, and reproducibility in research. Work
-Package 1 will deliver the day-to-day project and operations management
-of all the work packages, as well as facilitating the close
-collaboration and joint development of expertise across all seven Steno
-Centers.
+We've structured and organised Work Package 1 based on the increasing need for
+openness, transparency, and reproducibility in research. Work Package 1 will
+deliver the day-to-day project and operations management of all the work
+packages, as well as facilitating the close collaboration and joint development
+of expertise across all seven Steno Centers.
 
-To achieve effective and optimal coordination and management of a
-complex project like this, we will employ resources and tools developed
-and tested at the Steno Diabetes Center Aarhus in the past years
-[@Johnston2022; @DARTER; @ukbaid; @seedcase; @sdca-github] to offer a
-practical framework for sharing knowledge and technical skills across
-centres, which will deliver "better research done in less time"
-[@Lowndes2017] while following reproducible and open scientific
-practices.
+To achieve effective and optimal coordination and management of a complex
+project like this, we will employ resources and tools developed and tested at
+the Steno Diabetes Center Aarhus in the past years
+[@Johnston2022; @DARTER; @ukbaid; @seedcase; @sdca-github] to offer a practical
+framework for sharing knowledge and technical skills across centres, which will
+deliver "better research done in less time" [@Lowndes2017] while following
+reproducible and open scientific practices.
 
 ## Guiding principles
 
-One of the initial steps in the strategy involves developing and
-implementing general principles that will guide collaboration and work
-across the Steno Centers. This ensures we have a basis for following a
-common approach to working and communicating together when managing the
-work packages. While we will finalise and refine the principles during
-the first year of the project, below are some principles that will form
-the basis for all other principles.
+One of the initial steps in the strategy involves developing and implementing
+general principles that will guide collaboration and work across the Steno
+Centers. This ensures we have a basis for following a common approach to working
+and communicating together when managing the work packages. While we will
+finalise and refine the principles during the first year of the project, below
+are some principles that will form the basis for all other principles.
 
-- Assume openness with as many things as possible, including
-  communication.
-- Implement openness as much as possible, excluding personal and
-  sensitive data.
-- Disseminate as many steps of the research lifecycle as possible,
-  including non-traditional outputs (e.g. protocols or standard
-  operating procedures).
-- Implement as much as possible explicit analyses and data
-  processing/management using code-based and programmatic
-  pipeline/workflow management.
+- Assume openness with as many things as possible, including communication.
+- Implement openness as much as possible, excluding personal and sensitive data.
+- Disseminate as many steps of the research lifecycle as possible, including
+  non-traditional outputs (e.g. protocols or standard operating procedures).
+- Implement as much as possible explicit analyses and data processing/management
+  using code-based and programmatic pipeline/workflow management.
 
 ## Specifics of the strategy
 
-Expanding on the strategies listed on the [landing page](index.qmd), the
-below describes more of the details about the specific strategies from a
-technical or digital perspective. Many of these activities and
-strategies will get support and contributions from the
-[Seedcase Project](https://seedcase-project.org/) team at Steno Aarhus,
-who regularly use and refine many of these practices in their work.
+Expanding on the strategies listed on the [landing page](index.qmd), the below
+describes more of the details about the specific strategies from a technical or
+digital perspective. Many of these activities and strategies will get support
+and contributions from the [Seedcase Project](https://seedcase-project.org/)
+team at Steno Aarhus, who regularly use and refine many of these practices in
+their work.
 
 ### Project management
 
-While general project management and coordination will be done by the
-management [group](groups.qmd), the technical strategy for the project
-management will involve applying iterative and incremental methods often
-used in software development, such as Agile-inspired methods.
-Practically, this involves:
+While general project management and coordination will be done by the management
+[group](groups.qmd), the technical strategy for the project management will
+involve applying iterative and incremental methods often used in software
+development, such as Agile-inspired methods. Practically, this involves:
 
-- Using time-bound "iterations" that has a specific aim to complete,
-  where tasks are assigned that work toward completing this aim. This
-  may involve having iterations be on a monthly basis.
-- Using a (digital) project board to track tasks, their status, who is
-  assigned to what, with issues or discussions connected to each task.
-- Having regular "reflection" meetings to identify things that work and
-  things to improve on in our collaboration and management.
+- Using time-bound "iterations" that has a specific aim to complete, where tasks
+  are assigned that work toward completing this aim. This may involve having
+  iterations be on a monthly basis.
+- Using a (digital) project board to track tasks, their status, who is assigned
+  to what, with issues or discussions connected to each task.
+- Having regular "reflection" meetings to identify things that work and things
+  to improve on in our collaboration and management.
 
 ### Collaborative practices
 
-Building an effective collaboration between groups, centers, and people
-requires agreeing to a set of common practices that we all adhere to. In
-this way, we'll develop a description of basic standards and practices
-that we will discuss, refine, and agree on during the first year of the
-project. These documents will be living documents that we will post
-publicly on this website. Concretely, some practices may be:
+Building an effective collaboration between groups, centers, and people requires
+agreeing to a set of common practices that we all adhere to. In this way, we'll
+develop a description of basic standards and practices that we will discuss,
+refine, and agree on during the first year of the project. These documents will
+be living documents that we will post publicly on this website. Concretely, some
+practices may be:
 
 - Using a common set of tools for communication that works for everyone.
-- Using relevant communication channels dependent on the purpose, for
-  example, extended discussions of a specific task should be done where
-  the task is listed.
+- Using relevant communication channels dependent on the purpose, for example,
+  extended discussions of a specific task should be done where the task is
+  listed.
 
 ### Research operations
 
-The aim of research operations is to optimise day-to-day work in order
-to minimise time and effort spent per unit of output. This often
-integrates software engineering and data engineering work to accomplish
-the operational task. Concretely, this may include:
+The aim of research operations is to optimise day-to-day work in order to
+minimise time and effort spent per unit of output. This often integrates
+software engineering and data engineering work to accomplish the operational
+task. Concretely, this may include:
 
 - Automatically converting our documentation in easy to share and search
   websites.
-- Regularly and actively seeking out areas of the research lifecycle
-  that can be simplified, streamlined, or automated by incorporating
-  dedicated meetings or reviews to uncover these areas to optimise.
-  Then, based on this information, working to implement a solution.
-- Identifying and documenting the resources, limitations, and barriers
-  on cross-Steno collaboration practices and processes to minimize their
-  impact on the project.
+- Regularly and actively seeking out areas of the research lifecycle that can be
+  simplified, streamlined, or automated by incorporating dedicated meetings or
+  reviews to uncover these areas to optimise. Then, based on this information,
+  working to implement a solution.
+- Identifying and documenting the resources, limitations, and barriers on
+  cross-Steno collaboration practices and processes to minimize their impact on
+  the project.
 
 ### Software development
 
-Research output includes more than just papers and presentations. It
-also includes analytic methods implemented as software packages. When
-work packages, such as Work Package 2, build or work on an analytic
-method, we will ensure that work with them to develop the software in a
-robust, well-designed, reliable, and maintainable way. Concretely, some
-activities may include:
+Research output includes more than just papers and presentations. It also
+includes analytic methods implemented as software packages. When work packages,
+such as Work Package 2, build or work on an analytic method, we will ensure that
+work with them to develop the software in a robust, well-designed, reliable, and
+maintainable way. Concretely, some activities may include:
 
-- Developing a template for building the software package that includes
-  best practices for software development.
-- Contributing to data science activities by building reproducible
-  analytic pipelines for faster dissemination of results.
+- Developing a template for building the software package that includes best
+  practices for software development.
+- Contributing to data science activities by building reproducible analytic
+  pipelines for faster dissemination of results.
 
 ### Data engineering
 
-Data engineering is the practice of designing, structuring, and building
-data infrastructures and pipelines that support the collection and
-storage of high-quality data. Part of the aim of the Seedcase Project is
-in building software tools to help with creating and managing data and
-metadata in a way that applies FAIR principles and that simplifies the
-tasks that researchers have with requesting and working with the data.
-So the Seedcase team will be heavily involved in these tasks.
-Concretely, some activities may include:
+Data engineering is the practice of designing, structuring, and building data
+infrastructures and pipelines that support the collection and storage of
+high-quality data. Part of the aim of the Seedcase Project is in building
+software tools to help with creating and managing data and metadata in a way
+that applies FAIR principles and that simplifies the tasks that researchers have
+with requesting and working with the data. So the Seedcase team will be heavily
+involved in these tasks. Concretely, some activities may include:
 
-- Developing a template for building data pipelines that includes best
-  practices for data engineering.
-- Automating or streamlining data flows, from collected into stored, for
-  rapid internal sharing of data outputs.
-- Structuring and designing register data format conversion pipelines
-  into more powerful and modern formats.
-- Designing and building data generated into a functioning and FAIR
-  "data package".
+- Developing a template for building data pipelines that includes best practices
+  for data engineering.
+- Automating or streamlining data flows, from collected into stored, for rapid
+  internal sharing of data outputs.
+- Structuring and designing register data format conversion pipelines into more
+  powerful and modern formats.
+- Designing and building data generated into a functioning and FAIR "data
+  package".
 
 ### Knowledge management
 
 Knowledge management is the practice of capturing, storing, and sharing
-knowledge across an organisation or group. In the context of this
-project, we will focus on capturing and sharing knowledge about the
-project, the knowledge we produce, as well as any research output that
-we have. We "capture" knowledge largely by using GitHub to write, share,
-and discuss things, either as issues, comments, or files. Knowledge
-includes:
+knowledge across an organisation or group. In the context of this project, we
+will focus on capturing and sharing knowledge about the project, the knowledge
+we produce, as well as any research output that we have. We "capture" knowledge
+largely by using GitHub to write, share, and discuss things, either as issues,
+comments, or files. Knowledge includes:
 
-- Information about the project, the research, and the tools and
-  practices that we use.
-- Study protocols that are the description of the research question, the
-  methods used to answer the question, and the data that will be
-  collected.
+- Information about the project, the research, and the tools and practices that
+  we use.
+- Study protocols that are the description of the research question, the methods
+  used to answer the question, and the data that will be collected.
 - Data management plans, which are the description of how data will be
   collected, stored, and shared.
-- Statistical analysis plans, which are the description of how the data
-  will be analysed.
+- Statistical analysis plans, which are the description of how the data will be
+  analysed.
 - Operational documents, like decisions made, procedures, collaboration
   agreements, and workflows for collaboration and work.
 
 ### Technical working group
 
 To help facilitate the technical and digital strategies so that they are
-achievable, we will establish a technical working group. More details
-about this group is found in the [Groups](groups.qmd) page.
+achievable, we will establish a technical working group. More details about this
+group is found in the [Groups](groups.qmd) page.
 
 ### Training
 
-A major component of Work Package 1 is in training and upskilling
-activities. We will accomplish these by collaborating with the
-NNF-funded software and training-based Seedcase Project [@seedcase] as
-well as with the expertise we've developed at Steno Aarhus over the
-years. Training will include both formal and informal activities that
-focus on skills not often taught to researchers, such as data
-engineering, modern collaborative practices, and iterative project
+A major component of Work Package 1 is in training and upskilling activities. We
+will accomplish these by collaborating with the NNF-funded software and
+training-based Seedcase Project [@seedcase] as well as with the expertise we've
+developed at Steno Aarhus over the years. Training will include both formal and
+informal activities that focus on skills not often taught to researchers, such
+as data engineering, modern collaborative practices, and iterative project
 management methods.
 
 ## References
