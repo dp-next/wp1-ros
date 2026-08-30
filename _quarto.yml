@@ -34,9 +34,6 @@ book:
         - strategy.qmd
         - groups.qmd
         - roadmap.qmd
-    - part: Getting started
-      chapters:
-        - getting-started/new-project.qmd
     - part: Design
       chapters:
         - design/index.qmd
