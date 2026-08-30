@@ -52,7 +52,6 @@ book:
         - collaborating/index.qmd
         - collaborating/project-management.qmd
         - collaborating/meetings.qmd
-        - collaborating/dst.qmd
     - part: Contributing
       chapters:
         - contributing/index.qmd
