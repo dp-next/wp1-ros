@@ -38,23 +38,10 @@ book:
       chapters:
         - design/index.qmd
         - design/patterns.qmd
-        - design/practicals.qmd
-        - design/naming.qmd
     - part: Decisions
       chapters:
         - decisions/index.qmd
         - decisions/why-r-python.qmd
-    - part: Collaborating
-      chapters:
-        - collaborating/index.qmd
-        - collaborating/project-management.qmd
-        - collaborating/meetings.qmd
-    - part: Contributing
-      chapters:
-        - contributing/index.qmd
-    - part: Managing
-      chapters:
-        - managing/publishing.qmd
   appendices:
     - CONTRIBUTING.md
     - href: LICENSE.md
