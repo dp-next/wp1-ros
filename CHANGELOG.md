@@ -19,6 +19,19 @@ releases we've made so far, along with what was changed within each release.
 Commits from bots, like `dependabot` or `pre-commit-ci`, are not included in the
 changelog.
 
+## [0.12.2](https://github.com/dp-next/wp1-ros/compare/0.12.1..0.12.2) - 2026-09-22
+
+### ♻️ Refactor
+
+- Move guide pages out into guide repo
+  [#168](https://github.com/dp-next/wp1-ros/pull/168) by
+  [`@lwjohnst86`](https://github.com/lwjohnst86)
+  ([9d00555](https://github.com/dp-next/wp1-ros/commit/9d005556a1f8de644b1705bc59c451298fe0fb23))
+
+### ❤️ New contributors
+
+- `@dependabot[bot]` started making automated contributions
+
 ## [0.12.1](https://github.com/dp-next/wp1-ros/compare/0.12.0..0.12.1) - 2026-08-30
 
 ### ♻️ Refactor
